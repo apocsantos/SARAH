@@ -2,49 +2,61 @@
 <html lang="pt">
 <head>
   <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Construtor de Frases por Blocos (TTS)</title>
+  <title>Construtor de Frases — SEED por Categoria (Sticky + Toggle)</title>
   <style>
-    :root{--bg:#0b1220;--panel:#0f172a;--panel2:#121a2f;--ink:#e2e8f0;--ink2:#94a3b8;--acc:#22d3ee;--acc2:#60a5fa;--mut:#1f2937;--ok:#34d399;--warn:#f59e0b}
+    :root{
+      --bg:#0b1220; --panel:#0f172a; --panel2:#121a2f; --ink:#e2e8f0; --ink2:#94a3b8;
+      --acc:#22d3ee; --acc2:#60a5fa; --mut:#1f2937; --ok:#34d399; --warn:#f59e0b;
+    }
     *{box-sizing:border-box}
+    html,body{height:100%}
     body{margin:0;background:linear-gradient(180deg,#0b1220,#0a0f1b 30%,#0b1220);color:var(--ink);font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu;min-height:100vh}
     header{display:flex;gap:12px;align-items:center;padding:16px 18px;border-bottom:1px solid #111827;background:rgba(17,24,39,.6);backdrop-filter:saturate(120%) blur(6px)}
-    header h1{font-size:18px;margin:0}
-    header .pill{margin-left:auto;padding:4px 8px;border-radius:999px;background:#0e1832;border:1px solid #1c2a4d;color:#cbd5e1;font-size:12px}
+    header h1{font-size:clamp(16px,2.5vw,20px);margin:0}
+    header .spacer{flex:1}
+    .iconBtn{background:#101a32;color:#d1d5db;border:1px solid #1f2a4d;border-radius:10px;padding:8px 12px;cursor:pointer;font-weight:700}
+    .iconBtn:hover{outline:1px solid rgba(96,165,250,.4)}
 
-    /* Layout base */
-    main{display:grid;grid-template-columns:280px 1fr 420px;gap:16px;padding:16px}
+    /* GRID LAYOUT: 2 colunas (paleta + workspace). Quando colapsado → 1 coluna */
+    main{display:grid;grid-template-columns:340px 1fr;gap:16px;padding:16px;align-items:start}
+    body.palette-collapsed main{grid-template-columns:1fr}
+    body.palette-collapsed #panelPalette{display:none}
+
     .panel{background:linear-gradient(180deg,var(--panel),var(--panel2));border:1px solid #0b1020;border-radius:14px;box-shadow:0 10px 30px rgba(0,0,0,.35);overflow:hidden}
     .panel h2{font-size:14px;font-weight:700;margin:0;padding:12px 14px;border-bottom:1px solid #0b1020;background:rgba(255,255,255,.03);letter-spacing:.2px;color:#dbeafe}
 
-    /* Paleta */
+    /* PALETA STICKY */
+    #panelPalette{position:sticky;top:16px;max-height:calc(100vh - 16px - 56px); /* padding - header aprox */ display:flex;flex-direction:column}
+    #panelPalette .panel-body{overflow:auto}
     .palette{padding:12px;display:flex;flex-direction:column;gap:10px}
     .block{padding:12px;border-radius:12px;border:1px solid #0b1020;background:linear-gradient(180deg,#111b33,#0f1730);box-shadow:inset 0 1px 0 rgba(255,255,255,.04);cursor:grab;user-select:none;display:flex;gap:8px;align-items:center}
     .block small{display:block;color:var(--ink2)}
     .block:hover{outline:1px solid rgba(96,165,250,.4)}
-
-    /* Frases básicas */
     .basicHead{font-size:12px;color:#cbd5e1;margin:8px 12px 4px}
-    .tabs{display:flex;gap:8px;padding:6px 12px 0}
-    .tab{background:#101a32;border:1px solid #1f2a4d;color:#cbd5e1;border-radius:999px;padding:6px 10px;cursor:pointer;font-weight:700;font-size:12px}
+
+    /* Tabs com quebra para múltiplas linhas */
+    .tabs{display:flex;gap:8px;padding:6px 12px 0;flex-wrap:wrap}
+    .tab{background:#101a32;border:1px solid #1f2a4d;color:#cbd5e1;border-radius:999px;padding:8px 12px;cursor:pointer;font-weight:700;font-size:13px}
     .tab.active{background:linear-gradient(90deg,var(--acc2),var(--acc));color:#0a1020;border-color:transparent}
-    .chips{display:grid;grid-template-columns:repeat(auto-fill,minmax(120px,1fr));gap:8px;padding:0 12px 12px}
-    .chip{display:flex;align-items:center;gap:8px;padding:10px 12px;border-radius:10px;border:1px solid #0b1020;background:linear-gradient(180deg,#0f1830,#0e1730);cursor:grab}
-    .chip .emo{width:22px;text-align:center}
-    .chip .txt{font-weight:700;color:#e5e7eb}
+
+    /* CHIPS GRID responsiva */
+    .chips{display:grid;gap:10px;padding:10px 12px 14px;grid-template-columns:repeat(auto-fit,minmax(120px,1fr))}
+    .chip{display:flex;align-items:center;gap:10px;padding:12px;border-radius:12px;border:1px solid #0b1020;background:linear-gradient(180deg,#0f1830,#0e1730);cursor:grab;min-height:48px}
+    .chip .emo{width:24px;text-align:center;font-size:20px;line-height:1}
+    .chip .txt{font-weight:700;color:#e5e7eb;line-height:1.2}
 
     /* Workspace */
     .workspace{padding:12px}
-    .dropzone{border:1.5px dashed #1f2a44;border-radius:12px;padding:12px;min-height:220px;display:flex;flex-direction:column;gap:10px}
+    .dropzone{border:1.5px dashed #1f2a44;border-radius:12px;padding:12px;min-height:300px;display:flex;flex-direction:column;gap:10px}
     .step{display:flex;gap:10px;align-items:center;background:#0e1730;border:1px solid #1b2441;border-radius:12px;padding:10px;position:relative}
     .step.dropping{outline:2px solid #60a5fa}
     .step .handle{width:16px;height:16px;border-radius:4px;background:linear-gradient(180deg,#1f2f55,#162448);border:1px solid #2a3e72;cursor:grab}
     .ordem{position:absolute;left:28px;top:8px;font-weight:800;font-size:11px;color:#cbd5e1;background:#0e1832;border:1px solid #1c2a4d;border-radius:999px;padding:2px 6px}
     .row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
-    .step input[type="text"], .step input[type="number"]{background:#0b1328;border:1px solid #1c2a4d;color:var(--ink);border-radius:8px;padding:8px}
+    .step input[type="text"], .step input[type="number"]{background:#0b1328;border:1px solid #1c2a4d;color:#e2e8f0;border-radius:8px;padding:8px;min-width:0}
     .step label{font-size:12px;color:#cbd5e1}
-    .step .picPrev{width:28px;height:28px;border-radius:6px;background:#0b1220;border:1px solid #1c2a4d;object-fit:contain}
+    .step .picPrev{width:32px;height:32px;border-radius:6px;background:#0b1220;border:1px solid #1c2a4d;object-fit:contain}
     .step .textDropping{outline:2px dashed #60a5fa}
 
     .controls{padding:12px;display:flex;gap:10px;flex-wrap:wrap;align-items:center}
@@ -53,9 +65,6 @@
     button.secondary{background:#101a32;color:#d1d5db;border:1px solid #1f2a4d}
     button.warn{background:linear-gradient(90deg,#f97316,#f59e0b);color:#0b1220}
     .btnMove{display:none;padding:8px 10px;font-weight:700}
-
-    /* Pré-visualização */
-    .textPreview{min-height:220px;background:#081024;border:1px solid #132046;border-radius:12px;margin:12px;padding:12px;white-space:pre-wrap;line-height:1.55;font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, 'Courier New', monospace;font-size:14px;color:#e5e7eb}
     .hint{font-size:12px;color:#9fb4d4;padding:10px}
 
     /* Cores por tipo */
@@ -63,82 +72,51 @@
     .step.t-pause{background:linear-gradient(180deg,#2a2f25,#1c2319);border-color:#677a37}
     .step.t-voice{background:linear-gradient(180deg,#262345,#191a33);border-color:#594c9a}
 
-    /* Hamburger + palette toggle + FAB */
-    .iconBtn{background:#101a32;color:#d1d5db;border:1px solid #1f2a4d;border-radius:10px;padding:8px 10px;cursor:pointer}
-    .iconBtn:hover{outline:1px solid rgba(96,165,250,.4)}
-    body.palette-off main{grid-template-columns:1fr 420px;}
-    body.palette-off #panelPalette{display:none;}
-    @media (max-width:1200px){ body.palette-off main{grid-template-columns:1fr;} }
-    .fab{position:fixed;right:16px;bottom:16px;width:56px;height:56px;border-radius:50%;border:1px solid #0b1020;box-shadow:0 10px 30px rgba(0,0,0,.45);background:linear-gradient(90deg,var(--acc2),var(--acc));color:#0a1020;font-weight:900;font-size:20px;display:flex;align-items:center;justify-content:center;z-index:1000}
-    .fab:active{transform:translateY(1px)}
-
-    /* Modal Editor de Chips */
-    .modal{position:fixed;inset:0;display:none;z-index:1500}
-    .modal.show{display:block}
-    .modal .backdrop{position:absolute;inset:0;background:rgba(0,0,0,.55);backdrop-filter:blur(2px)}
-    .modal .card{position:relative;margin:5vh auto;max-width:min(960px,96vw);background:linear-gradient(180deg,var(--panel),var(--panel2));border:1px solid #0b1020;border-radius:14px;box-shadow:0 20px 60px rgba(0,0,0,.55);padding:12px}
-    .modal .head{display:flex;align-items:center;justify-content:space-between;padding:8px 6px 10px;border-bottom:1px solid #0b1020}
-    .modal .head h3{margin:0;color:#dbeafe;font-size:16px}
-    .modal .body{padding:10px 4px;max-height:60vh;overflow:auto}
-    .modal .foot{display:flex;gap:8px;justify-content:flex-end;padding-top:10px;border-top:1px solid #0b1020}
-
-    .chipForm{display:grid;grid-template-columns:120px 90px 1fr 1fr auto;gap:8px;align-items:center;margin-bottom:12px}
-    .chipForm select, .chipForm input{background:#0b1328;border:1px solid #1c2a4d;color:var(--ink);border-radius:8px;padding:8px}
-    .chipForm button{white-space:nowrap}
-
-    .chipList{display:grid;gap:8px}
-    .chipRow{display:grid;grid-template-columns:120px 80px 1fr 1fr 120px;gap:8px;align-items:center;background:#0e1730;border:1px solid #1b2441;border-radius:12px;padding:8px}
-    .chipRow input, .chipRow select{background:#0b1328;border:1px solid #1c2a4d;color:var(--ink);border-radius:8px;padding:8px}
-    .chipRow .rowActions{display:flex;gap:6px;justify-content:flex-end}
-
-    /* ——— Responsivo ——— */
-    @media (max-width: 1200px){ main{grid-template-columns:1fr;} }
+    /* MOBILE: chips maiores e zona de controlo sticky */
     @media (max-width: 900px){
-      .row{flex-direction:column;align-items:stretch}
-      .step input[type="text"], .step input[type="number"]{width:100%}
+      main{grid-template-columns:1fr}
+      #panelPalette{position:static;max-height:none}
+      .chips{grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:12px}
+      .chip{min-height:56px;padding:14px}
+      .chip .emo{font-size:22px;width:26px}
+      .chip .txt{font-size:16px}
       .controls{position:sticky;bottom:0;background:rgba(15,23,42,.9);backdrop-filter:saturate(120%) blur(6px);border-top:1px solid #0b1020}
       .controls .grow{flex-direction:column}
       .controls button{width:100%}
       .btnMove{display:inline-flex}
-      .chipForm{grid-template-columns:1fr 1fr 1fr;}
-      .chipRow{grid-template-columns:1fr 1fr;}
-      .chipRow .rowActions{grid-column:1 / -1}
     }
-    @media (max-width: 480px){ header h1{font-size:16px} .chip{padding:12px} .textPreview{font-size:13px} }
+    @media (max-width: 480px){
+      .chips{grid-template-columns:repeat(auto-fit,minmax(120px,1fr))}
+      .chip{min-height:58px;padding:16px}
+      .chip .txt{font-size:17px}
+    }
   </style>
 </head>
 <body>
   <header>
-    <button id="btnMenu" class="iconBtn" aria-pressed="false" aria-label="Mostrar/ocultar paleta">☰</button>
-    <h1>Construtor de Frases por Blocos</h1>
-    <span class="pill">TTS no navegador · simples e direto</span>
-    <button id="btnChipEditor" class="iconBtn" title="Gerir chips">Gerir chips</button>
+    <h1>Construtor de Frases</h1>
+    <div class="spacer"></div>
+    <button id="btnTogglePalette" class="iconBtn" aria-pressed="false" aria-expanded="true" aria-controls="panelPalette" title="Mostrar/ocultar paleta">☰ Paleta</button>
   </header>
 
   <main>
-    <!-- Paleta -->
+    <!-- PAINEL: Paleta (sticky + scroll interno) -->
     <section class="panel" id="panelPalette">
-      <h2>Blocos</h2>
-      <div class="palette" id="palette">
-        <div class="block" draggable="true" data-type="say">🗣️ <b>Dizer</b><small>Texto + pictograma (opcional)</small></div>
-        <div class="block" draggable="true" data-type="pause">⏸️ <b>Pausa</b><small>Segundos</small></div>
-        <div class="block" draggable="true" data-type="voice">🎙️ <b>Voz/Idioma</b><small>Idioma, velocidade, tom</small></div>
+      <h2>Blocos & Frases</h2>
+      <div class="panel-body">
+        <div class="palette" id="palette">
+          <div class="block" draggable="true" data-type="say">🗣️ <b>Dizer</b><small>Texto + pictograma (opcional)</small></div>
+          <div class="block" draggable="true" data-type="pause">⏸️ <b>Pausa</b><small>Segundos</small></div>
+          <div class="block" draggable="true" data-type="voice">🎙️ <b>Voz/Idioma</b><small>Idioma, velocidade, tom</small></div>
+        </div>
+        <h3 class="basicHead">Frases (SEED) por categoria</h3>
+        <div class="tabs" id="tabs"></div>
+        <div class="chips" id="chipsGrid"></div>
+        <div class="hint">As tabs podem quebrar para várias linhas. A paleta fica fixa (sticky) em ecrãs altos.</div>
       </div>
-      <h3 class="basicHead">Frases básicas</h3>
-      <div class="tabs" id="tabs">
-        <button class="tab active" data-target="need">Necessidades</button>
-        <button class="tab" data-target="social">Sociais</button>
-        <button class="tab" data-target="action">Ações</button>
-      </div>
-      <div id="chipsWrap">
-        <div class="chips chips-cat" id="chips-need"></div>
-        <div class="chips chips-cat" id="chips-social" hidden></div>
-        <div class="chips chips-cat" id="chips-action" hidden></div>
-      </div>
-      <div class="hint">Toque num chip para adicionar (arrastar também funciona no desktop).</div>
     </section>
 
-    <!-- Área de trabalho -->
+    <!-- PAINEL: Workspace -->
     <section class="panel">
       <h2>Área de Trabalho</h2>
       <div class="workspace">
@@ -155,437 +133,448 @@
       </div>
       <div class="hint">Execução: lê os blocos na ordem. "Voz/Idioma" define a voz atual; "Pausa" espera; "Dizer" fala o texto.</div>
     </section>
-
-    <!-- Pré-visualização -->
-    <section class="panel">
-      <h2>Pré‑visualização</h2>
-      <div id="preview" class="textPreview" aria-live="polite"></div>
-      <div class="hint">A pré‑visualização mostra o que será dito (pausas surgem como [PAUSA Xs]).</div>
-    </section>
   </main>
 
   <!-- FAB Play -->
-  <button id="fabPlay" class="fab" title="Play" aria-label="Play">▶</button>
-
-  <!-- Modal Editor de Chips -->
-  <div id="chipModal" class="modal" role="dialog" aria-modal="true" aria-labelledby="chipEditorTitle">
-    <div class="backdrop"></div>
-    <div class="card">
-      <div class="head">
-        <h3 id="chipEditorTitle">Gerir chips</h3>
-        <button id="chipClose" class="iconBtn" aria-label="Fechar">✕</button>
-      </div>
-      <div class="body">
-        <div class="chipForm">
-          <select id="chipCat">
-            <option value="need">Necessidades</option>
-            <option value="social">Sociais</option>
-            <option value="action">Ações</option>
-          </select>
-          <input id="chipEmoji" type="text" placeholder="Emoji" />
-          <input id="chipText" type="text" placeholder="Texto" />
-          <input id="chipPic" type="text" placeholder="URL pictograma (opcional)" />
-          <button id="chipAdd">Adicionar</button>
-        </div>
-        <div class="chipList" id="chipList"></div>
-      </div>
-      <div class="foot">
-        <input id="chipImportFile" type="file" accept="application/json" style="display:none" />
-        <button id="chipImport" class="secondary">Importar</button>
-        <button id="chipExport" class="secondary">Exportar</button>
-        <button id="chipSave">Guardar e fechar</button>
-      </div>
-    </div>
-  </div>
+  <button id="fabPlay" class="fab iconBtn" title="Play" aria-label="Play">▶</button>
 
   <script>
-  (function(){
-    'use strict';
+  ;(() => {
+    'use strict'
 
-    // ===== Estado =====
-    var steps = []; // {id,type,conf}
-    function makeId(){ return 'id_' + Math.random().toString(36).slice(2,9); }
+    // CONFIG — SEED apenas (edita aqui)
+    const CONFIG = {
+      DEFAULTS: {
+        say:   { text: 'Olá!', emoji: '🗣️', pic: '' },
+        pause: { seconds: 0.8 },
+        voice: { lang: 'pt-PT', rate: 1.0, pitch: 1.0 },
+      },
+      CATEGORIES: [
+        { id: 'need',   label: 'Necessidades' },
+        { id: 'social', label: 'Sociais' },
+        { id: 'action', label: 'Ações' },
+        { id: 'time',   label: 'Tempo' },
+        { id: 'place',  label: 'Lugares' },
+        { id: 'people', label: 'Pessoas' },
+        { id: 'feel',   label: 'Sentimentos' },
+        { id: 'descrip',label: 'Descrições' },
+        { id: 'thought', label: 'Pensamentos' },
+        { id: 'question', label: 'Perguntas' },
+        { id: 'other',  label: 'Outros' },
 
-    // ===== Refs =====
-    var palette = document.getElementById('palette');
-    var dropzone = document.getElementById('dropzone');
-    var preview = document.getElementById('preview');
-    var btnMenu = document.getElementById('btnMenu');
-    var tabs = document.getElementById('tabs');
-    var chipsWrap = document.getElementById('chipsWrap');
-    var fab = document.getElementById('fabPlay');
-    var btnChipEditor = document.getElementById('btnChipEditor');
+      ],
+      SEED_CHIPS: [
+        // Necessidades
+        { text: 'Tenho fome.', emoji: '🍽️', category: 'need' },
+        { text: 'Tenho sede.', emoji: '💧',  category: 'need' },
+        { text: 'Preciso de ir à casa de banho.', emoji: '🚻', category: 'need' },
+        { text: 'Dói-me a cabeça.', emoji: '🤕', category: 'need' },
+        { text: 'Quero água.', emoji: '🚰', category: 'need' },
+        { text: 'Ajuda, por favor.', emoji: '🆘', category: 'need' },
+        { text: 'Quero passear.', emoji: '🚶', category: 'need' },
+        { text: 'Quero descansar.', emoji: '🛌', category: 'need' },
+        { text: 'Quero dormir.', emoji: '😴', category: 'need' },
+        { text: 'Estou cansado.', emoji: '😫', category: 'need' },
+        { text: 'Estou doente.', emoji: '🤒', category: 'need' },
+        { text: 'Estou feliz.', emoji: '😊', category: 'need' },
+        { text: 'Estou triste.', emoji: '😢', category: 'need' },
+        { text: 'Estou com medo.', emoji: '😨', category: 'need' },
+        { text: 'Estou zangado.', emoji: '😠', category: 'need' },
+        { text: 'Estou entediado.', emoji: '😐', category: 'need' },
+        { text: 'Estou confuso.', emoji: '😕', category: 'need' },
+        { text: 'Estou doente.', emoji: '🤒', category: 'need' },
+        { text: 'Preciso de ajuda médica.', emoji: '🏥', category: 'need' },
+        { text: 'Preciso de um adulto.', emoji: '🧑‍🦳', category: 'need' },
+        { text: 'Preciso de um brinquedo.', emoji: '🧸', category: 'need' },
+        { text: 'Preciso de um cobertor.', emoji: '🛏️', category: 'need' },
+        { text: 'Preciso de um medicamento.', emoji: '💊', category: 'need' },
+        { text: 'Preciso de um médico.', emoji: '👩‍⚕️', category: 'need' },
+        { text: 'Preciso de um enfermeiro.', emoji: '👨‍⚕️', category: 'need' },
+        { text: 'Preciso de um psicólogo.', emoji: '🧑‍⚕️', category: 'need' },
+        { text: 'Preciso de um terapeuta.', emoji: '🧑‍⚕️', category: 'need' },
+        { text: 'Preciso de um dentista.', emoji: '🦷', category: 'need' },
+        { text: 'Preciso de um fisioterapeuta.', emoji: '🧑‍⚕️', category: 'need' },
+        { text: 'Preciso de um nutricionista.', emoji: '🧑‍⚕️', category: 'need' },
+        { text: 'Preciso de um psicopedagogo.', emoji: '🧑‍🏫', category: 'need' },
+        { text: 'Preciso de um assistente social.', emoji: '🧑‍💼', category: 'need' },
+        { text: 'Preciso de um advogado.', emoji: '🧑‍⚖️', category: 'need' },
+        { text: 'Preciso de um tradutor.', emoji: '🧑‍🏫', category: 'need' },
+        { text: 'Preciso de um intérprete.', emoji: '🧑‍🏫', category: 'need' },
+        { text: 'Preciso de um guia.', emoji: '🧑‍🏫', category: 'need' },
+        { text: 'Preciso de um cuidador.', emoji: '🧑‍⚕️', category: 'need' },
+        { text: 'Preciso de um educador.', emoji: '🧑‍🏫', category: 'need' },
+        { text: 'Preciso de um professor.', emoji: '🧑‍🏫', category: 'need' },
+        { text: 'Preciso de um treinador.', emoji: '🧑‍🏫', category: 'need' },
+        { text: 'Preciso de um mentor.', emoji: '🧑‍🏫', category: 'need' },
+        { text: 'Preciso de um amigo.', emoji: '🤝', category: 'need' },
+        { text: 'Preciso de companhia.', emoji: '👥', category: 'need' },
+        { text: 'Preciso de atenção.', emoji: '👀', category: 'need' },
+        { text: 'Preciso de carinho.', emoji: '🤗', category: 'need' },
+        { text: 'Preciso de amor.', emoji: '❤️', category: 'need' },
+        { text: 'Preciso de segurança.', emoji: '🛡️', category: 'need' },
+        
+        //Perguntas
+        { text: 'Como te chamas?', emoji: '❓', category: 'question' },
+        { text: 'Quantos anos tens?', emoji: '❓', category: 'question' },
+        { text: 'Quantos anos tens?', emoji: '❓', category: 'question' },
+        { text: 'Quantos anos tens?', emoji: '❓', category: 'question' },
+        { text: 'Quantos anos tens?', emoji: '❓', category: 'question' },
+        { text: 'Quantos anos tens?', emoji: '❓', category: 'question' },
+        { text: 'Onde moras?', emoji: '❓', category: 'question' },
+        { text: 'Qual é a tua cor favorita?', emoji: '❓', category: 'question' },
+        { text: 'Qual é o teu animal favorito?', emoji: '❓', category: 'question' },
+        { text: 'Qual é o teu brinquedo favorito?', emoji: '❓', category: 'question' },
+        { text: 'Qual é a tua comida favorita?', emoji: '❓', category: 'question' },
+        { text: 'Qual é a tua bebida favorita?', emoji: '❓', category: 'question' },
+        { text: 'Qual é o teu desporto favorito?', emoji: '❓', category: 'question' },
+        { text: 'Qual é o teu filme favorito?', emoji: '❓', category: 'question' },
 
-    // ===== Menu hambúrguer =====
-    if (btnMenu) {
-      function applyPaletteOff(init){
-        var off = document.body.classList.contains('palette-off');
-        btnMenu.setAttribute('aria-pressed', off ? 'true':'false');
-        if (!init) { try{ localStorage.setItem('paletteOff', off?'1':'0'); }catch(e){} }
-      }
-      btnMenu.addEventListener('click', function(){
-        document.body.classList.toggle('palette-off');
-        applyPaletteOff(false);
-      });
-      try{ if(localStorage.getItem('paletteOff')==='1'){ document.body.classList.add('palette-off'); } }catch(e){}
-      applyPaletteOff(true);
+
+        // Sociais
+        { text: 'Olá!', emoji: '👋', category: 'social' },
+        { text: 'Obrigado.', emoji: '🙏', category: 'social' },
+        { text: 'Desculpa.', emoji: '🙇', category: 'social' },
+        { text: 'Sim.', emoji: '✅', category: 'social' },
+        { text: 'Não.', emoji: '❌', category: 'social' },
+        { text: 'Espera, por favor.', emoji: '⏳', category: 'social' },
+        { text: 'Para, por favor.', emoji: '✋', category: 'social' },
+        { text: 'Ajuda-me, por favor.', emoji: '🆘', category: 'social' },
+        { text: 'Quero brincar contigo.', emoji: '🤝', category: 'social' },
+        { text: 'Quero estar contigo.', emoji: '👥', category: 'social' },
+        { text: 'Quero falar contigo.', emoji: '🗣️', category: 'social' },
+        { text: 'Quero ouvir-te.', emoji: '👂', category: 'social' },
+        { text: 'Quero ver-te.', emoji: '👀', category: 'social' },
+        { text: 'Quero abraçar-te.', emoji: '🤗', category: 'social' },
+        { text: 'Quero beijar-te.', emoji: '💋', category: 'social' },
+        { text: 'Quero agradecer-te.', emoji: '🙏', category: 'social' },
+        { text: 'Quero pedir desculpa.', emoji: '🙇', category: 'social' },
+        { text: 'Chamo-me ...', emoji: '🗣️', category: 'social' },
+        { text: 'Tenho ... anos.', emoji: '🗣️', category: 'social' },
+        { text: 'Moro em ...', emoji: '🗣️', category: 'social' },
+        { text: 'A minha cor favorita é ...', emoji: '🗣️', category: 'social' },
+        { text: 'O meu animal favorito é ...', emoji: '🗣️', category: 'social' },
+        { text: 'O meu brinquedo favorito é ...', emoji: '🗣️', category: 'social' },
+        { text: 'A minha comida favorita é ...', emoji: '🗣️', category: 'social' },
+        { text: 'A minha bebida favorita é ...', emoji: '🗣️', category: 'social' },
+        { text: 'O meu desporto favorito é ...', emoji: '🗣️', category: 'social' },
+        { text: 'O meu filme favorito é ...', emoji: '🗣️', category: 'social' },
+        { text: 'Qual é a tua música favorita?', emoji: '❓', category: 'social' },
+        { text: 'A minha música favorita é ...', emoji: '🗣️', category: 'social' },
+        { text: 'Qual é o teu livro favorito?', emoji: '❓', category: 'social' },
+        { text: 'O meu livro favorito é ...', emoji: '🗣️', category: 'social' },
+        { text: 'Qual é a tua série favorita?', emoji: '❓', category: 'social' },
+        { text: 'A minha série favorita é ...', emoji: '🗣️', category: 'social' },
+        { text: 'Qual é o teu jogo favorito?', emoji: '❓', category: 'social' },
+        { text: 'O meu jogo favorito é ...', emoji: '🗣️', category: 'social' },
+        { text: 'Qual é o teu programa favorito?', emoji: '❓', category: 'social' },
+        { text: 'O meu programa favorito é ...', emoji: '🗣️', category: 'social' },
+        { text: 'Qual é o teu hobby favorito?', emoji: '❓', category: 'social' },
+        { text: 'O meu hobby favorito é ...', emoji: '🗣️', category: 'social' },
+        { text: 'Qual é o teu lugar favorito?', emoji: '❓', category: 'social' },
+        { text: 'O meu lugar favorito é ...', emoji: '🗣️', category: 'social' },
+        { text: 'Qual é a tua estação do ano favorita?', emoji: '❓', category: 'social' },
+        { text: 'A minha estação do ano favorita é ...', emoji: '🗣️', category: 'social' },
+        { text: 'Qual é o teu dia da semana favorito?', emoji: '❓', category: 'social' },
+        { text: 'O meu dia da semana favorito é ...', emoji: '🗣️', category: 'social' },
+        { text: 'Qual é a tua hora do dia favorita?', emoji: '❓', category: 'social' },
+        { text: 'A minha hora do dia favorita é ...', emoji: '🗣️', category: 'social' },
+        { text: 'O que gostas de fazer?', emoji: '❓', category: 'social' },
+        { text: 'Gosto de ...', emoji: '🗣️', category: 'social' },
+        { text: 'O que não gostas de fazer?', emoji: '❓', category: 'social' },
+        { text: 'Não gosto de ...', emoji: '🗣️', category: 'social' },
+        { text: 'O que te faz feliz?', emoji: '❓', category: 'social' },
+        { text: 'Fico feliz quando ...', emoji: '🗣️', category: 'social' },
+        { text: 'O que te faz triste?', emoji: '❓', category: 'social' },
+        { text: 'Fico triste quando ...', emoji: '🗣️', category: 'social' },
+        { text: 'O que te assusta?', emoji: '❓', category: 'social' },
+        { text: 'Tenho medo de ...', emoji: '🗣️', category: 'social' },
+        { text: 'O que te deixa zangado?', emoji: '❓', category: 'social' },
+        { text: 'Fico zangado quando ...', emoji: '🗣️', category: 'social' },
+        { text: 'O que te aborrece?', emoji: '❓', category: 'social' },
+        { text: 'Fico aborrecido quando ...', emoji: '🗣️', category: 'social' },
+        { text: 'O que te confunde?', emoji: '❓', category: 'social' },
+        { text: 'Fico confuso quando ...', emoji: '🗣️', category: 'social' },
+        { text: 'O que te preocupa?', emoji: '❓', category: 'social' },
+        { text: 'Fico preocupado quando ...', emoji: '🗣️', category: 'social' },
+        { text: 'O que te deixa entediado?', emoji: '❓', category: 'social' },
+        { text: 'Fico entediado quando ...', emoji: '🗣️', category: 'social' },
+        { text: 'O que te deixa cansado?', emoji: '❓', category: 'social' },
+        { text: 'Fico cansado quando ...', emoji: '🗣️', category: 'social' },
+        { text: 'O que te deixa doente?', emoji: '❓', category: 'social' },
+        { text: 'Fico doente quando ...', emoji: '🗣️', category: 'social' },
+        { text: 'O que te faz sentir seguro?', emoji: '❓', category: 'social' },
+        { text: 'Sinto-me seguro quando ...', emoji: '🗣️', category: 'social' },
+        { text: 'O que te faz sentir inseguro?', emoji: '❓', category: 'social' },
+        { text: 'Sinto-me inseguro quando ...', emoji: '🗣️', category: 'social' },
+        { text: 'O que te faz sentir amado?', emoji: '❓', category: 'social' },
+        { text: 'Sinto-me amado quando ...', emoji: '🗣️', category: 'social' },
+        { text: 'O que te faz sentir sozinho?', emoji: '❓', category: 'social' },
+        { text: 'Sinto-me sozinho quando ...', emoji: '🗣️', category: 'social' },
+        { text: 'O que te faz sentir feliz?', emoji: '❓', category: 'social' },
+        { text: 'Sinto-me feliz quando ...', emoji: '🗣️', category: 'social' },
+        { text: 'O que te faz sentir triste?', emoji: '❓', category: 'social' },
+        { text: 'Sinto-me triste quando ...', emoji: '🗣️', category: 'social' },
+        { text: 'O que te faz sentir zangado?', emoji: '❓', category: 'social' },
+        { text: 'Sinto-me zangado quando ...', emoji: '🗣️', category: 'social' },
+        { text: 'O que te faz sentir assustado?', emoji: '❓', category: 'social' },
+        { text: 'Sinto-me assustado quando ...', emoji: '🗣️', category: 'social' },
+        { text: 'O que te faz sentir confuso?', emoji: '❓', category: 'social' },
+        { text: 'Sinto-me confuso quando ...', emoji: '🗣️', category: 'social' },
+        { text: 'O que te faz sentir preocupado?', emoji: '❓', category: 'social' },
+        { text: 'Sinto-me preocupado quando ...', emoji: '🗣️', category: 'social' },
+        { text: 'O que te faz sentir entediado?', emoji: '❓', category: 'social' },
+        { text: 'Sinto-me entediado quando ...', emoji: '🗣️', category: 'social' },
+        { text: 'O que te faz sentir cansado?', emoji: '❓', category: 'social' },
+        { text: 'Sinto-me cansado quando ...', emoji: '🗣️', category: 'social' },
+        { text: 'O que te faz sentir doente?', emoji: '❓', category: 'social' },
+        { text: 'Sinto-me doente quando ...', emoji: '🗣️', category: 'social' },
+        // Ações
+        { text: 'Quero brincar.', emoji: '🎲', category: 'action' },
+        { text: 'Quero ouvir música.', emoji: '🎵', category: 'action' },
+        { text: 'Quero ver um vídeo.', emoji: '📺', category: 'action' },
+        { text: 'Quero jogar um jogo.', emoji: '🎮', category: 'action' },
+        { text: 'Quero desenhar.', emoji: '🎨', category: 'action' },
+        { text: 'Quero ler um livro.', emoji: '📚', category: 'action' },
+        { text: 'Quero aprender.', emoji: '🧠', category: 'action' },
+        { text: 'Quero sair.', emoji: '🚪', category: 'action' },
+        { text: 'Quero passear.', emoji: '🚶', category: 'action' },
+        { text: 'Quero correr.', emoji: '🏃', category: 'action' },
+        { text: 'Quero saltar.', emoji: '🤸', category: 'action' },
+        { text: 'Quero dançar.', emoji: '💃', category: 'action' },
+        { text: 'Quero cantar.', emoji: '🎤', category: 'action' },
+        { text: 'Quero tocar um instrumento.', emoji: '🎸', category: 'action' },
+        { text: 'Quero cozinhar.', emoji: '👩‍🍳', category: 'action' },
+        { text: 'Quero comer.', emoji: '🍽️', category: 'action' },
+        { text: 'Quero beber.', emoji: '🥤', category: 'action' },
+        { text: 'Quero nadar.', emoji: '🏊', category: 'action' },
+        { text: 'Quero andar de bicicleta.', emoji: '🚴', category: 'action' },
+        { text: 'Quero fazer desporto.', emoji: '⚽', category: 'action' },
+        { text: 'Quero fazer exercício.', emoji: '🏋️', category: 'action' },
+        { text: 'Quero meditar.', emoji: '🧘', category: 'action' },
+        { text: 'Quero relaxar.', emoji: '🛀', category: 'action' },
+        { text: 'Quero descansar.', emoji: '🛌', category: 'action' },
+        { text: 'Quero dormir.', emoji: '😴', category: 'action' },
+        { text: 'Quero sonhar.', emoji: '🌙', category: 'action' },
+        { text: 'Quero viajar.', emoji: '✈️', category: 'action' },
+        { text: 'Quero explorar.', emoji: '🧭', category: 'action' },
+        { text: 'Quero descobrir.', emoji: '🔍', category: 'action' },
+        { text: 'Quero criar.', emoji: '🛠️', category: 'action' },
+        { text: 'Quero construir.', emoji: '🏗️', category: 'action' },
+        { text: 'Quero inventar.', emoji: '💡', category: 'action' },
+        { text: 'Quero imaginar.', emoji: '🌈', category: 'action' },
+        { text: 'Quero sonhar.', emoji: '🌙', category: 'action' },
+        { text: 'Quero pensar.', emoji: '🤔', category: 'action' },
+        { text: 'Quero refletir.', emoji: '🪞', category: 'action' },
+        { text: 'Quero planear.', emoji: '🗓️', category: 'action' },
+        { text: 'Quero organizar.', emoji: '📂', category: 'action' },
+      ],
     }
 
-    // ===== Chips Store =====
-    var CATS = [
-      {id:'need', label:'Necessidades'},
-      {id:'social', label:'Sociais'},
-      {id:'action', label:'Ações'}
-    ];
+    // Estado + helpers
+    let steps=[], activeCat = CONFIG.CATEGORIES[0]?.id || ''
+    const qs  = (s, r=document) => r.querySelector(s)
+    const makeId = () => 'id_' + Math.random().toString(36).slice(2,9)
+    const pretty = t => ({ say:'Dizer', pause:'Pausa', voice:'Voz/Idioma' }[t] || t)
+    const chipsGrid = qs('#chipsGrid'), tabs = qs('#tabs'), dropzone = qs('#dropzone')
 
-    function seedDefaultChips(){
-      var arr = [
-        {text:'Tenho fome.', emoji:'🍽️', pic:'', category:'need'},
-        {text:'Tenho sede.', emoji:'💧', pic:'', category:'need'},
-        {text:'Preciso de ir à casa de banho.', emoji:'🚻', pic:'', category:'need'},
-        {text:'Dói-me a cabeça.', emoji:'🤕', pic:'', category:'need'},
-        {text:'Quero água.', emoji:'🚰', pic:'', category:'need'},
-        {text:'Ajuda, por favor.', emoji:'🆘', pic:'', category:'need'},
-        {text:'Estou cansado.', emoji:'😴', pic:'', category:'need'},
-        {text:'Estou com frio.', emoji:'🥶', pic:'', category:'need'},
-        {text:'Estou com calor.', emoji:'🥵', pic:'', category:'need'},
-        {text:'Olá!', emoji:'👋', pic:'', category:'social'},
-        {text:'Obrigado.', emoji:'🙏', pic:'', category:'social'},
-        {text:'Desculpa.', emoji:'🙇', pic:'', category:'social'},
-        {text:'Sim.', emoji:'✅', pic:'', category:'social'},
-        {text:'Não.', emoji:'❌', pic:'', category:'social'},
-        {text:'Espera, por favor.', emoji:'⏳', pic:'', category:'social'},
-        {text:'Para, por favor.', emoji:'✋', pic:'', category:'social'},
-        {text:'Vem aqui, por favor.', emoji:'👇', pic:'', category:'action'}
-      ];
-      return arr.map(function(c){ return Object.assign({id:makeId()}, c); });
+    // Toggle paleta
+    const btnToggle = qs('#btnTogglePalette')
+    btnToggle?.addEventListener('click', () => {
+      const collapsed = document.body.classList.toggle('palette-collapsed')
+      btnToggle.setAttribute('aria-pressed', collapsed ? 'true' : 'false')
+      btnToggle.setAttribute('aria-expanded', collapsed ? 'false' : 'true')
+    })
+
+    // Tabs + Chips (SEED by category)
+    function renderTabs(){
+      tabs.innerHTML = ''
+      CONFIG.CATEGORIES.forEach((c) => {
+        const b = document.createElement('button')
+        b.className = 'tab' + (c.id === activeCat ? ' active':'')
+        b.textContent = c.label
+        b.dataset.id = c.id
+        b.addEventListener('click', () => { activeCat = c.id; renderTabs(); renderChips() })
+        tabs.appendChild(b)
+      })
+    }
+    function renderChips(){
+      chipsGrid.innerHTML = ''
+      CONFIG.SEED_CHIPS.filter(ch => ch.category === activeCat).forEach(c => {
+        const div = document.createElement('div')
+        div.className = 'chip'; div.draggable = true
+        div.dataset.phrase = c.text; div.dataset.emoji = c.emoji || ''
+        if (c.pic) div.dataset.pic = c.pic
+        div.innerHTML = `<span class="emo">${c.emoji || '🔤'}</span><span class="txt">${c.text || ''}</span>`
+        chipsGrid.appendChild(div)
+      })
     }
 
-    function loadChipsStore(){
-      try{ var s = JSON.parse(localStorage.getItem('chipsStoreV1')||''); if(s && Array.isArray(s.chips)) return s; }catch(e){}
-      var store = {version:1, chips: seedDefaultChips()};
-      saveChipsStore(store);
-      return store;
-    }
-    function saveChipsStore(s){ try{ localStorage.setItem('chipsStoreV1', JSON.stringify(s)); }catch(e){} }
+    // click/drag chips
+    chipsGrid.addEventListener('click', e => {
+      const chip = e.target.closest('.chip'); if(!chip) return
+      addStep('say', { text: chip.dataset.phrase||'', emoji: chip.dataset.emoji||'🔤', pic: chip.dataset.pic||'' })
+    })
+    chipsGrid.addEventListener('dragstart', e => {
+      const chip = e.target.closest('.chip'); if(!chip) return
+      const payload = { text: chip.dataset.phrase||'', emoji: chip.dataset.emoji||'🔤', pic: chip.dataset.pic||'' }
+      try{ e.dataTransfer.setData('application/phrase', JSON.stringify(payload)) }catch{}
+      try{ e.dataTransfer.setData('text/plain', 'PHRASE:'+JSON.stringify(payload)) }catch{}
+      e.dataTransfer.effectAllowed='copy'
+    })
 
-    var chipStore = loadChipsStore();
-
-    function chipsByCat(cat){ return chipStore.chips.filter(function(c){ return c.category===cat; }); }
-
-    function renderChipsUIFromStore(){
-      ['need','social','action'].forEach(function(cat){
-        var cont = document.getElementById('chips-'+cat);
-        if(!cont) return;
-        cont.innerHTML = '';
-        chipsByCat(cat).forEach(function(c){
-          var div = document.createElement('div');
-          div.className='chip';
-          div.setAttribute('draggable','true');
-          div.setAttribute('data-phrase', c.text);
-          div.setAttribute('data-emoji', c.emoji || '');
-          if (c.pic) div.setAttribute('data-pic', c.pic);
-          div.innerHTML = '<span class="emo">'+(c.emoji||'🔤')+'</span><span class="txt">'+(c.text||'')+'</span>';
-          cont.appendChild(div);
-        });
-      });
-    }
-
-    // ===== Defaults =====
-    function defaultConfig(type){
-      if(type==='say') return { text:'Olá!', emoji:'🗣️', pic:'' };
-      if(type==='pause') return { seconds:0.8 };
-      if(type==='voice') return { lang:'pt-PT', rate:1.0, pitch:1.0 };
-      return {};
-    }
-
-    // ===== Helpers UI =====
-    function L(txt){ var l=document.createElement('label'); l.textContent=txt; return l; }
-    function inputText(val, on){ var i=document.createElement('input'); i.type='text'; i.value=val||''; i.oninput=function(){ on(i.value); updatePreview(); }; return i; }
-    function inputNum(val, on){ var i=document.createElement('input'); i.type='number'; i.step='0.1'; i.value=val; i.oninput=function(){ on(parseFloat(i.value)); updatePreview(); }; return i; }
-
-    // ===== CRUD de passos =====
-    function addStep(type, preset){ steps.push({ id:makeId(), type:type, conf:preset||defaultConfig(type) }); render(); }
-    function pretty(type){ return {say:'Dizer', pause:'Pausa', voice:'Voz/Idioma'}[type] || type; }
+    // Workspace
+    function inputText(val, on){ const i=document.createElement('input'); i.type='text'; i.value=val||''; i.oninput=()=>{on(i.value)}; return i }
+    function inputNum(val, on){ const i=document.createElement('input'); i.type='number'; i.step='0.1'; i.value=String(val); i.oninput=()=>{on(parseFloat(i.value))}; return i }
+    const L = t => { const l=document.createElement('label'); l.textContent=t; return l }
 
     function buildConfigUI(st){
-      var box = document.createElement('div'); box.className='row'; var c = st.conf;
-      if(st.type==='say'){
-        var img = document.createElement('img'); img.className='picPrev'; if(c.pic){ img.src=c.pic; } else { img.style.display='none'; }
-        var emoji = inputText(c.emoji||'', function(v){ c.emoji=v; }); emoji.style.width='60px';
-        var pic = inputText(c.pic||'', function(v){ c.pic=v; img.style.display=v?'block':'none'; img.src=v||''; }); pic.placeholder='URL pictograma (opcional)';
-        var text = inputText(c.text||'', function(v){ c.text=v; });
-        // Drop no input
-        text.addEventListener('dragover', function(e){ e.preventDefault(); text.classList.add('textDropping'); });
-        text.addEventListener('dragleave', function(){ text.classList.remove('textDropping'); });
-        text.addEventListener('drop', function(e){ e.preventDefault(); text.classList.remove('textDropping'); var payload = readPhrasePayload(e.dataTransfer); if(payload && payload.text){ c.text = (c.text? c.text+' ' : '') + payload.text.trim(); text.value=c.text; updatePreview(); }});
-        box.appendChild(img); box.appendChild(L('emoji')); box.appendChild(emoji); box.appendChild(L('pictograma')); box.appendChild(pic); box.appendChild(L('texto')); box.appendChild(text);
+      const box = document.createElement('div'); box.className='row'; const c = st.conf
+      if (st.type==='say'){
+        const img=document.createElement('img'); img.className='picPrev'; if(c.pic) img.src=c.pic; else img.style.display='none'
+        const emoji=inputText(c.emoji||'', v=>c.emoji=v); emoji.style.width='60px'
+        const pic=inputText(c.pic||'', v=>{ c.pic=v; img.style.display=v?'block':'none'; img.src=v||'' }); pic.placeholder='URL pictograma (opcional)'
+        const text=inputText(c.text||'', v=>c.text=v)
+        text.addEventListener('dragover', e=>{ e.preventDefault(); text.classList.add('textDropping') })
+        text.addEventListener('dragleave', ()=> text.classList.remove('textDropping'))
+        text.addEventListener('drop', e=>{ e.preventDefault(); text.classList.remove('textDropping'); const p=readPhrasePayload(e.dataTransfer); if(p?.text){ c.text=(c.text?c.text+' ': '')+p.text.trim(); text.value=c.text; } })
+        box.append(img, L('emoji'), emoji, L('pictograma'), pic, L('texto'), text)
       }
-      if(st.type==='pause'){
-        var secs = inputNum(c.seconds||0.5, function(v){ c.seconds=v; });
-        box.appendChild(L('segundos')); box.appendChild(secs);
+      if (st.type==='pause'){
+        const secs=inputNum(c.seconds ?? CONFIG.DEFAULTS.pause.seconds, v=>c.seconds=v); box.append(L('segundos'), secs)
       }
-      if(st.type==='voice'){
-        var lang = inputText(c.lang||'pt-PT', function(v){ c.lang=v; });
-        var rate = inputNum(c.rate||1.0, function(v){ c.rate=v; });
-        var pitch = inputNum(c.pitch||1.0, function(v){ c.pitch=v; });
-        box.appendChild(L('idioma')); box.appendChild(lang); box.appendChild(L('velocidade')); box.appendChild(rate); box.appendChild(L('tom')); box.appendChild(pitch);
+      if (st.type==='voice'){
+        const lang=inputText(c.lang || CONFIG.DEFAULTS.voice.lang, v=>c.lang=v)
+        const rate=inputNum(c.rate ?? CONFIG.DEFAULTS.voice.rate, v=>c.rate=v)
+        const pitch=inputNum(c.pitch ?? CONFIG.DEFAULTS.voice.pitch, v=>c.pitch=v)
+        box.append(L('idioma'), lang, L('velocidade'), rate, L('tom'), pitch)
       }
-      return box;
+      return box
     }
-
-    function moveStep(index, dir){ var to=index+dir; if(to<0||to>=steps.length) return; var m=steps.splice(index,1)[0]; steps.splice(to,0,m); render(); }
 
     function render(){
-      dropzone.innerHTML='';
-      if(!steps.length){ dropzone.innerHTML='<div class="hint">Toca num chip para adicionar rapidamente. Ou larga <b>blocos</b>/<b>frases</b> aqui para começar.</div>'; updatePreview(); return; }
-      for(var idx=0; idx<steps.length; idx++){
-        (function(){
-          var st = steps[idx];
-          var el = document.createElement('div'); el.className='step t-'+st.type; el.setAttribute('draggable','true');
+      dropzone.innerHTML = ''
+      if(!steps.length){ dropzone.innerHTML='<div class="hint">Toca num chip para adicionar rapidamente. Ou larga <b>blocos</b>/<b>frases</b> aqui para começar.</div>'; return }
+      steps.forEach((st, idx) => {
+        const el=document.createElement('div'); el.className='step t-'+st.type; el.draggable=true
+        el.addEventListener('dragstart', ev=>{ ev.dataTransfer.setData('text/drag-id', st.id) })
+        el.addEventListener('dragover', ev=>{ ev.preventDefault(); el.classList.add('dropping') })
+        el.addEventListener('dragleave', ()=> el.classList.remove('dropping'))
+        el.addEventListener('drop', ev=>{
+          ev.preventDefault(); el.classList.remove('dropping')
+          const payload=readPhrasePayload(ev.dataTransfer)
+          if(payload?.text){
+            if(st.type==='say'){ st.conf.text=(st.conf.text?st.conf.text+' ': '')+payload.text.trim(); render() }
+            else { steps.splice(idx,0,{ id:makeId(), type:'say', conf:{ text:payload.text, emoji:payload.emoji||'🔤', pic:payload.pic||'' } }); render() }
+            return
+          }
+          const id=ev.dataTransfer.getData('text/drag-id'); if(!id) return
+          const from=steps.findIndex(s=>s.id===id); if(from>-1){ const m=steps.splice(from,1)[0]; steps.splice(idx,0,m); render() }
+        })
+        const ordem=document.createElement('div'); ordem.className='ordem'; ordem.textContent=String(idx+1)
+        const handle=document.createElement('div'); handle.className='handle'; handle.setAttribute('aria-label','Arrastar para reordenar')
+        const label=document.createElement('div'); label.style.minWidth='140px'; label.style.fontWeight='700'; label.textContent=pretty(st.type)
+        el.append(ordem, handle, label, buildConfigUI(st))
 
-          // Reordenação
-          el.addEventListener('dragstart', function(ev){ ev.dataTransfer.setData('text/drag-id', st.id); });
-          el.addEventListener('dragover', function(ev){ ev.preventDefault(); el.classList.add('dropping'); });
-          el.addEventListener('dragleave', function(){ el.classList.remove('dropping'); });
-          el.addEventListener('drop', function(ev){
-            ev.preventDefault(); el.classList.remove('dropping');
-            var payload = readPhrasePayload(ev.dataTransfer);
-            if(payload && payload.text){
-              if(st.type==='say'){
-                st.conf.text = (st.conf.text ? st.conf.text+' ' : '') + payload.text.trim();
-                updatePreview(); render();
-              } else {
-                steps.splice(idx, 0, { id: makeId(), type:'say', conf:{ text:payload.text, emoji:payload.emoji||'🔤', pic:payload.pic||'' } });
-                render();
-              }
-              return;
-            }
-            var id = ev.dataTransfer.getData('text/drag-id');
-            if(!id) return;
-            var from=-1; for(var i=0;i<steps.length;i++){ if(steps[i].id===id){ from=i; break; } }
-            if(from>-1){ var m = steps.splice(from,1)[0]; steps.splice(idx,0,m); render(); }
-          });
+        const actions=document.createElement('div'); actions.style.marginLeft='auto'; actions.style.display='flex'; actions.style.gap='8px'
+        const up=Object.assign(document.createElement('button'),{ className:'secondary btnMove', textContent:'↑', title:'Mover para cima', onclick:()=>moveStep(idx,-1) })
+        const down=Object.assign(document.createElement('button'),{ className:'secondary btnMove', textContent:'↓', title:'Mover para baixo', onclick:()=>moveStep(idx,1) })
+        const dup=Object.assign(document.createElement('button'),{ className:'secondary', textContent:'Duplicar', onclick:()=>{ const copy=JSON.parse(JSON.stringify(st)); copy.id=makeId(); steps.splice(idx+1,0,copy); render() } })
+        const del=Object.assign(document.createElement('button'),{ className:'secondary', textContent:'Apagar', onclick:()=>{ steps=steps.filter(s=>s.id!==st.id); render() } })
+        actions.append(up,down,dup,del)
+        el.append(actions)
 
-          var ordem = document.createElement('div'); ordem.className='ordem'; ordem.textContent=(idx+1); el.appendChild(ordem);
-          var handle = document.createElement('div'); handle.className='handle'; handle.setAttribute('aria-label','Arrastar para reordenar'); el.appendChild(handle);
-          var label = document.createElement('div'); label.style.minWidth='140px'; label.style.fontWeight='700'; label.appendChild(document.createTextNode(pretty(st.type))); el.appendChild(label);
-
-          el.appendChild(buildConfigUI(st));
-
-          var actions = document.createElement('div'); actions.style.marginLeft='auto'; actions.style.display='flex'; actions.style.gap='8px';
-          var up = document.createElement('button'); up.className='secondary btnMove'; up.textContent='↑'; up.title='Mover para cima'; up.onclick=function(){ moveStep(idx,-1); };
-          var down = document.createElement('button'); down.className='secondary btnMove'; down.textContent='↓'; down.title='Mover para baixo'; down.onclick=function(){ moveStep(idx,1); };
-          var dup = document.createElement('button'); dup.className='secondary'; dup.textContent='Duplicar'; dup.onclick=function(){ var copy=JSON.parse(JSON.stringify(st)); copy.id=makeId(); steps.splice(idx+1,0,copy); render(); };
-          var del = document.createElement('button'); del.className='secondary'; del.textContent='Apagar'; del.onclick=function(){ steps=steps.filter(function(s){ return s.id!==st.id; }); render(); };
-          actions.appendChild(up); actions.appendChild(down); actions.appendChild(dup); actions.appendChild(del);
-          el.appendChild(actions);
-
-          dropzone.appendChild(el);
-        })();
-      }
-      updatePreview();
+        dropzone.appendChild(el)
+      })
     }
 
-    // ===== Pré‑visualização =====
-    function generatePreviewLines(){
-      var lines = []; var conf = {lang:'pt-PT', rate:1.0, pitch:1.0};
-      for(var i=0;i<steps.length;i++){
-        var s=steps[i], c=s.conf||{};
-        if(s.type==='voice'){ conf={ lang:c.lang||conf.lang, rate:Number(c.rate||conf.rate)||1.0, pitch:Number(c.pitch||conf.pitch)||1.0 }; }
-        else if(s.type==='pause'){ var secs=Math.max(0,Number(c.seconds||0)); if(secs>0) lines.push('[PAUSA '+secs.toFixed(1)+'s]'); }
-        else if(s.type==='say'){ var t=(c.text||'').trim(); if(t){ lines.push(t); } }
-      }
-      return { lines:lines, conf:conf };
+    function moveStep(index,dir){
+      const to=index+dir; if(to<0||to>=steps.length) return
+      const m=steps.splice(index,1)[0]; steps.splice(to,0,m); render()
     }
-function updatePreview(){ var r=generatePreviewLines(); preview.textContent = r.lines.join('\n'); }
 
-    // ===== Drag helpers =====
+    // Drag helpers
     function readPhrasePayload(dt){
-      if(!dt) return null;
-      var raw = dt.getData('application/phrase');
-      if(raw){ try{ return JSON.parse(raw); }catch(_){} }
-      var txt = dt.getData('text/plain');
-      if(txt && txt.indexOf('{')>-1){ try{ var p=JSON.parse(txt); if(p && (p.text||p.phrase)) return { text:p.text||p.phrase, emoji:p.emoji||'🔤', pic:p.pic||'' }; }catch(_){} }
-      if(txt && txt.indexOf('PHRASE:')===0){ try{ return JSON.parse(txt.slice(7)); }catch(_){} }
-      return null;
+      if(!dt) return null
+      const raw=dt.getData('application/phrase'); if(raw){ try{ return JSON.parse(raw) }catch{} }
+      const txt=dt.getData('text/plain')
+      if(txt && txt.indexOf('{')>-1){ try{ const p=JSON.parse(txt); if(p&&(p.text||p.phrase)) return { text:p.text||p.phrase, emoji:p.emoji||'🔤', pic:p.pic||'' } }catch{} }
+      if(txt && txt.indexOf('PHRASE:')===0){ try{ return JSON.parse(txt.slice(7)) }catch{} }
+      return null
     }
 
-    // ===== Paleta: blocos -> click & drag =====
-    palette.addEventListener('click', function(e){ var block = e.target.closest('.block'); if(!block) return; var t=block.getAttribute('data-type'); if(t) addStep(t); });
-    palette.addEventListener('dragstart', function(e){ var block=e.target.closest('.block'); if(!block) return; e.dataTransfer.setData('text/block-type', block.getAttribute('data-type')); e.dataTransfer.setData('text/plain', 'BLOCK'); e.dataTransfer.effectAllowed='copy'; });
+    // Paleta (adicionar blocos)
+    const defaultConfig = type => JSON.parse(JSON.stringify(CONFIG.DEFAULTS[type]||{}))
+    function addStep(type,preset){ steps.push({ id:makeId(), type, conf:preset||defaultConfig(type) }); render() }
+    const palette = qs('#palette')
+    palette?.addEventListener('click', e => { const b=e.target.closest('.block'); if(!b) return; const t=b.dataset.type; if(t) addStep(t) })
+    palette?.addEventListener('dragstart', e => { const b=e.target.closest('.block'); if(!b) return; e.dataTransfer.setData('text/block-type', b.dataset.type); e.dataTransfer.setData('text/plain','BLOCK'); e.dataTransfer.effectAllowed='copy' })
 
-    // ===== Tabs =====
-    if (tabs && chipsWrap) {
-      tabs.addEventListener('click', function(e){
-        var t = e.target.closest('.tab'); if(!t) return;
-        var all = tabs.querySelectorAll('.tab'); for(var i=0;i<all.length;i++){ all[i].classList.remove('active'); }
-        t.classList.add('active');
-        var target = t.getAttribute('data-target');
-        ['need','social','action'].forEach(function(cat){ var node=document.getElementById('chips-'+cat); if(node) node.hidden = (cat!==target); });
-      });
-    }
+    // Drop area
+    dropzone?.addEventListener('dragover', e=>{ e.preventDefault(); dropzone.classList.add('dropping') })
+    dropzone?.addEventListener('dragleave', ()=> dropzone.classList.remove('dropping'))
+    dropzone?.addEventListener('drop', e=>{
+      e.preventDefault(); dropzone.classList.remove('dropping')
+      const pay=readPhrasePayload(e.dataTransfer); if(pay?.text){ addStep('say',{ text:pay.text, emoji:pay.emoji||'🔤', pic:pay.pic||'' }); return }
+      const btype=e.dataTransfer.getData('text/block-type'); if(['say','pause','voice'].includes(btype)) { addStep(btype); return }
+      const id=e.dataTransfer.getData('text/drag-id'); if(id){ const from=steps.findIndex(s=>s.id===id); if(from>-1){ const m=steps.splice(from,1)[0]; steps.push(m); render() } }
+    })
 
-    // ===== Chips (click & drag delegados) =====
-    if (chipsWrap){
-      chipsWrap.addEventListener('click', function(e){ var chip=e.target.closest('.chip'); if(!chip) return; addStep('say', { text: chip.getAttribute('data-phrase')||'', emoji: chip.getAttribute('data-emoji')||'🔤', pic: chip.getAttribute('data-pic')||'' }); });
-      chipsWrap.addEventListener('dragstart', function(e){ var chip=e.target.closest('.chip'); if(!chip) return; var payload={ text: chip.getAttribute('data-phrase')||'', emoji: chip.getAttribute('data-emoji')||'🔤', pic: chip.getAttribute('data-pic')||'' }; try{ e.dataTransfer.setData('application/phrase', JSON.stringify(payload)); }catch(_){} try{ e.dataTransfer.setData('text/plain', 'PHRASE:'+JSON.stringify(payload)); }catch(_){} e.dataTransfer.effectAllowed='copy'; });
-    }
-
-    // ===== Drop na área de trabalho =====
-    dropzone.addEventListener('dragover', function(e){ e.preventDefault(); dropzone.classList.add('dropping'); });
-    dropzone.addEventListener('dragleave', function(){ dropzone.classList.remove('dropping'); });
-    dropzone.addEventListener('drop', function(e){
-      e.preventDefault(); dropzone.classList.remove('dropping');
-      var pay = readPhrasePayload(e.dataTransfer);
-      if(pay && pay.text){ addStep('say', { text:pay.text, emoji:pay.emoji||'🔤', pic:pay.pic||'' }); return; }
-      var btype = e.dataTransfer.getData('text/block-type');
-      if(btype==='say' || btype==='pause' || btype==='voice'){ addStep(btype); return; }
-      var id = e.dataTransfer.getData('text/drag-id');
-      if(id){ var from=-1; for(var i=0;i<steps.length;i++){ if(steps[i].id===id){ from=i; break; } } if(from>-1){ var m=steps.splice(from,1)[0]; steps.push(m); render(); } }
-    });
-
-    // ===== TTS =====
-    function wait(ms){ return new Promise(function(res){ setTimeout(res, ms); }); }
+    // TTS
+    const wait = ms => new Promise(res=>setTimeout(res,ms))
+    const clamp=(v,min,max)=>Math.min(max, Math.max(min, Number(v)))
     async function speakLines(){
-      if(!('speechSynthesis' in window)){ alert('TTS não suportado neste navegador.'); return; }
-      var synth=window.speechSynthesis;
-      for(var i=0;i<steps.length;i++){
-        var s=steps[i], c=s.conf||{};
+      if(!('speechSynthesis' in window)){ alert('TTS não suportado neste navegador.'); return }
+      const synth=window.speechSynthesis
+      let current={ ...CONFIG.DEFAULTS.voice, voice:null }
+      for(const s of steps){
+        const c=s.conf||{}
         if(s.type==='voice'){
-          var want=(c.lang||'pt-PT').toLowerCase(); var voices=synth.getVoices()||[]; var v=null; for(var k=0;k<voices.length;k++){ var vl=(voices[k].lang||'').toLowerCase(); if(vl.indexOf(want)===0){ v=voices[k]; break; } }
-          window.__ttsVoice=v||null; window.__ttsLang=c.lang||'pt-PT'; window.__ttsRate=Math.min(2.0,Math.max(0.5,Number(c.rate||1.0))); window.__ttsPitch=Math.min(2.0,Math.max(0.5,Number(c.pitch||1.0)));
-        } else if(s.type==='pause'){
-          var ms=Math.max(0, Math.round(Number(c.seconds||0)*1000)); if(ms>0) await wait(ms);
-        } else if(s.type==='say'){
-          var text=(c.text||'').trim(); if(!text) continue; var u=new SpeechSynthesisUtterance(text); u.lang=window.__ttsLang||'pt-PT'; u.rate=window.__ttsRate||1.0; u.pitch=window.__ttsPitch||1.0; if(window.__ttsVoice) u.voice=window.__ttsVoice; await new Promise(function(res){ u.onend=res; u.onerror=res; synth.speak(u); });
+          const want=String(c.lang||current.lang).toLowerCase()
+          const voices=synth.getVoices()||[]; let v=null
+          for(const vv of voices){ const vl=String(vv.lang||'').toLowerCase(); if(vl.indexOf(want)===0){ v=vv; break } }
+          current={ lang:c.lang||current.lang, rate:clamp(c.rate ?? current.rate,.5,2), pitch:clamp(c.pitch ?? current.pitch,.5,2), voice:v }
+        }else if(s.type==='pause'){
+          const ms=Math.max(0, Math.round(Number(c.seconds||0)*1000)); if(ms>0) await wait(ms)
+        }else if(s.type==='say'){
+          const text=String(c.text||'').trim(); if(!text) continue
+          const u=new SpeechSynthesisUtterance(text)
+          u.lang=current.lang; u.rate=current.rate; u.pitch=current.pitch; if(current.voice) u.voice=current.voice
+          await new Promise(res=>{ u.onend=res; u.onerror=res; synth.speak(u) })
         }
       }
     }
 
-    // ===== Botões =====
-    document.getElementById('btnPlay').addEventListener('click', function(){ var r=generatePreviewLines(); if(!r.lines.length){ alert('Nada para dizer. Adiciona um bloco "Dizer".'); } else { speakLines(); } });
-    if (fab) fab.addEventListener('click', function(){ var r=generatePreviewLines(); if(!r.lines.length){ alert('Nada para dizer. Adiciona um bloco "Dizer".'); } else { speakLines(); } });
-    document.getElementById('btnReset').addEventListener('click', function(){ steps=[]; render(); });
+    // Botões
+    function hasContent(){ return steps.length>0 && steps.some(s => s.type==='say' && String(s.conf?.text||'').trim().length>0) }
+    document.getElementById('btnPlay')?.addEventListener('click', ()=>{ if(!hasContent()) alert('Nada para dizer. Adiciona um bloco \"Dizer\".'); else speakLines() })
+    document.getElementById('fabPlay')?.addEventListener('click', ()=>{ if(!hasContent()) alert('Nada para dizer. Adiciona um bloco \"Dizer\".'); else speakLines() })
+    document.getElementById('btnReset')?.addEventListener('click', ()=>{ steps=[]; render() })
 
-    // ===== Export / Import Sequência =====
-    function exportJSON(){ var payload={ version:1, mode:'tts-blocks', exportedAt:(new Date()).toISOString(), steps:steps }; var blob=new Blob([JSON.stringify(payload,null,2)], {type:'application/json'}); var a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download='frases_blocos.json'; a.click(); URL.revokeObjectURL(a.href); }
-    function importJSONFile(file){ if(!file) return; var reader=new FileReader(); reader.onload=function(){ try{ var data=JSON.parse(reader.result); var arr=data&&data.steps; if(!arr||!arr.length){ alert('JSON sem passos.'); return; } steps=arr.map(function(s){ return { id:makeId(), type:s.type, conf:s.conf||defaultConfig(s.type) }; }); render(); }catch(err){ alert('Falha a ler JSON: '+err.message); } }; reader.readAsText(file); }
-    document.getElementById('btnExport').addEventListener('click', exportJSON);
-    document.getElementById('btnImport').addEventListener('click', function(){ var fi=document.getElementById('fileImport'); fi.value=''; fi.click(); });
-    document.getElementById('fileImport').addEventListener('change', function(){ var f=this.files&&this.files[0]; importJSONFile(f); });
-
-    // ===== Editor de Chips =====
-    var chipModal = document.getElementById('chipModal');
-    var chipClose = document.getElementById('chipClose');
-    var chipList = document.getElementById('chipList');
-    var chipCat = document.getElementById('chipCat');
-    var chipEmoji = document.getElementById('chipEmoji');
-    var chipText = document.getElementById('chipText');
-    var chipPic = document.getElementById('chipPic');
-
-    function openChipEditor(){
-      chipModal.classList.add('show');
-      renderChipEditorList();
+    // Export/Import de sequência
+    function exportJSON(){
+      const payload = { version: 1, mode: 'tts-blocks', exportedAt: (new Date()).toISOString(), steps }
+      const blob = new Blob([JSON.stringify(payload, null, 2)], { type: 'application/json' })
+      const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'frases_blocos.json'; a.click(); URL.revokeObjectURL(a.href)
     }
-    function closeChipEditor(){ chipModal.classList.remove('show'); }
-
-    function renderChipEditorList(){
-      chipList.innerHTML='';
-      CATS.forEach(function(cat){
-        var title = document.createElement('div'); title.className='hint'; title.textContent=cat.label; chipList.appendChild(title);
-        chipsByCat(cat.id).forEach(function(item){
-          var row = document.createElement('div'); row.className='chipRow'; row.dataset.id=item.id;
-          row.innerHTML = ''+
-            '<select class="cCat">'+
-              CATS.map(function(c){ return '<option value="'+c.id+'"'+(c.id===item.category?' selected':'')+'>'+c.label+'</option>'; }).join('')+
-            '</select>'+
-            '<input class="cEmoji" type="text" value="'+(item.emoji||'')+'" placeholder="Emoji" />'+
-            '<input class="cText" type="text" value="'+(item.text||'')+'" placeholder="Texto" />'+
-            '<input class="cPic" type="text" value="'+(item.pic||'')+'" placeholder="URL pictograma (opcional)" />'+
-            '<div class="rowActions">'+
-              '<button class="secondary cUp">↑</button>'+ 
-              '<button class="secondary cDown">↓</button>'+ 
-              '<button class="secondary cDel">Apagar</button>'+ 
-            '</div>';
-          chipList.appendChild(row);
-        });
-      });
-    }
-
-    function getItemById(id){ for(var i=0;i<chipStore.chips.length;i++){ if(chipStore.chips[i].id===id) return {item:chipStore.chips[i], idx:i}; } return null; }
-
-    // Delegação de eventos na lista
-    chipList.addEventListener('input', function(e){
-      var row = e.target.closest('.chipRow'); if(!row) return; var id=row.dataset.id; var ref=getItemById(id); if(!ref) return;
-      if(e.target.classList.contains('cEmoji')) ref.item.emoji = e.target.value;
-      if(e.target.classList.contains('cText')) ref.item.text = e.target.value;
-      if(e.target.classList.contains('cPic')) ref.item.pic = e.target.value;
-      if(e.target.classList.contains('cCat')) ref.item.category = e.target.value;
-    });
-    chipList.addEventListener('click', function(e){
-      var row = e.target.closest('.chipRow'); if(!row) return; var id=row.dataset.id; var ref=getItemById(id); if(!ref) return;
-      if(e.target.classList.contains('cDel')){ chipStore.chips.splice(ref.idx,1); renderChipEditorList(); }
-      if(e.target.classList.contains('cUp')){ moveWithinCategory(id,-1); renderChipEditorList(); }
-      if(e.target.classList.contains('cDown')){ moveWithinCategory(id,1); renderChipEditorList(); }
-    });
-
-    function moveWithinCategory(id, dir){
-      var idx = chipStore.chips.findIndex(function(c){ return c.id===id; }); if(idx<0) return;
-      var cat = chipStore.chips[idx].category;
-      // encontre o vizinho na mesma categoria
-      var same = chipStore.chips.map(function(c, i){ return {cat:c.category, i:i}; }).filter(function(o){ return o.cat===cat; }).map(function(o){ return o.i; });
-      var pos = same.indexOf(idx); var toPos = pos + dir; if(toPos<0 || toPos>=same.length) return;
-      var swapA = same[pos], swapB = same[toPos];
-      var tmp = chipStore.chips[swapA]; chipStore.chips[swapA] = chipStore.chips[swapB]; chipStore.chips[swapB] = tmp;
-    }
-
-    // Botões do editor
-    if(btnChipEditor) btnChipEditor.addEventListener('click', openChipEditor);
-    document.getElementById('chipAdd').addEventListener('click', function(){
-      var text=(chipText.value||'').trim(); if(!text){ alert('Texto obrigatório.'); return; }
-      chipStore.chips.push({ id:makeId(), text:text, emoji:chipEmoji.value||'', pic:chipPic.value||'', category:chipCat.value||'need' });
-      chipText.value=''; chipEmoji.value=''; chipPic.value='';
-      renderChipEditorList();
-    });
-    document.getElementById('chipSave').addEventListener('click', function(){ saveChipsStore(chipStore); renderChipsUIFromStore(); closeChipEditor(); });
-    document.getElementById('chipExport').addEventListener('click', function(){
-      var payload = { version:1, chips: chipStore.chips.map(function(c){ return { id:c.id, text:c.text, emoji:c.emoji||'', pic:c.pic||'', category:c.category||'need' }; }) };
-      var blob=new Blob([JSON.stringify(payload,null,2)], {type:'application/json'});
-      var a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download='chips_personalizados.json'; a.click(); URL.revokeObjectURL(a.href);
-    });
-    document.getElementById('chipImport').addEventListener('click', function(){ var fi=document.getElementById('chipImportFile'); fi.value=''; fi.click(); });
-    document.getElementById('chipImportFile').addEventListener('change', function(){
-      var f=this.files&&this.files[0]; if(!f) return;
-      var reader=new FileReader(); reader.onload=function(){
+    function importJSONFile(file){
+      if(!file) return
+      const reader = new FileReader()
+      reader.onload = () => {
         try{
-          var data=JSON.parse(reader.result);
-          var list = [];
-          if(Array.isArray(data)){ list=data; }
-          else if(Array.isArray(data.chips)){ list=data.chips; }
-          else if(data.categories){
-            Object.keys(data.categories).forEach(function(cat){ var arr=data.categories[cat]||[]; arr.forEach(function(c){ list.push(Object.assign({}, c, {category:cat})); }); });
-          }
-          if(!list.length){ alert('Ficheiro sem chips.'); return; }
-          // normalizar e fundir (dedup por texto+categoria)
-          list.forEach(function(c){
-            var norm = { id: makeId(), text: String(c.text||'').trim(), emoji: c.emoji||'', pic: c.pic||'', category: (c.category||'need') };
-            if(!norm.text) return;
-            var exists = chipStore.chips.some(function(x){ return (x.text||'').trim().toLowerCase()===norm.text.toLowerCase() && (x.category||'need')===norm.category; });
-            if(!exists) chipStore.chips.push(norm);
-          });
-          renderChipEditorList(); saveChipsStore(chipStore); renderChipsUIFromStore();
-        }catch(err){ alert('Falha a importar: '+err.message); }
-      };
-      reader.readAsText(f);
-    });
-    if(chipClose) chipClose.addEventListener('click', closeChipEditor);
-    chipModal.querySelector('.backdrop').addEventListener('click', closeChipEditor);
+          const data = JSON.parse(reader.result); const arr = data?.steps
+          if(!arr?.length){ alert('JSON sem passos.'); return }
+          steps = arr.map(s => ({ id: makeId(), type: s.type, conf: s.conf || (s.type==='say'?{text:''}: (s.type==='pause'?{seconds:0.8}:{lang:'pt-PT',rate:1,pitch:1})) })); render()
+        }catch(err){ alert('Falha a ler JSON: '+err.message) }
+      }
+      reader.readAsText(file)
+    }
+    document.getElementById('btnExport')?.addEventListener('click', exportJSON)
+    document.getElementById('btnImport')?.addEventListener('click', ()=>{ const fi=document.getElementById('fileImport'); fi.value=''; fi.click() })
+    document.getElementById('fileImport')?.addEventListener('change', function(){ importJSONFile(this.files?.[0]) })
 
-    // ===== Arranque =====
-    renderChipsUIFromStore();
-    render();
-  })();
+    // Inicialização
+    renderTabs(); renderChips(); render()
+  })()
   </script>
 </body>
 </html>
