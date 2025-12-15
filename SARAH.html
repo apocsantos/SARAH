@@ -43,7 +43,11 @@
     /* CHIPS GRID responsiva */
     .chips{display:grid;gap:10px;padding:10px 12px 14px;grid-template-columns:repeat(auto-fit,minmax(120px,1fr))}
     .chip{display:flex;align-items:center;gap:10px;padding:12px;border-radius:12px;border:1px solid #0b1020;background:linear-gradient(180deg,#0f1830,#0e1730);cursor:grab;min-height:48px}
-    .chip .emo{width:24px;text-align:center;font-size:20px;line-height:1}
+    /*.chip .emo{width:24px;text-align:center;font-size:20px;line-height:1}*/
+    /* Ícone do chip: emoji OU imagem PNG 48×48 */
+    .chip .emo{width:48px;min-width:48px;display:flex;align-items:center;justify-content:center;text-align:center;font-size:20px;   /* continua a funcionar para emojis */ line-height:1;}
+    /* Quando for imagem PNG */
+    .chip .emo img.chipPic{width:48px;height:48px;display:block;object-fit:contain;}
     .chip .txt{font-weight:700;color:#e5e7eb;line-height:1.2}
 
     /* Workspace */
@@ -463,16 +467,31 @@
       })
     }
     function renderChips(){
-      chipsGrid.innerHTML = ''
-      CONFIG.SEED_CHIPS.filter(ch => ch.category === activeCat).forEach(c => {
-        const div = document.createElement('div')
-        div.className = 'chip'; div.draggable = true
-        div.dataset.phrase = c.text; div.dataset.emoji = c.emoji || ''
-        if (c.pic) div.dataset.pic = c.pic
-        div.innerHTML = `<span class="emo">${c.emoji || '🔤'}</span><span class="txt">${c.text || ''}</span>`
-        chipsGrid.appendChild(div)
-      })
-    }
+  chipsGrid.innerHTML = ''
+  CONFIG.SEED_CHIPS
+    .filter(ch => ch.category === activeCat)
+    .forEach(c => {
+      const div = document.createElement('div')
+      div.className = 'chip'
+      div.draggable = true
+
+      div.dataset.phrase = c.text || ''
+      if (c.emoji) div.dataset.emoji = c.emoji
+      if (c.pic)   div.dataset.pic   = c.pic
+
+      const iconHtml = c.pic
+        ? `<img src="${c.pic}" alt="" class="chipPic" />`
+        : (c.emoji || '🔤')
+
+      div.innerHTML = `
+        <span class="emo">${iconHtml}</span>
+        <span class="txt">${c.text || ''}</span>
+      `
+
+      chipsGrid.appendChild(div)
+    })
+}
+
 
     // click/drag chips
     chipsGrid.addEventListener('click', e => {
