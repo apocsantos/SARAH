@@ -1,0 +1,87 @@
+{
+  "version": 2,
+  "defaults": {
+    "voice": {
+      "lang": "pt-PT",
+      "rate": 1.0,
+      "pitch": 1.0
+    }
+  },
+  "pages": [
+    {
+      "id": "food",
+      "label": "Comer"
+    },
+    {
+      "id": "drink",
+      "label": "Beber"
+    },
+    {
+      "id": "body",
+      "label": "Corpo"
+    },
+    {
+      "id": "feelings",
+      "label": "Sentimentos"
+    },
+    {
+      "id": "school",
+      "label": "Escola"
+    },
+    {
+      "id": "home",
+      "label": "Home"
+    }
+  ],
+  "items": [
+    {
+      "id": "food__eat",
+      "conceptId": "eat",
+      "text": "Quero comer.",
+      "page": "food",
+      "icon": "icons/food/eat.svg"
+    },
+    {
+      "id": "drink__drink_water",
+      "conceptId": "drink_water",
+      "text": "Quero água.",
+      "page": "drink",
+      "icon": "icons/drink/water.svg"
+    },
+    {
+      "id": "body__toilet",
+      "conceptId": "toilet",
+      "text": "Preciso de ir à casa de banho.",
+      "page": "body",
+      "icon": "icons/body/toilet.svg"
+    },
+    {
+      "id": "body__headache",
+      "conceptId": "headache",
+      "text": "Dói-me a cabeça.",
+      "page": "body",
+      "icon": "icons/body/headache.svg"
+    },
+    {
+      "id": "feelings__sad",
+      "conceptId": "sad",
+      "text": "Estou triste.",
+      "page": "feelings",
+      "icon": "icons/feelings/sad.svg"
+    },
+    {
+      "id": "home__hello",
+      "conceptId": "hello",
+      "text": "Olá!",
+      "page": "home",
+      "icon": "icons/home/hello.svg"
+    },
+    {
+      "id": "school__teacher",
+      "conceptId": "teacher",
+      "text": "Professora / Professor.",
+      "page": "school",
+      "icon": "icons/school/teacher.svg"
+    }
+  ]
+}

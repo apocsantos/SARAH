@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="pt">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>AAC Offline PWA</title>
+  <link rel="manifest" href="./manifest.webmanifest">
+  <meta name="theme-color" content="#0b1220">
+  <style>
+    :root{--bg:#0b1220;--ink:#e2e8f0;--muted:#94a3b8;--panel:#0f172a;--panel2:#121a2f;--b:#1f2a4d}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu;background:linear-gradient(180deg,#0b1220,#0a0f1b 30%,#0b1220);color:var(--ink)}
+    header{display:flex;gap:10px;align-items:center;padding:12px 14px;border-bottom:1px solid #111827;background:rgba(17,24,39,.7);position:sticky;top:0;backdrop-filter:saturate(120%) blur(6px)}
+    header strong{font-size:16px}
+    .tabs{display:flex;gap:8px;flex-wrap:wrap}
+    .tab{background:#101a32;border:1px solid var(--b);color:#cbd5e1;border-radius:999px;padding:8px 12px;font-weight:900;cursor:pointer}
+    .tab.active{background:linear-gradient(90deg,#60a5fa,#22d3ee);color:#0a1020;border-color:transparent}
+    main{padding:14px;display:flex;flex-direction:column;gap:12px;max-width:1100px;margin:0 auto}
+    .bar{display:flex;gap:8px;align-items:center;background:#0a1430;border:1px solid #18254a;border-radius:12px;padding:10px}
+    .strip{display:flex;gap:8px;flex-wrap:wrap;flex:1;min-height:44px}
+    .token{display:inline-flex;gap:8px;align-items:center;padding:8px 10px;border-radius:999px;border:1px solid var(--b);background:#0d1936;font-weight:900;cursor:pointer}
+    .token img{width:22px;height:22px;object-fit:contain}
+    .btn{background:linear-gradient(90deg,#60a5fa,#22d3ee);border:none;color:#0a1020;font-weight:950;padding:10px 12px;border-radius:10px;cursor:pointer}
+    .btn.secondary{background:#101a32;color:#d1d5db;border:1px solid var(--b)}
+    .btn.warn{background:linear-gradient(90deg,#f97316,#f59e0b);color:#0b1220}
+    .grid{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}
+    .tile{background:linear-gradient(180deg,#0f1830,#0e1730);border:1px solid #0b1020;border-radius:16px;padding:16px;
+      display:flex;flex-direction:column;gap:10px;align-items:center;justify-content:center;min-height:145px;
+      cursor:pointer;user-select:none;box-shadow:inset 0 1px 0 rgba(255,255,255,.04)}
+    .tile:hover{outline:1px solid rgba(96,165,250,.4)}
+    .tile img{width:78px;height:78px;object-fit:contain}
+    .label{font-size:18px;font-weight:950;text-align:center;line-height:1.1}
+    .hint{color:var(--muted);font-size:12px}
+    .pill{display:inline-flex;align-items:center;gap:8px;background:#0d1833;border:1px solid var(--b);color:#cbd5e1;border-radius:999px;padding:7px 10px;font-weight:900}
+    dialog{border:none;border-radius:14px;max-width:560px;width:calc(100% - 24px);background:linear-gradient(180deg,var(--panel),var(--panel2));color:var(--ink);box-shadow:0 20px 60px rgba(0,0,0,.5)}
+    dialog::backdrop{background:rgba(0,0,0,.55)}
+    .formRow{display:flex;flex-direction:column;gap:6px;margin:10px 0}
+    input[type="url"],input[type="text"]{background:#0b1328;border:1px solid var(--b);color:var(--ink);border-radius:10px;padding:10px}
+    .dialogHead{display:flex;justify-content:space-between;align-items:center;padding:12px 14px;border-bottom:1px solid #0b1020}
+    .dialogBody{padding:12px 14px}
+    .dialogFoot{display:flex;gap:10px;justify-content:flex-end;padding:12px 14px;border-top:1px solid #0b1020}
+    @media (max-width: 520px){
+      .bar{flex-wrap:wrap}
+      .btn{flex:1}
+    }
+  </style>
+</head>
+<body>
+<header>
+  <strong>AAC Offline</strong>
+  <div class="tabs" id="tabs"></div>
+  <div style="flex:1"></div>
+
+  <span class="pill" title="Speak immediately when a tile is pressed">
+    <label style="display:flex;gap:8px;align-items:center;cursor:pointer">
+      <input id="speakOnTap" type="checkbox" checked/>
+      Speak on tap
+    </label>
+  </span>
+
+  <button class="btn secondary" id="btnOpenSettings" type="button">⚙️ Updates</button>
+</header>
+
+<main>
+  <div class="bar">
+    <div class="strip" id="strip"><span class="hint">Tap tiles to build a sentence…</span></div>
+    <button class="btn" id="btnSpeak" type="button">🗣️ Speak</button>
+    <button class="btn secondary" id="btnBack" type="button">⌫</button>
+    <button class="btn warn" id="btnClear" type="button">Clear</button>
+  </div>
+
+  <div class="grid" id="grid"></div>
+
+  <div class="hint">
+    Offline-first PWA. Open via http(s) (not file://). Use “Add to Home Screen” to install. Updates fetch a remote <code>seed.json</code>.
+  </div>
+</main>
+
+<dialog id="settingsDialog">
+  <div class="dialogHead">
+    <strong>Updates</strong>
+    <form method="dialog"><button class="btn secondary" type="submit">✕</button></form>
+  </div>
+  <div class="dialogBody">
+    <div class="formRow">
+      <label class="hint">Update URL (points to a seed.json on the web)</label>
+      <input id="updateUrl" type="url" placeholder="https://example.com/seed.json">
+    </div>
+    <div class="formRow">
+      <label class="hint">Base URL for icons (optional if seed.json uses absolute URLs)</label>
+      <input id="baseUrl" type="url" placeholder="https://example.com/aac-pack/">
+    </div>
+    <div class="hint">
+      Tip: host your updated pack (seed.json + icons) anywhere reachable over HTTPS. The app will cache it for offline use.
+    </div>
+  </div>
+  <div class="dialogFoot">
+    <button class="btn secondary" id="btnSaveSettings" type="button">Save</button>
+    <button class="btn" id="btnCheckUpdates" type="button">Check & Download</button>
+  </div>
+</dialog>
+
+<script src="./app.js"></script>
+</body>
+</html>
