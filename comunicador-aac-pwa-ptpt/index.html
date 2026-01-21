@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Comunicador AAC (PT-PT)</title>
+  <link rel="manifest" href="./manifest.webmanifest">
+  <meta name="theme-color" content="#06b6d4">
+<style>
+  :root{
+    --bg:#0b1220;
+    --frame:#0f172a;
+    --ink:#0b1220;
+    --panel:#f8fafc;
+    --panel2:#e5e7eb;
+    --grid:#d1d5db;
+    --accent:#06b6d4;
+    --accent2:#0ea5e9;
+    --danger:#ef4444;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu;background:var(--bg);display:flex;justify-content:center}
+  .phone{
+    width:min(980px, 100vw);
+    min-height:100vh;
+    background:linear-gradient(180deg,#111827,#0b1220);
+    padding:10px;
+  }
+  .app{
+    border-radius:20px;
+    overflow:hidden;
+    background:#111827;
+    box-shadow:0 18px 60px rgba(0,0,0,.55);
+    border:1px solid rgba(255,255,255,.08);
+  }
+  .topbar{
+    background:var(--panel);
+    padding:10px 12px;
+    display:flex;
+    align-items:center;
+    gap:10px;
+    border-bottom:2px solid var(--grid);
+  }
+  .badge{
+    width:26px;height:26px;border-radius:8px;
+    background:linear-gradient(90deg,var(--accent2),var(--accent));
+    display:grid;place-items:center;
+    color:white;font-weight:900;
+  }
+  .crumb{
+    font-weight:900;
+    color:#111827;
+    letter-spacing:.2px;
+  }
+  .screen{
+    background:var(--panel);
+    padding:10px 12px 8px;
+    border-bottom:2px solid var(--grid);
+  }
+  .phraseBox{
+    height:150px;
+    border:2px solid var(--grid);
+    border-radius:10px;
+    background:white;
+    padding:10px;
+    overflow:auto;
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    align-content:flex-start;
+  }
+  .chip{
+    display:inline-flex;
+    gap:8px;
+    align-items:center;
+    border:2px solid #c7d2fe;
+    background:#eef2ff;
+    color:#111827;
+    padding:8px 10px;
+    border-radius:999px;
+    font-weight:900;
+    cursor:pointer;
+    user-select:none;
+  }
+  .chip img{width:26px;height:26px;object-fit:contain}
+  .hint{
+    margin-top:8px;
+    display:flex;
+    justify-content:space-between;
+    color:#334155;
+    font-size:12px;
+    font-weight:700;
+  }
+  .grid{
+    background:var(--panel2);
+    padding:8px;
+    display:grid;
+    gap:6px;
+    grid-template-columns:repeat(6, 1fr);
+    border-top:1px solid #cbd5e1;
+  }
+  .tile{
+    background:white;
+    border:2px solid #9ca3af;
+    border-radius:10px;
+    min-height:108px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:8px;
+    padding:10px 8px;
+    cursor:pointer;
+    user-select:none;
+  }
+  .tile:active{transform:translateY(1px)}
+  .tile .icon{
+    width:40px;height:40px;border-radius:999px;
+    display:grid;place-items:center;
+    background:#e2e8f0;
+  }
+  .tile img.pic{width:44px;height:44px;object-fit:contain}
+  .tile .lbl{
+    font-weight:950;
+    font-size:12px;
+    color:#111827;
+    text-align:center;
+    line-height:1.05;
+    text-transform:uppercase;
+  }
+  .tile .sub{
+    font-weight:900;
+    font-size:12px;
+    color:#111827;
+    text-align:center;
+    line-height:1.05;
+  }
+  .tile.action{
+    background:#f3f4f6;
+  }
+  .tile.action .lbl{color:#111827}
+  .tile.action .icon{background:linear-gradient(90deg,var(--accent2),var(--accent)); color:white}
+  .tile.action.danger .icon{background:var(--danger)}
+  .rowTitle{
+    grid-column:1/-1;
+    font-size:12px;
+    font-weight:900;
+    color:#111827;
+    padding:2px 4px;
+  }
+  dialog{
+    border:none;border-radius:14px;
+    max-width:560px;width:calc(100% - 18px);
+    box-shadow:0 20px 60px rgba(0,0,0,.55);
+  }
+  dialog::backdrop{background:rgba(0,0,0,.55)}
+  .dlg{
+    background:var(--panel);
+    padding:12px;
+  }
+  .dlg h2{margin:0 0 10px 0;font-size:16px}
+  .row{display:flex;gap:10px;align-items:center;margin:10px 0;flex-wrap:wrap}
+  .btn{
+    border:none;border-radius:12px;padding:10px 12px;
+    font-weight:950;cursor:pointer;
+    background:linear-gradient(90deg,var(--accent2),var(--accent)); color:#0b1220;
+  }
+  .btn.sec{background:#e5e7eb}
+  input[type="range"]{width:220px}
+  @media (max-width:720px){
+    .phraseBox{height:120px}
+    .grid{grid-template-columns:repeat(3, 1fr)}
+    .tile{min-height:110px}
+    .tile .lbl{font-size:12px}
+  }
+</style>
+</head>
+<body>
+<div class="phone">
+  <div class="app">
+    <div class="topbar">
+      <div class="badge">≡</div>
+      <div class="crumb" id="crumb">BASE | MENU PRINCIPAL</div>
+    </div>
+
+    <div class="screen">
+      <div class="phraseBox" id="phraseBox" aria-label="Frase"></div>
+      <div class="hint">
+        <span>Toque num símbolo para adicionar. Toque na frase para remover.</span>
+        <label style="display:flex;gap:8px;align-items:center;font-weight:900">
+          <input id="speakOnTap" type="checkbox" checked>
+          Falar ao tocar
+        </label>
+      </div>
+    </div>
+
+    <div class="grid" id="grid" aria-label="Grelha"></div>
+  </div>
+</div>
+
+<dialog id="dlgMore">
+  <div class="dlg">
+    <h2>Mais ações</h2>
+    <div class="row">
+      <label style="font-weight:900">Velocidade</label>
+      <input id="rate" type="range" min="0.5" max="2" step="0.1" value="1">
+      <span id="rateVal" style="font-weight:900">1.0</span>
+    </div>
+    <div class="row">
+      <label style="font-weight:900">Tom</label>
+      <input id="pitch" type="range" min="0.5" max="2" step="0.1" value="1">
+      <span id="pitchVal" style="font-weight:900">1.0</span>
+    </div>
+    <div class="row">
+      <button class="btn sec" id="btnCloseMore" type="button">Fechar</button>
+    </div>
+  </div>
+</dialog>
+
+<script src="./app.js"></script>
+</body>
+</html>

@@ -8,6 +8,11 @@
   },
   "categorias": [
     {
+      "id": "base",
+      "nome": "Base",
+      "emoji": "🏁"
+    },
+    {
       "id": "comida",
       "nome": "Comida",
       "emoji": "🍽️"
@@ -80,6 +85,30 @@
       "texto": "Professor / Professora.",
       "categoria": "escola",
       "icone": "icons/escola/professor.svg"
+    },
+    {
+      "id": "sim",
+      "texto": "Sim.",
+      "categoria": "base",
+      "icone": "icons/base/sim.svg"
+    },
+    {
+      "id": "nao",
+      "texto": "Não.",
+      "categoria": "base",
+      "icone": "icons/base/nao.svg"
+    },
+    {
+      "id": "preciso_ajuda",
+      "texto": "Preciso de ajuda.",
+      "categoria": "base",
+      "icone": "icons/base/ajuda.svg"
+    },
+    {
+      "id": "nao_tenho_simbolo",
+      "texto": "Não tenho símbolo.",
+      "categoria": "base",
+      "icone": "icons/base/nao_tenho_simbolo.svg"
     }
   ]
 }
