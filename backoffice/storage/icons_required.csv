@@ -1,0 +1,121 @@
+item_id,texto,categoria,icon_path,expected_filename
+sim,Sim,base,icons/sim.svg,sim.svg
+nao,Não,base,icons/nao.svg,nao.svg
+nao_sei,Não sei,base,icons/nao sei.svg,nao sei.svg
+ajuda,Preciso de ajuda,base,icons/ajuda.svg,ajuda.svg
+obrigado,Obrigado,base,icons/obrigado.svg,obrigado.svg
+por_favor,Por favor,base,icons/por favor.svg,por favor.svg
+mais,Mais,base,icons/mais.svg,mais.svg
+acabou,Acabou,base,icons/acabou.svg,acabou.svg
+quero,Quero,base,icons/quero.svg,quero.svg
+nao_quero,Não quero,base,icons/nao quero.svg,nao quero.svg
+quero_comer,Quero comer,necessidades,icons/comer.svg,comer.svg
+quero_beber,Quero beber,necessidades,icons/beber.svg,beber.svg
+quero_descansar,Quero descansar,necessidades,icons/descansar.svg,descansar.svg
+quero_dormir,Quero dormir,necessidades,icons/dormir.svg,dormir.svg
+quero_brincar,Quero brincar,necessidades,icons/brincar.svg,brincar.svg
+quero_ir_embora,Quero ir embora,necessidades,icons/ir embora.svg,ir embora.svg
+quero_parar,Quero parar,necessidades,icons/parar.svg,parar.svg
+quero_mais,Quero mais,necessidades,icons/mais.svg,mais.svg
+preciso_casa_banho,Preciso de ir à casa de banho,necessidades,icons/casa de banho.svg,casa de banho.svg
+preciso_silencio,Preciso de silêncio,necessidades,icons/silencio.svg,silencio.svg
+pao,Pão,comida,icons/pao.svg,pao.svg
+sopa,Sopa,comida,icons/sopa.svg,sopa.svg
+arroz,Arroz,comida,icons/arroz.svg,arroz.svg
+massa,Massa,comida,icons/massa.svg,massa.svg
+carne,Carne,comida,icons/carne.svg,carne.svg
+peixe,Peixe,comida,icons/peixe.svg,peixe.svg
+ovo,Ovo,comida,icons/ovo.svg,ovo.svg
+fruta,Fruta,comida,icons/fruta.svg,fruta.svg
+banana,Banana,comida,icons/banana.svg,banana.svg
+maca,Maçã,comida,icons/maca.svg,maca.svg
+bolacha,Bolacha,comida,icons/bolacha.svg,bolacha.svg
+iogurte,Iogurte,comida,icons/iogurte.svg,iogurte.svg
+sandes,Sandes,comida,icons/sandes.svg,sandes.svg
+queijo,Queijo,comida,icons/queijo.svg,queijo.svg
+comer,Comer,comida,icons/comer.svg,comer.svg
+agua,Água,bebidas,icons/agua.svg,agua.svg
+leite,Leite,bebidas,icons/leite.svg,leite.svg
+sumo,Sumo,bebidas,icons/sumo.svg,sumo.svg
+cha,Chá,bebidas,icons/cha.svg,cha.svg
+beber,Beber,bebidas,icons/beber.svg,beber.svg
+copo,Copo,bebidas,icons/copo.svg,copo.svg
+palhinha,Palhinha,bebidas,icons/palhinha.svg,palhinha.svg
+lavar_maos,Lavar as mãos,higiene,icons/lavar maos.svg,lavar maos.svg
+tomar_banho,Tomar banho,higiene,icons/tomar banho.svg,tomar banho.svg
+escovar_dentes,Escovar os dentes,higiene,icons/escovar dentes.svg,escovar dentes.svg
+mudar_fralda,Mudar fralda,higiene,icons/fralda.svg,fralda.svg
+limpar,Limpar,higiene,icons/limpar.svg,limpar.svg
+papel_higienico,Papel higiénico,higiene,icons/papel higienico.svg,papel higienico.svg
+casa_banho,Casa de banho,higiene,icons/casa de banho.svg,casa de banho.svg
+dor,Tenho dor,corpo_saude,icons/dor.svg,dor.svg
+dor_cabeca,Dói-me a cabeça,corpo_saude,icons/dor cabeca.svg,dor cabeca.svg
+dor_barriga,Dói-me a barriga,corpo_saude,icons/dor barriga.svg,dor barriga.svg
+dor_dentes,Dói-me um dente,corpo_saude,icons/dor dentes.svg,dor dentes.svg
+estou_doente,Estou doente,corpo_saude,icons/doente.svg,doente.svg
+tenho_frio,Tenho frio,corpo_saude,icons/frio.svg,frio.svg
+tenho_calor,Tenho calor,corpo_saude,icons/calor.svg,calor.svg
+estou_cansado,Estou cansado,corpo_saude,icons/cansado.svg,cansado.svg
+medicamento,Medicamento,corpo_saude,icons/medicamento.svg,medicamento.svg
+medico,Médico,corpo_saude,icons/medico.svg,medico.svg
+feliz,Estou feliz,emocoes,icons/feliz.svg,feliz.svg
+triste,Estou triste,emocoes,icons/triste.svg,triste.svg
+zangado,Estou zangado,emocoes,icons/zangado.svg,zangado.svg
+medo,Tenho medo,emocoes,icons/medo.svg,medo.svg
+calmo,Estou calmo,emocoes,icons/calmo.svg,calmo.svg
+nervoso,Estou nervoso,emocoes,icons/nervoso.svg,nervoso.svg
+gosto,Gosto,emocoes,icons/gosto.svg,gosto.svg
+nao_gosto,Não gosto,emocoes,icons/nao gosto.svg,nao gosto.svg
+assustado,Estou assustado,emocoes,icons/assustado.svg,assustado.svg
+sozinho,Quero estar sozinho,emocoes,icons/sozinho.svg,sozinho.svg
+mae,Mãe,pessoas,icons/mae.svg,mae.svg
+pai,Pai,pessoas,icons/pai.svg,pai.svg
+professor,Professor,pessoas,icons/professor.svg,professor.svg
+assistente,Assistente,pessoas,icons/assistente.svg,assistente.svg
+amigo,Amigo,pessoas,icons/amigo.svg,amigo.svg
+familia,Família,pessoas,icons/familia.svg,familia.svg
+eu,Eu,pessoas,icons/eu.svg,eu.svg
+tu,Tu,pessoas,icons/tu.svg,tu.svg
+casa,Casa,casa,icons/casa.svg,casa.svg
+quarto,Quarto,casa,icons/quarto.svg,quarto.svg
+cozinha,Cozinha,casa,icons/cozinha.svg,cozinha.svg
+sala,Sala,casa,icons/sala.svg,sala.svg
+cama,Cama,casa,icons/cama.svg,cama.svg
+mesa,Mesa,casa,icons/mesa.svg,mesa.svg
+cadeira,Cadeira,casa,icons/cadeira.svg,cadeira.svg
+televisao,Televisão,casa,icons/televisao.svg,televisao.svg
+brinquedos,Brinquedos,casa,icons/brinquedos.svg,brinquedos.svg
+escola,Escola,escola,icons/escola.svg,escola.svg
+sala_aula,Sala de aula,escola,icons/sala de aula.svg,sala de aula.svg
+recreio,Recreio,escola,icons/recreio.svg,recreio.svg
+mochila,Mochila,escola,icons/mochila.svg,mochila.svg
+lapis,Lápis,escola,icons/lapis.svg,lapis.svg
+caderno,Caderno,escola,icons/caderno.svg,caderno.svg
+computador,Computador,escola,icons/computador.svg,computador.svg
+atividade,Atividade,escola,icons/atividade.svg,atividade.svg
+terminar_trabalho,Terminar trabalho,escola,icons/terminar trabalho.svg,terminar trabalho.svg
+agora,Agora,rotinas,icons/agora.svg,agora.svg
+depois,Depois,rotinas,icons/depois.svg,depois.svg
+hoje,Hoje,rotinas,icons/hoje.svg,hoje.svg
+amanha,Amanhã,rotinas,icons/amanha.svg,amanha.svg
+manha,Manhã,rotinas,icons/manha.svg,manha.svg
+tarde,Tarde,rotinas,icons/tarde.svg,tarde.svg
+noite,Noite,rotinas,icons/noite.svg,noite.svg
+esperar,Esperar,rotinas,icons/esperar.svg,esperar.svg
+ir,Ir,rotinas,icons/ir.svg,ir.svg
+voltar,Voltar,rotinas,icons/voltar.svg,voltar.svg
+parque,Parque,locais,icons/parque.svg,parque.svg
+rua,Rua,locais,icons/rua.svg,rua.svg
+carro,Carro,locais,icons/carro.svg,carro.svg
+autocarro,Autocarro,locais,icons/autocarro.svg,autocarro.svg
+hospital,Hospital,locais,icons/hospital.svg,hospital.svg
+supermercado,Supermercado,locais,icons/supermercado.svg,supermercado.svg
+centro_comercial,Centro comercial,locais,icons/centro comercial.svg,centro comercial.svg
+praia,Praia,locais,icons/praia.svg,praia.svg
+perigo,Perigo,seguranca,icons/perigo.svg,perigo.svg
+nao_tocar,Não tocar,seguranca,icons/nao tocar.svg,nao tocar.svg
+parar,Parar,seguranca,icons/parar.svg,parar.svg
+emergencia,Emergência,seguranca,icons/emergencia.svg,emergencia.svg
+chamar_adulto,Chamar adulto,seguranca,icons/adulto.svg,adulto.svg
+perdido,Estou perdido,seguranca,icons/perdido.svg,perdido.svg
+telefone,Telefone,seguranca,icons/telefone.svg,telefone.svg

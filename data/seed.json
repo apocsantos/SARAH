@@ -1,0 +1,114 @@
+{
+  "versao": 1,
+  "idioma": "pt-PT",
+  "voz": {
+    "lang": "pt-PT",
+    "rate": 1.0,
+    "pitch": 1.0
+  },
+  "categorias": [
+    {
+      "id": "base",
+      "nome": "Base",
+      "emoji": "🏁"
+    },
+    {
+      "id": "comida",
+      "nome": "Comida",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "bebidas",
+      "nome": "Bebidas",
+      "emoji": "🥤"
+    },
+    {
+      "id": "corpo",
+      "nome": "Corpo",
+      "emoji": "🚻"
+    },
+    {
+      "id": "emocoes",
+      "nome": "Emoções",
+      "emoji": "🙂"
+    },
+    {
+      "id": "escola",
+      "nome": "Escola",
+      "emoji": "🏫"
+    },
+    {
+      "id": "casa",
+      "nome": "Casa",
+      "emoji": "🏠"
+    }
+  ],
+  "itens": [
+    {
+      "id": "comer",
+      "texto": "Quero comer.",
+      "categoria": "comida",
+      "icone": "icons/comida/comer.svg"
+    },
+    {
+      "id": "agua",
+      "texto": "Quero água.",
+      "categoria": "bebidas",
+      "icone": "icons/bebidas/agua.svg"
+    },
+    {
+      "id": "wc",
+      "texto": "Preciso de ir à casa de banho.",
+      "categoria": "corpo",
+      "icone": "icons/corpo/casa_de_banho.svg"
+    },
+    {
+      "id": "dor_cabeca",
+      "texto": "Dói-me a cabeça.",
+      "categoria": "corpo",
+      "icone": "icons/corpo/dor_cabeca.svg"
+    },
+    {
+      "id": "triste",
+      "texto": "Estou triste.",
+      "categoria": "emocoes",
+      "icone": "icons/emocoes/triste.svg"
+    },
+    {
+      "id": "ola",
+      "texto": "Olá!",
+      "categoria": "casa",
+      "icone": "icons/casa/ola.svg"
+    },
+    {
+      "id": "professor",
+      "texto": "Professor.",
+      "categoria": "escola",
+      "icone": "icons/escola/professor.svg"
+    },
+    {
+      "id": "sim",
+      "texto": "Sim.",
+      "categoria": "base",
+      "icone": "icons/base/sim.svg"
+    },
+    {
+      "id": "nao",
+      "texto": "Não.",
+      "categoria": "base",
+      "icone": "icons/base/nao.svg"
+    },
+    {
+      "id": "preciso_ajuda",
+      "texto": "Preciso de ajuda.",
+      "categoria": "base",
+      "icone": "icons/base/ajuda.svg"
+    },
+    {
+      "id": "nao_tenho_simbolo",
+      "texto": "Não tenho símbolo.",
+      "categoria": "base",
+      "icone": "icons/base/nao_tenho_simbolo.svg"
+    }
+  ]
+}

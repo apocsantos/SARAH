@@ -1,0 +1,12 @@
+[11-Jun-2026 14:55:03 Europe/Lisbon] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 19 UNIQUE constraint failed: users.username in /home/ebaveromar/sarah.aeaveromar.pt/backoffice/lib/bootstrap.php:106
+Stack trace:
+#0 /home/ebaveromar/sarah.aeaveromar.pt/backoffice/lib/bootstrap.php(106): PDOStatement->execute()
+#1 /home/ebaveromar/sarah.aeaveromar.pt/backoffice/users.php(8): create_user()
+#2 {main}
+  thrown in /home/ebaveromar/sarah.aeaveromar.pt/backoffice/lib/bootstrap.php on line 106
+[11-Jun-2026 14:55:27 Europe/Lisbon] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 19 UNIQUE constraint failed: users.username in /home/ebaveromar/sarah.aeaveromar.pt/backoffice/lib/bootstrap.php:106
+Stack trace:
+#0 /home/ebaveromar/sarah.aeaveromar.pt/backoffice/lib/bootstrap.php(106): PDOStatement->execute()
+#1 /home/ebaveromar/sarah.aeaveromar.pt/backoffice/users.php(8): create_user()
+#2 {main}
+  thrown in /home/ebaveromar/sarah.aeaveromar.pt/backoffice/lib/bootstrap.php on line 106

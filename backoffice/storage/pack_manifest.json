@@ -1,0 +1,10 @@
+{
+  "type": "sarah-pack",
+  "pack_id": "sarah_arasaac_dia_a_dia_pt_v1",
+  "version": 1,
+  "language": "pt-PT",
+  "categories": 13,
+  "items": 120,
+  "entry": "seed.json",
+  "assets_base_url": "https://sarah.aeaveromar.pt/backoffice/storage/"
+}

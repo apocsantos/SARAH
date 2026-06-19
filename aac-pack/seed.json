@@ -1,0 +1,13 @@
+{
+  "versao": 3,
+  "exportedAt": "2026-01-21T12:00:00Z",
+  "idioma": "pt-PT",
+  "voz": { "lang": "pt-PT", "rate": 1.0, "pitch": 1.0 },
+  "categorias": [
+    { "id": "comida", "nome": "Comida", "emoji": "🍽️" },
+    { "id": "bebidas", "nome": "Bebidas", "emoji": "🥤" }
+  ],
+  "itens": [
+    { "id": "agua", "texto": "Quero água.", "categoria": "bebidas", "icone": "icons/bebidas/agua.svg" }
+  ]
+}

@@ -1,0 +1,810 @@
+{
+    "versao": 1,
+    "idioma": "pt-PT",
+    "voz": {
+        "lang": "gato",
+        "rate": 1,
+        "pitch": 1
+    },
+    "categorias": [
+        {
+            "id": "base",
+            "nome": "Base",
+            "emoji": "🏁"
+        },
+        {
+            "id": "necessidades",
+            "nome": "Necessidades",
+            "emoji": "⭐"
+        },
+        {
+            "id": "comida",
+            "nome": "Comida",
+            "emoji": "🍽️"
+        },
+        {
+            "id": "bebidas",
+            "nome": "Bebidas",
+            "emoji": "🥤"
+        },
+        {
+            "id": "higiene",
+            "nome": "Higiene",
+            "emoji": "🧼"
+        },
+        {
+            "id": "corpo_saude",
+            "nome": "Corpo e saúde",
+            "emoji": "🩺"
+        },
+        {
+            "id": "emocoes",
+            "nome": "Emoções",
+            "emoji": "🙂"
+        },
+        {
+            "id": "pessoas",
+            "nome": "Pessoas",
+            "emoji": "👥"
+        },
+        {
+            "id": "casa",
+            "nome": "Casa",
+            "emoji": "🏠"
+        },
+        {
+            "id": "escola",
+            "nome": "Escola",
+            "emoji": "🏫"
+        },
+        {
+            "id": "rotinas",
+            "nome": "Rotinas",
+            "emoji": "🕘"
+        },
+        {
+            "id": "locais",
+            "nome": "Locais",
+            "emoji": "📍"
+        },
+        {
+            "id": "seguranca",
+            "nome": "Segurança",
+            "emoji": "🛡️"
+        }
+    ],
+    "itens": [
+        {
+            "id": "sim",
+            "categoria": "base",
+            "texto": "Sim",
+            "icone": "icons/sim.svg"
+        },
+        {
+            "id": "nao",
+            "categoria": "base",
+            "texto": "Não",
+            "icone": "icons/nao.svg"
+        },
+        {
+            "id": "nao_sei",
+            "categoria": "base",
+            "texto": "Não sei",
+            "icone": "icons/nao_sei.svg"
+        },
+        {
+            "id": "ajuda",
+            "categoria": "base",
+            "texto": "Preciso de ajuda",
+            "icone": "icons/ajuda.svg"
+        },
+        {
+            "id": "obrigado",
+            "categoria": "base",
+            "texto": "Obrigado",
+            "icone": "icons/obrigado.svg"
+        },
+        {
+            "id": "por_favor",
+            "categoria": "base",
+            "texto": "Por favor",
+            "icone": "icons/por_favor.svg"
+        },
+        {
+            "id": "mais",
+            "categoria": "base",
+            "texto": "Mais",
+            "icone": "icons/mais.svg"
+        },
+        {
+            "id": "acabou",
+            "categoria": "base",
+            "texto": "Acabou",
+            "icone": "icons/acabou.svg"
+        },
+        {
+            "id": "quero",
+            "categoria": "base",
+            "texto": "Quero",
+            "icone": "icons/quero.svg"
+        },
+        {
+            "id": "nao_quero",
+            "categoria": "base",
+            "texto": "Não quero",
+            "icone": "icons/nao_quero.svg"
+        },
+        {
+            "id": "quero_comer",
+            "categoria": "necessidades",
+            "texto": "Quero comer",
+            "icone": "icons/comer.svg"
+        },
+        {
+            "id": "quero_beber",
+            "categoria": "necessidades",
+            "texto": "Quero beber",
+            "icone": "icons/beber.svg"
+        },
+        {
+            "id": "quero_descansar",
+            "categoria": "necessidades",
+            "texto": "Quero descansar",
+            "icone": "icons/descansar.svg"
+        },
+        {
+            "id": "quero_dormir",
+            "categoria": "necessidades",
+            "texto": "Quero dormir",
+            "icone": "icons/dormir.svg"
+        },
+        {
+            "id": "quero_brincar",
+            "categoria": "necessidades",
+            "texto": "Quero brincar",
+            "icone": "icons/brincar.svg"
+        },
+        {
+            "id": "quero_ir_embora",
+            "categoria": "necessidades",
+            "texto": "Quero ir embora",
+            "icone": "icons/ir_embora.svg"
+        },
+        {
+            "id": "quero_parar",
+            "categoria": "necessidades",
+            "texto": "Quero parar",
+            "icone": "icons/parar.svg"
+        },
+        {
+            "id": "quero_mais",
+            "categoria": "necessidades",
+            "texto": "Quero mais",
+            "icone": "icons/mais.svg"
+        },
+        {
+            "id": "preciso_casa_banho",
+            "categoria": "necessidades",
+            "texto": "Preciso de ir à casa de banho",
+            "icone": "icons/casa_de_banho.svg"
+        },
+        {
+            "id": "preciso_silencio",
+            "categoria": "necessidades",
+            "texto": "Preciso de silêncio",
+            "icone": "icons/silencio.svg"
+        },
+        {
+            "id": "pao",
+            "categoria": "comida",
+            "texto": "Pão",
+            "icone": "icons/pao.svg"
+        },
+        {
+            "id": "sopa",
+            "categoria": "comida",
+            "texto": "Sopa",
+            "icone": "icons/sopa.svg"
+        },
+        {
+            "id": "arroz",
+            "categoria": "comida",
+            "texto": "Arroz",
+            "icone": "icons/arroz.svg"
+        },
+        {
+            "id": "massa",
+            "categoria": "comida",
+            "texto": "Massa",
+            "icone": "icons/massa.svg"
+        },
+        {
+            "id": "carne",
+            "categoria": "comida",
+            "texto": "Carne",
+            "icone": "icons/carne.svg"
+        },
+        {
+            "id": "peixe",
+            "categoria": "comida",
+            "texto": "Peixe",
+            "icone": "icons/peixe.svg"
+        },
+        {
+            "id": "ovo",
+            "categoria": "comida",
+            "texto": "Ovo",
+            "icone": "icons/ovo.svg"
+        },
+        {
+            "id": "fruta",
+            "categoria": "comida",
+            "texto": "Fruta",
+            "icone": "icons/fruta.svg"
+        },
+        {
+            "id": "banana",
+            "categoria": "comida",
+            "texto": "Banana",
+            "icone": "icons/banana.svg"
+        },
+        {
+            "id": "maca",
+            "categoria": "comida",
+            "texto": "Maçã",
+            "icone": "icons/maca.svg"
+        },
+        {
+            "id": "bolacha",
+            "categoria": "comida",
+            "texto": "Bolacha",
+            "icone": "icons/bolacha.svg"
+        },
+        {
+            "id": "iogurte",
+            "categoria": "comida",
+            "texto": "Iogurte",
+            "icone": "icons/iogurte.svg"
+        },
+        {
+            "id": "sandes",
+            "categoria": "comida",
+            "texto": "Sandes",
+            "icone": "icons/sandes.svg"
+        },
+        {
+            "id": "queijo",
+            "categoria": "comida",
+            "texto": "Queijo",
+            "icone": "icons/queijo.svg"
+        },
+        {
+            "id": "comer",
+            "categoria": "comida",
+            "texto": "Comer",
+            "icone": "icons/comer.svg"
+        },
+        {
+            "id": "agua",
+            "categoria": "bebidas",
+            "texto": "Água",
+            "icone": "icons/agua.svg"
+        },
+        {
+            "id": "leite",
+            "categoria": "bebidas",
+            "texto": "Leite",
+            "icone": "icons/leite.svg"
+        },
+        {
+            "id": "sumo",
+            "categoria": "bebidas",
+            "texto": "Sumo",
+            "icone": "icons/sumo.svg"
+        },
+        {
+            "id": "cha",
+            "categoria": "bebidas",
+            "texto": "Chá",
+            "icone": "icons/cha.svg"
+        },
+        {
+            "id": "beber",
+            "categoria": "bebidas",
+            "texto": "Beber",
+            "icone": "icons/beber.svg"
+        },
+        {
+            "id": "copo",
+            "categoria": "bebidas",
+            "texto": "Copo",
+            "icone": "icons/copo.svg"
+        },
+        {
+            "id": "palhinha",
+            "categoria": "bebidas",
+            "texto": "Palhinha",
+            "icone": "icons/palhinha.svg"
+        },
+        {
+            "id": "lavar_maos",
+            "categoria": "higiene",
+            "texto": "Lavar as mãos",
+            "icone": "icons/lavar_maos.svg"
+        },
+        {
+            "id": "tomar_banho",
+            "categoria": "higiene",
+            "texto": "Tomar banho",
+            "icone": "icons/tomar_banho.svg"
+        },
+        {
+            "id": "escovar_dentes",
+            "categoria": "higiene",
+            "texto": "Escovar os dentes",
+            "icone": "icons/escovar_dentes.svg"
+        },
+        {
+            "id": "mudar_fralda",
+            "categoria": "higiene",
+            "texto": "Mudar fralda",
+            "icone": "icons/fralda.svg"
+        },
+        {
+            "id": "limpar",
+            "categoria": "higiene",
+            "texto": "Limpar",
+            "icone": "icons/limpar.svg"
+        },
+        {
+            "id": "papel_higienico",
+            "categoria": "higiene",
+            "texto": "Papel higiénico",
+            "icone": "icons/papel_higienico.svg"
+        },
+        {
+            "id": "casa_banho",
+            "categoria": "higiene",
+            "texto": "Casa de banho",
+            "icone": "icons/casa_de_banho.svg"
+        },
+        {
+            "id": "dor",
+            "categoria": "corpo_saude",
+            "texto": "Tenho dor",
+            "icone": "icons/dor.svg"
+        },
+        {
+            "id": "dor_cabeca",
+            "categoria": "corpo_saude",
+            "texto": "Dói-me a cabeça",
+            "icone": "icons/dor_cabeca.svg"
+        },
+        {
+            "id": "dor_barriga",
+            "categoria": "corpo_saude",
+            "texto": "Dói-me a barriga",
+            "icone": "icons/dor_barriga.svg"
+        },
+        {
+            "id": "dor_dentes",
+            "categoria": "corpo_saude",
+            "texto": "Dói-me um dente",
+            "icone": "icons/dor_dentes.svg"
+        },
+        {
+            "id": "estou_doente",
+            "categoria": "corpo_saude",
+            "texto": "Estou doente",
+            "icone": "icons/doente.svg"
+        },
+        {
+            "id": "tenho_frio",
+            "categoria": "corpo_saude",
+            "texto": "Tenho frio",
+            "icone": "icons/frio.svg"
+        },
+        {
+            "id": "tenho_calor",
+            "categoria": "corpo_saude",
+            "texto": "Tenho calor",
+            "icone": "icons/calor.svg"
+        },
+        {
+            "id": "estou_cansado",
+            "categoria": "corpo_saude",
+            "texto": "Estou cansado",
+            "icone": "icons/cansado.svg"
+        },
+        {
+            "id": "medicamento",
+            "categoria": "corpo_saude",
+            "texto": "Medicamento",
+            "icone": "icons/medicamento.svg"
+        },
+        {
+            "id": "medico",
+            "categoria": "corpo_saude",
+            "texto": "Médico",
+            "icone": "icons/medico.svg"
+        },
+        {
+            "id": "feliz",
+            "categoria": "emocoes",
+            "texto": "Estou feliz",
+            "icone": "icons/feliz.svg"
+        },
+        {
+            "id": "triste",
+            "categoria": "emocoes",
+            "texto": "Estou triste",
+            "icone": "icons/triste.svg"
+        },
+        {
+            "id": "zangado",
+            "categoria": "emocoes",
+            "texto": "Estou zangado",
+            "icone": "icons/zangado.svg"
+        },
+        {
+            "id": "medo",
+            "categoria": "emocoes",
+            "texto": "Tenho medo",
+            "icone": "icons/medo.svg"
+        },
+        {
+            "id": "calmo",
+            "categoria": "emocoes",
+            "texto": "Estou calmo",
+            "icone": "icons/calmo.svg"
+        },
+        {
+            "id": "nervoso",
+            "categoria": "emocoes",
+            "texto": "Estou nervoso",
+            "icone": "icons/nervoso.svg"
+        },
+        {
+            "id": "gosto",
+            "categoria": "emocoes",
+            "texto": "Gosto",
+            "icone": "icons/gosto.svg"
+        },
+        {
+            "id": "nao_gosto",
+            "categoria": "emocoes",
+            "texto": "Não gosto",
+            "icone": "icons/nao_gosto.svg"
+        },
+        {
+            "id": "assustado",
+            "categoria": "emocoes",
+            "texto": "Estou assustado",
+            "icone": "icons/assustado.svg"
+        },
+        {
+            "id": "sozinho",
+            "categoria": "emocoes",
+            "texto": "Quero estar sozinho",
+            "icone": "icons/sozinho.svg"
+        },
+        {
+            "id": "mae",
+            "categoria": "pessoas",
+            "texto": "Mãe",
+            "icone": "icons/mae.svg"
+        },
+        {
+            "id": "pai",
+            "categoria": "pessoas",
+            "texto": "Pai",
+            "icone": "icons/pai.svg"
+        },
+        {
+            "id": "professor",
+            "categoria": "pessoas",
+            "texto": "Professor",
+            "icone": "icons/professor.svg"
+        },
+        {
+            "id": "assistente",
+            "categoria": "pessoas",
+            "texto": "Assistente",
+            "icone": "icons/assistente.svg"
+        },
+        {
+            "id": "amigo",
+            "categoria": "pessoas",
+            "texto": "Amigo",
+            "icone": "icons/amigo.svg"
+        },
+        {
+            "id": "familia",
+            "categoria": "pessoas",
+            "texto": "Família",
+            "icone": "icons/familia.svg"
+        },
+        {
+            "id": "eu",
+            "categoria": "pessoas",
+            "texto": "Eu",
+            "icone": "icons/eu.svg"
+        },
+        {
+            "id": "tu",
+            "categoria": "pessoas",
+            "texto": "Tu",
+            "icone": "icons/tu.svg"
+        },
+        {
+            "id": "casa",
+            "categoria": "casa",
+            "texto": "Casa",
+            "icone": "icons/casa.svg"
+        },
+        {
+            "id": "quarto",
+            "categoria": "casa",
+            "texto": "Quarto",
+            "icone": "icons/quarto.svg"
+        },
+        {
+            "id": "cozinha",
+            "categoria": "casa",
+            "texto": "Cozinha",
+            "icone": "icons/cozinha.svg"
+        },
+        {
+            "id": "sala",
+            "categoria": "casa",
+            "texto": "Sala",
+            "icone": "icons/sala.svg"
+        },
+        {
+            "id": "cama",
+            "categoria": "casa",
+            "texto": "Cama",
+            "icone": "icons/cama.svg"
+        },
+        {
+            "id": "mesa",
+            "categoria": "casa",
+            "texto": "Mesa",
+            "icone": "icons/mesa.svg"
+        },
+        {
+            "id": "cadeira",
+            "categoria": "casa",
+            "texto": "Cadeira",
+            "icone": "icons/cadeira.svg"
+        },
+        {
+            "id": "televisao",
+            "categoria": "casa",
+            "texto": "Televisão",
+            "icone": "icons/televisao.svg"
+        },
+        {
+            "id": "brinquedos",
+            "categoria": "casa",
+            "texto": "Brinquedos",
+            "icone": "icons/brinquedos.svg"
+        },
+        {
+            "id": "escola",
+            "categoria": "escola",
+            "texto": "Escola",
+            "icone": "icons/escola.svg"
+        },
+        {
+            "id": "sala_aula",
+            "categoria": "escola",
+            "texto": "Sala de aula",
+            "icone": "icons/sala_de_aula.svg"
+        },
+        {
+            "id": "recreio",
+            "categoria": "escola",
+            "texto": "Recreio",
+            "icone": "icons/recreio.svg"
+        },
+        {
+            "id": "mochila",
+            "categoria": "escola",
+            "texto": "Mochila",
+            "icone": "icons/mochila.svg"
+        },
+        {
+            "id": "lapis",
+            "categoria": "escola",
+            "texto": "Lápis",
+            "icone": "icons/lapis.svg"
+        },
+        {
+            "id": "caderno",
+            "categoria": "escola",
+            "texto": "Caderno",
+            "icone": "icons/caderno.svg"
+        },
+        {
+            "id": "computador",
+            "categoria": "escola",
+            "texto": "Computador",
+            "icone": "icons/computador.svg"
+        },
+        {
+            "id": "atividade",
+            "categoria": "escola",
+            "texto": "Atividade",
+            "icone": "icons/atividade.svg"
+        },
+        {
+            "id": "terminar_trabalho",
+            "categoria": "escola",
+            "texto": "Terminar trabalho",
+            "icone": "icons/terminar_trabalho.svg"
+        },
+        {
+            "id": "agora",
+            "categoria": "rotinas",
+            "texto": "Agora",
+            "icone": "icons/agora.svg"
+        },
+        {
+            "id": "depois",
+            "categoria": "rotinas",
+            "texto": "Depois",
+            "icone": "icons/depois.svg"
+        },
+        {
+            "id": "hoje",
+            "categoria": "rotinas",
+            "texto": "Hoje",
+            "icone": "icons/hoje.svg"
+        },
+        {
+            "id": "amanha",
+            "categoria": "rotinas",
+            "texto": "Amanhã",
+            "icone": "icons/amanha.svg"
+        },
+        {
+            "id": "manha",
+            "categoria": "rotinas",
+            "texto": "Manhã",
+            "icone": "icons/manha.svg"
+        },
+        {
+            "id": "tarde",
+            "categoria": "rotinas",
+            "texto": "Tarde",
+            "icone": "icons/tarde.svg"
+        },
+        {
+            "id": "noite",
+            "categoria": "rotinas",
+            "texto": "Noite",
+            "icone": "icons/noite.svg"
+        },
+        {
+            "id": "esperar",
+            "categoria": "rotinas",
+            "texto": "Esperar",
+            "icone": "icons/esperar.svg"
+        },
+        {
+            "id": "ir",
+            "categoria": "rotinas",
+            "texto": "Ir",
+            "icone": "icons/ir.svg"
+        },
+        {
+            "id": "voltar",
+            "categoria": "rotinas",
+            "texto": "Voltar",
+            "icone": "icons/voltar.svg"
+        },
+        {
+            "id": "parque",
+            "categoria": "locais",
+            "texto": "Parque",
+            "icone": "icons/parque.svg"
+        },
+        {
+            "id": "rua",
+            "categoria": "locais",
+            "texto": "Rua",
+            "icone": "icons/rua.svg"
+        },
+        {
+            "id": "carro",
+            "categoria": "locais",
+            "texto": "Carro",
+            "icone": "icons/carro.svg"
+        },
+        {
+            "id": "autocarro",
+            "categoria": "locais",
+            "texto": "Autocarro",
+            "icone": "icons/autocarro.svg"
+        },
+        {
+            "id": "hospital",
+            "categoria": "locais",
+            "texto": "Hospital",
+            "icone": "icons/hospital.svg"
+        },
+        {
+            "id": "supermercado",
+            "categoria": "locais",
+            "texto": "Supermercado",
+            "icone": "icons/supermercado.svg"
+        },
+        {
+            "id": "centro_comercial",
+            "categoria": "locais",
+            "texto": "Centro comercial",
+            "icone": "icons/centro_comercial.svg"
+        },
+        {
+            "id": "praia",
+            "categoria": "locais",
+            "texto": "Praia",
+            "icone": "icons/praia.svg"
+        },
+        {
+            "id": "perigo",
+            "categoria": "seguranca",
+            "texto": "Perigo",
+            "icone": "icons/perigo.svg"
+        },
+        {
+            "id": "nao_tocar",
+            "categoria": "seguranca",
+            "texto": "Não tocar",
+            "icone": "icons/nao_tocar.svg"
+        },
+        {
+            "id": "parar",
+            "categoria": "seguranca",
+            "texto": "Parar",
+            "icone": "icons/parar.svg"
+        },
+        {
+            "id": "emergencia",
+            "categoria": "seguranca",
+            "texto": "Emergência",
+            "icone": "icons/emergencia.svg"
+        },
+        {
+            "id": "chamar_adulto",
+            "categoria": "seguranca",
+            "texto": "Chamar adulto",
+            "icone": "icons/adulto.svg"
+        },
+        {
+            "id": "perdido",
+            "categoria": "seguranca",
+            "texto": "Estou perdido",
+            "icone": "icons/perdido.svg"
+        },
+        {
+            "id": "telefone",
+            "categoria": "seguranca",
+            "texto": "Telefone",
+            "icone": "icons/telefone.svg"
+        },
+        {
+            "id": "sim_copia",
+            "categoria": "base",
+            "texto": "Sim cópia",
+            "icone": "icons/sim.svg"
+        },
+        {
+            "id": "passear",
+            "texto": "Quero ir Passear",
+            "categoria": "base",
+            "icone": "icons/passear.svg"
+        }
+    ]
+}

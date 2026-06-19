@@ -1,0 +1,47 @@
+{
+  "versao": 1,
+  "idioma": "pt-PT",
+  "voz": {
+    "lang": "pt-PT",
+    "rate": 1,
+    "pitch": 1
+  },
+  "categorias": [
+    {
+      "id": "base",
+      "nome": "Base",
+      "emoji": "🏁"
+    },
+    {
+      "id": "comida",
+      "nome": "Comida",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "bebidas",
+      "nome": "Bebidas",
+      "emoji": "🥤"
+    },
+    {
+      "id": "corpo",
+      "nome": "Corpo",
+      "emoji": "🚻"
+    },
+    {
+      "id": "emocoes",
+      "nome": "Emoções",
+      "emoji": "🙂"
+    },
+    {
+      "id": "escola",
+      "nome": "Escola",
+      "emoji": "🏫"
+    },
+    {
+      "id": "casa",
+      "nome": "Casa",
+      "emoji": "🏠"
+    }
+  ],
+  "itens": []
+}

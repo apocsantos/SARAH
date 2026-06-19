@@ -1,0 +1,2 @@
+[17-Jun-2026 15:49:23 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 98570240 bytes) in /home/ebaveromar/sarah.aeaveromar.pt/backoffice/api/library_manifest.php on line 32
+[17-Jun-2026 15:49:25 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 98570240 bytes) in /home/ebaveromar/sarah.aeaveromar.pt/backoffice/api/library_manifest.php on line 32

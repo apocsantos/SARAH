@@ -1,0 +1,4693 @@
+{
+    "ok": true,
+    "generated_at": "2026-04-28T13:17:16+00:00",
+    "storage_root": "/home/ebaveromar/sarah.aeaveromar.pt/backoffice/storage",
+    "icons_root": "/home/ebaveromar/sarah.aeaveromar.pt/backoffice/storage/icons",
+    "total_svg": 7806,
+    "suspicious_count": 1489,
+    "duplicate_group_count": 9,
+    "suspicious": [
+        {
+            "path": "icons/1 cИntimo.svg",
+            "filename": "1 cИntimo.svg",
+            "normalized": "1_cintimo",
+            "suggested_path": "icons/1_cintimo.svg",
+            "size": 6956,
+            "suspicious": true,
+            "mtime": 1777366432
+        },
+        {
+            "path": "icons/10 cИntimos.svg",
+            "filename": "10 cИntimos.svg",
+            "normalized": "10_cintimos",
+            "suggested_path": "icons/10_cintimos.svg",
+            "size": 10608,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/2 cИntimos.svg",
+            "filename": "2 cИntimos.svg",
+            "normalized": "2_cintimos",
+            "suggested_path": "icons/2_cintimos.svg",
+            "size": 8876,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/20 cИntimos.svg",
+            "filename": "20 cИntimos.svg",
+            "normalized": "20_cintimos",
+            "suggested_path": "icons/20_cintimos.svg",
+            "size": 15160,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/5 cИntimos.svg",
+            "filename": "5 cИntimos.svg",
+            "normalized": "5_cintimos",
+            "suggested_path": "icons/5_cintimos.svg",
+            "size": 14496,
+            "suspicious": true,
+            "mtime": 1777366432
+        },
+        {
+            "path": "icons/50 cИntimos.svg",
+            "filename": "50 cИntimos.svg",
+            "normalized": "50_cintimos",
+            "suggested_path": "icons/50_cintimos.svg",
+            "size": 21780,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/abecedаrio.svg",
+            "filename": "abecedаrio.svg",
+            "normalized": "abecedario",
+            "suggested_path": "icons/abecedario.svg",
+            "size": 4844,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/abraЗar.svg",
+            "filename": "abraЗar.svg",
+            "normalized": "abrazar",
+            "suggested_path": "icons/abrazar.svg",
+            "size": 18544,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/abraЗar_2.svg",
+            "filename": "abraЗar_2.svg",
+            "normalized": "abrazar_2",
+            "suggested_path": "icons/abrazar_2.svg",
+            "size": 9144,
+            "suspicious": true,
+            "mtime": 1777366432
+        },
+        {
+            "path": "icons/abrir o frigorбfico.svg",
+            "filename": "abrir o frigorбfico.svg",
+            "normalized": "abrir_o_frigorbfico",
+            "suggested_path": "icons/abrir_o_frigorbfico.svg",
+            "size": 15940,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/abrir parИnteses.svg",
+            "filename": "abrir parИnteses.svg",
+            "normalized": "abrir_parinteses",
+            "suggested_path": "icons/abrir_parinteses.svg",
+            "size": 3976,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/abвbora.svg",
+            "filename": "abвbora.svg",
+            "normalized": "abvbora",
+            "suggested_path": "icons/abvbora.svg",
+            "size": 14212,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/abвboras de halloween.svg",
+            "filename": "abвboras de halloween.svg",
+            "normalized": "abvboras_de_halloween",
+            "suggested_path": "icons/abvboras_de_halloween.svg",
+            "size": 17460,
+            "suspicious": true,
+            "mtime": 1777366432
+        },
+        {
+            "path": "icons/acabou-se a histвria.svg",
+            "filename": "acabou-se a histвria.svg",
+            "normalized": "acabou_se_a_histvria",
+            "suggested_path": "icons/acabou_se_a_histvria.svg",
+            "size": 19720,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/acessбvel.svg",
+            "filename": "acessбvel.svg",
+            "normalized": "acessbvel",
+            "suggested_path": "icons/acessbvel.svg",
+            "size": 12716,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/acidente aВreo.svg",
+            "filename": "acidente aВreo.svg",
+            "normalized": "acidente_avreo",
+            "suggested_path": "icons/acidente_avreo.svg",
+            "size": 38840,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/acordeфes.svg",
+            "filename": "acordeфes.svg",
+            "normalized": "acordefes",
+            "suggested_path": "icons/acordefes.svg",
+            "size": 22424,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/adaptaЗ╞o.svg",
+            "filename": "adaptaЗ╞o.svg",
+            "normalized": "adaptaz_o",
+            "suggested_path": "icons/adaptaz_o.svg",
+            "size": 25460,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/adolescИncia.svg",
+            "filename": "adolescИncia.svg",
+            "normalized": "adolescincia",
+            "suggested_path": "icons/adolescincia.svg",
+            "size": 24532,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/agradаvel.svg",
+            "filename": "agradаvel.svg",
+            "normalized": "agradavel",
+            "suggested_path": "icons/agradavel.svg",
+            "size": 15740,
+            "suspicious": true,
+            "mtime": 1777366432
+        },
+        {
+            "path": "icons/agИncia de viagens.svg",
+            "filename": "agИncia de viagens.svg",
+            "normalized": "agincia_de_viagens",
+            "suggested_path": "icons/agincia_de_viagens.svg",
+            "size": 24356,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/agИncias de viagens.svg",
+            "filename": "agИncias de viagens.svg",
+            "normalized": "agincias_de_viagens",
+            "suggested_path": "icons/agincias_de_viagens.svg",
+            "size": 20996,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/ajuste razoаveis.svg",
+            "filename": "ajuste razoаveis.svg",
+            "normalized": "ajuste_razoaveis",
+            "suggested_path": "icons/ajuste_razoaveis.svg",
+            "size": 18712,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/ajustes razoаveis.svg",
+            "filename": "ajustes razoаveis.svg",
+            "normalized": "ajustes_razoaveis",
+            "suggested_path": "icons/ajustes_razoaveis.svg",
+            "size": 19724,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/alarme de incИndio.svg",
+            "filename": "alarme de incИndio.svg",
+            "normalized": "alarme_de_incindio",
+            "suggested_path": "icons/alarme_de_incindio.svg",
+            "size": 23472,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/alfinete de seguranЗa.svg",
+            "filename": "alfinete de seguranЗa.svg",
+            "normalized": "alfinete_de_seguranza",
+            "suggested_path": "icons/alfinete_de_seguranza.svg",
+            "size": 9592,
+            "suspicious": true,
+            "mtime": 1777366432
+        },
+        {
+            "path": "icons/alfГndega.svg",
+            "filename": "alfГndega.svg",
+            "normalized": "alfgndega",
+            "suggested_path": "icons/alfgndega.svg",
+            "size": 15900,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/algodфes.svg",
+            "filename": "algodфes.svg",
+            "normalized": "algodfes",
+            "suggested_path": "icons/algodfes.svg",
+            "size": 13440,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/almerбa.svg",
+            "filename": "almerбa.svg",
+            "normalized": "almerba",
+            "suggested_path": "icons/almerba.svg",
+            "size": 14024,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/almУndega.svg",
+            "filename": "almУndega.svg",
+            "normalized": "almundega",
+            "suggested_path": "icons/almundega.svg",
+            "size": 16428,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/almУndegas.svg",
+            "filename": "almУndegas.svg",
+            "normalized": "almundegas",
+            "suggested_path": "icons/almundegas.svg",
+            "size": 21936,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/almУndegas_2.svg",
+            "filename": "almУndegas_2.svg",
+            "normalized": "almundegas_2",
+            "suggested_path": "icons/almundegas_2.svg",
+            "size": 14276,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/alЗar.svg",
+            "filename": "alЗar.svg",
+            "normalized": "alzar",
+            "suggested_path": "icons/alzar.svg",
+            "size": 13512,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/alЗas.svg",
+            "filename": "alЗas.svg",
+            "normalized": "alzas",
+            "suggested_path": "icons/alzas.svg",
+            "size": 14188,
+            "suspicious": true,
+            "mtime": 1777366432
+        },
+        {
+            "path": "icons/ambulГncia.svg",
+            "filename": "ambulГncia.svg",
+            "normalized": "ambulgncia",
+            "suggested_path": "icons/ambulgncia.svg",
+            "size": 11220,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/ambulГncia_2.svg",
+            "filename": "ambulГncia_2.svg",
+            "normalized": "ambulgncia_2",
+            "suggested_path": "icons/ambulgncia_2.svg",
+            "size": 9676,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/ambulГncias.svg",
+            "filename": "ambulГncias.svg",
+            "normalized": "ambulgncias",
+            "suggested_path": "icons/ambulgncias.svg",
+            "size": 10388,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/ambulГncias_2.svg",
+            "filename": "ambulГncias_2.svg",
+            "normalized": "ambulgncias_2",
+            "suggested_path": "icons/ambulgncias_2.svg",
+            "size": 9044,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/amВrica.svg",
+            "filename": "amВrica.svg",
+            "normalized": "amvrica",
+            "suggested_path": "icons/amvrica.svg",
+            "size": 11508,
+            "suspicious": true,
+            "mtime": 1777366432
+        },
+        {
+            "path": "icons/amИndoa.svg",
+            "filename": "amИndoa.svg",
+            "normalized": "amindoa",
+            "suggested_path": "icons/amindoa.svg",
+            "size": 11496,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/amИndoas.svg",
+            "filename": "amИndoas.svg",
+            "normalized": "amindoas",
+            "suggested_path": "icons/amindoas.svg",
+            "size": 21332,
+            "suspicious": true,
+            "mtime": 1777366432
+        },
+        {
+            "path": "icons/amИndoas_2.svg",
+            "filename": "amИndoas_2.svg",
+            "normalized": "amindoas_2",
+            "suggested_path": "icons/amindoas_2.svg",
+            "size": 9796,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/ananаs em calda.svg",
+            "filename": "ananаs em calda.svg",
+            "normalized": "ananas_em_calda",
+            "suggested_path": "icons/ananas_em_calda.svg",
+            "size": 19756,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/ananаs.svg",
+            "filename": "ananаs.svg",
+            "normalized": "ananas",
+            "suggested_path": "icons/ananas.svg",
+            "size": 17496,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/ananаs_2.svg",
+            "filename": "ananаs_2.svg",
+            "normalized": "ananas_2",
+            "suggested_path": "icons/ananas_2.svg",
+            "size": 19984,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/ananаs_3.svg",
+            "filename": "ananаs_3.svg",
+            "normalized": "ananas_3",
+            "suggested_path": "icons/ananas_3.svg",
+            "size": 24440,
+            "suspicious": true,
+            "mtime": 1777366432
+        },
+        {
+            "path": "icons/andar Еs volatas.svg",
+            "filename": "andar Еs volatas.svg",
+            "normalized": "andar_es_volatas",
+            "suggested_path": "icons/andar_es_volatas.svg",
+            "size": 16936,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/aniversаrio.svg",
+            "filename": "aniversаrio.svg",
+            "normalized": "aniversario",
+            "suggested_path": "icons/aniversario.svg",
+            "size": 25596,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/aniversаrio_2.svg",
+            "filename": "aniversаrio_2.svg",
+            "normalized": "aniversario_2",
+            "suggested_path": "icons/aniversario_2.svg",
+            "size": 20820,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/antena parabвlica.svg",
+            "filename": "antena parabвlica.svg",
+            "normalized": "antena_parabvlica",
+            "suggested_path": "icons/antena_parabvlica.svg",
+            "size": 18776,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/antipаtica.svg",
+            "filename": "antipаtica.svg",
+            "normalized": "antipatica",
+            "suggested_path": "icons/antipatica.svg",
+            "size": 22252,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/antipаticas.svg",
+            "filename": "antipаticas.svg",
+            "normalized": "antipaticas",
+            "suggested_path": "icons/antipaticas.svg",
+            "size": 18984,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/antipаtico.svg",
+            "filename": "antipаtico.svg",
+            "normalized": "antipatico",
+            "suggested_path": "icons/antipatico.svg",
+            "size": 17048,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/antipаticos.svg",
+            "filename": "antipаticos.svg",
+            "normalized": "antipaticos",
+            "suggested_path": "icons/antipaticos.svg",
+            "size": 14912,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/antаrtida.svg",
+            "filename": "antаrtida.svg",
+            "normalized": "antartida",
+            "suggested_path": "icons/antartida.svg",
+            "size": 29888,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/anzвis.svg",
+            "filename": "anzвis.svg",
+            "normalized": "anzvis",
+            "suggested_path": "icons/anzvis.svg",
+            "size": 7612,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/anВis.svg",
+            "filename": "anВis.svg",
+            "normalized": "anvis",
+            "suggested_path": "icons/anvis.svg",
+            "size": 8176,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/anВis_2.svg",
+            "filename": "anВis_2.svg",
+            "normalized": "anvis_2",
+            "suggested_path": "icons/anvis_2.svg",
+            "size": 11344,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/anаlise de sangue.svg",
+            "filename": "anаlise de sangue.svg",
+            "normalized": "analise_de_sangue",
+            "suggested_path": "icons/analise_de_sangue.svg",
+            "size": 19592,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/anаlise de sangue_2.svg",
+            "filename": "anаlise de sangue_2.svg",
+            "normalized": "analise_de_sangue_2",
+            "suggested_path": "icons/analise_de_sangue_2.svg",
+            "size": 16840,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/anаlises de urina.svg",
+            "filename": "anаlises de urina.svg",
+            "normalized": "analises_de_urina",
+            "suggested_path": "icons/analises_de_urina.svg",
+            "size": 18328,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/anаlises de urina_2.svg",
+            "filename": "anаlises de urina_2.svg",
+            "normalized": "analises_de_urina_2",
+            "suggested_path": "icons/analises_de_urina_2.svg",
+            "size": 15924,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/anгncio.svg",
+            "filename": "anгncio.svg",
+            "normalized": "angncio",
+            "suggested_path": "icons/angncio.svg",
+            "size": 24784,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/anгncios.svg",
+            "filename": "anгncios.svg",
+            "normalized": "angncios",
+            "suggested_path": "icons/angncios.svg",
+            "size": 21312,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/apagar a гltima coisa.svg",
+            "filename": "apagar a гltima coisa.svg",
+            "normalized": "apagar_a_gltima_coisa",
+            "suggested_path": "icons/apagar_a_gltima_coisa.svg",
+            "size": 9380,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/aparelhagem de mгsica.svg",
+            "filename": "aparelhagem de mгsica.svg",
+            "normalized": "aparelhagem_de_mgsica",
+            "suggested_path": "icons/aparelhagem_de_mgsica.svg",
+            "size": 15712,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/apoio ao domicбlio.svg",
+            "filename": "apoio ao domicбlio.svg",
+            "normalized": "apoio_ao_domicblio",
+            "suggested_path": "icons/apoio_ao_domicblio.svg",
+            "size": 10376,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/apвstolo.svg",
+            "filename": "apвstolo.svg",
+            "normalized": "apvstolo",
+            "suggested_path": "icons/apvstolo.svg",
+            "size": 22460,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/apвstolos.svg",
+            "filename": "apвstolos.svg",
+            "normalized": "apvstolos",
+            "suggested_path": "icons/apvstolos.svg",
+            "size": 22836,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/apвstolos_2.svg",
+            "filename": "apвstolos_2.svg",
+            "normalized": "apvstolos_2",
+            "suggested_path": "icons/apvstolos_2.svg",
+            "size": 18800,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/aquаrio.svg",
+            "filename": "aquаrio.svg",
+            "normalized": "aquario",
+            "suggested_path": "icons/aquario.svg",
+            "size": 16272,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/aquаrio_2.svg",
+            "filename": "aquаrio_2.svg",
+            "normalized": "aquario_2",
+            "suggested_path": "icons/aquario_2.svg",
+            "size": 14648,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/aquаrios.svg",
+            "filename": "aquаrios.svg",
+            "normalized": "aquarios",
+            "suggested_path": "icons/aquarios.svg",
+            "size": 13940,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/aquаrios_2.svg",
+            "filename": "aquаrios_2.svg",
+            "normalized": "aquarios_2",
+            "suggested_path": "icons/aquarios_2.svg",
+            "size": 12648,
+            "suspicious": true,
+            "mtime": 1777366432
+        },
+        {
+            "path": "icons/aquбfero.svg",
+            "filename": "aquбfero.svg",
+            "normalized": "aqubfero",
+            "suggested_path": "icons/aqubfero.svg",
+            "size": 16584,
+            "suspicious": true,
+            "mtime": 1777366432
+        },
+        {
+            "path": "icons/aquбferos.svg",
+            "filename": "aquбferos.svg",
+            "normalized": "aqubferos",
+            "suggested_path": "icons/aqubferos.svg",
+            "size": 14492,
+            "suspicious": true,
+            "mtime": 1777366432
+        },
+        {
+            "path": "icons/arca de noВ.svg",
+            "filename": "arca de noВ.svg",
+            "normalized": "arca_de_nov",
+            "suggested_path": "icons/arca_de_nov.svg",
+            "size": 24500,
+            "suspicious": true,
+            "mtime": 1777366432
+        },
+        {
+            "path": "icons/armazВm da loiЗa.svg",
+            "filename": "armazВm da loiЗa.svg",
+            "normalized": "armazvm_da_loiza",
+            "suggested_path": "icons/armazvm_da_loiza.svg",
+            "size": 15576,
+            "suspicious": true,
+            "mtime": 1777366432
+        },
+        {
+            "path": "icons/armazВm de alimentaЗ╞o.svg",
+            "filename": "armazВm de alimentaЗ╞o.svg",
+            "normalized": "armazvm_de_alimentaz_o",
+            "suggested_path": "icons/armazvm_de_alimentaz_o.svg",
+            "size": 17004,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/armazВm de limpeza.svg",
+            "filename": "armazВm de limpeza.svg",
+            "normalized": "armazvm_de_limpeza",
+            "suggested_path": "icons/armazvm_de_limpeza.svg",
+            "size": 13332,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/armazВm de papelaria.svg",
+            "filename": "armazВm de papelaria.svg",
+            "normalized": "armazvm_de_papelaria",
+            "suggested_path": "icons/armazvm_de_papelaria.svg",
+            "size": 11804,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/armazВm de roupa.svg",
+            "filename": "armazВm de roupa.svg",
+            "normalized": "armazvm_de_roupa",
+            "suggested_path": "icons/armazvm_de_roupa.svg",
+            "size": 15148,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/armazВm onde se passa a ferro.svg",
+            "filename": "armazВm onde se passa a ferro.svg",
+            "normalized": "armazvm_onde_se_passa_a_ferro",
+            "suggested_path": "icons/armazvm_onde_se_passa_a_ferro.svg",
+            "size": 16228,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/armazВm.svg",
+            "filename": "armazВm.svg",
+            "normalized": "armazvm",
+            "suggested_path": "icons/armazvm.svg",
+            "size": 6156,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/armаrio de cozinha.svg",
+            "filename": "armаrio de cozinha.svg",
+            "normalized": "armario_de_cozinha",
+            "suggested_path": "icons/armario_de_cozinha.svg",
+            "size": 9528,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/armаrio de produtos de farmаcia.svg",
+            "filename": "armаrio de produtos de farmаcia.svg",
+            "normalized": "armario_de_produtos_de_farmacia",
+            "suggested_path": "icons/armario_de_produtos_de_farmacia.svg",
+            "size": 12708,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/armаrio de produtos de farmаcia_2.svg",
+            "filename": "armаrio de produtos de farmаcia_2.svg",
+            "normalized": "armario_de_produtos_de_farmacia_2",
+            "suggested_path": "icons/armario_de_produtos_de_farmacia_2.svg",
+            "size": 7976,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/armаrio.svg",
+            "filename": "armаrio.svg",
+            "normalized": "armario",
+            "suggested_path": "icons/armario.svg",
+            "size": 5808,
+            "suspicious": true,
+            "mtime": 1777366432
+        },
+        {
+            "path": "icons/armаrio_2.svg",
+            "filename": "armаrio_2.svg",
+            "normalized": "armario_2",
+            "suggested_path": "icons/armario_2.svg",
+            "size": 3708,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/armаrios de cozinha.svg",
+            "filename": "armаrios de cozinha.svg",
+            "normalized": "armarios_de_cozinha",
+            "suggested_path": "icons/armarios_de_cozinha.svg",
+            "size": 9572,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/armаrios de gavetas.svg",
+            "filename": "armаrios de gavetas.svg",
+            "normalized": "armarios_de_gavetas",
+            "suggested_path": "icons/armarios_de_gavetas.svg",
+            "size": 11768,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/armаrios para farmаcia.svg",
+            "filename": "armаrios para farmаcia.svg",
+            "normalized": "armarios_para_farmacia",
+            "suggested_path": "icons/armarios_para_farmacia.svg",
+            "size": 11304,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/armаrios para farmаcia_2.svg",
+            "filename": "armаrios para farmаcia_2.svg",
+            "normalized": "armarios_para_farmacia_2",
+            "suggested_path": "icons/armarios_para_farmacia_2.svg",
+            "size": 7536,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/armаrios.svg",
+            "filename": "armаrios.svg",
+            "normalized": "armarios",
+            "suggested_path": "icons/armarios.svg",
+            "size": 6164,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/armаrios_2.svg",
+            "filename": "armаrios_2.svg",
+            "normalized": "armarios_2",
+            "suggested_path": "icons/armarios_2.svg",
+            "size": 4260,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/armвnicas.svg",
+            "filename": "armвnicas.svg",
+            "normalized": "armvnicas",
+            "suggested_path": "icons/armvnicas.svg",
+            "size": 9744,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/aros olбmpicos.svg",
+            "filename": "aros olбmpicos.svg",
+            "normalized": "aros_olbmpicos",
+            "suggested_path": "icons/aros_olbmpicos.svg",
+            "size": 12708,
+            "suspicious": true,
+            "mtime": 1777366432
+        },
+        {
+            "path": "icons/arranha-cВus.svg",
+            "filename": "arranha-cВus.svg",
+            "normalized": "arranha_cvus",
+            "suggested_path": "icons/arranha_cvus.svg",
+            "size": 10184,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/arroz Е valenciana.svg",
+            "filename": "arroz Е valenciana.svg",
+            "normalized": "arroz_e_valenciana",
+            "suggested_path": "icons/arroz_e_valenciana.svg",
+            "size": 27444,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/artВria.svg",
+            "filename": "artВria.svg",
+            "normalized": "artvria",
+            "suggested_path": "icons/artvria.svg",
+            "size": 11272,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/artВrias.svg",
+            "filename": "artВrias.svg",
+            "normalized": "artvrias",
+            "suggested_path": "icons/artvrias.svg",
+            "size": 10016,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/astrвnomo.svg",
+            "filename": "astrвnomo.svg",
+            "normalized": "astrvnomo",
+            "suggested_path": "icons/astrvnomo.svg",
+            "size": 17476,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/astгrias.svg",
+            "filename": "astгrias.svg",
+            "normalized": "astgrias",
+            "suggested_path": "icons/astgrias.svg",
+            "size": 4000,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/astгrias_2.svg",
+            "filename": "astгrias_2.svg",
+            "normalized": "astgrias_2",
+            "suggested_path": "icons/astgrias_2.svg",
+            "size": 7632,
+            "suspicious": true,
+            "mtime": 1777366432
+        },
+        {
+            "path": "icons/astгrias_3.svg",
+            "filename": "astгrias_3.svg",
+            "normalized": "astgrias_3",
+            "suggested_path": "icons/astgrias_3.svg",
+            "size": 11744,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/atelier de danЗas.svg",
+            "filename": "atelier de danЗas.svg",
+            "normalized": "atelier_de_danzas",
+            "suggested_path": "icons/atelier_de_danzas.svg",
+            "size": 18928,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/atelier de danЗas_2.svg",
+            "filename": "atelier de danЗas_2.svg",
+            "normalized": "atelier_de_danzas_2",
+            "suggested_path": "icons/atelier_de_danzas_2.svg",
+            "size": 10164,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/atelier de memвria.svg",
+            "filename": "atelier de memвria.svg",
+            "normalized": "atelier_de_memvria",
+            "suggested_path": "icons/atelier_de_memvria.svg",
+            "size": 12884,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/atelier de memвria_2.svg",
+            "filename": "atelier de memвria_2.svg",
+            "normalized": "atelier_de_memvria_2",
+            "suggested_path": "icons/atelier_de_memvria_2.svg",
+            "size": 16868,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/atravВs de.svg",
+            "filename": "atravВs de.svg",
+            "normalized": "atravvs_de",
+            "suggested_path": "icons/atravvs_de.svg",
+            "size": 7156,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/atrаs.svg",
+            "filename": "atrаs.svg",
+            "normalized": "atras",
+            "suggested_path": "icons/atras.svg",
+            "size": 8656,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/atВ.svg",
+            "filename": "atВ.svg",
+            "normalized": "atv",
+            "suggested_path": "icons/atv.svg",
+            "size": 2428,
+            "suspicious": true,
+            "mtime": 1777366432
+        },
+        {
+            "path": "icons/audбfono.svg",
+            "filename": "audбfono.svg",
+            "normalized": "audbfono",
+            "suggested_path": "icons/audbfono.svg",
+            "size": 18992,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/aulas de educaЗ╞o fбsica.svg",
+            "filename": "aulas de educaЗ╞o fбsica.svg",
+            "normalized": "aulas_de_educaz_o_fbsica",
+            "suggested_path": "icons/aulas_de_educaz_o_fbsica.svg",
+            "size": 14236,
+            "suspicious": true,
+            "mtime": 1777366432
+        },
+        {
+            "path": "icons/aulas de lбnguas.svg",
+            "filename": "aulas de lбnguas.svg",
+            "normalized": "aulas_de_lbnguas",
+            "suggested_path": "icons/aulas_de_lbnguas.svg",
+            "size": 12776,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/aulas de matemаtica.svg",
+            "filename": "aulas de matemаtica.svg",
+            "normalized": "aulas_de_matematica",
+            "suggested_path": "icons/aulas_de_matematica.svg",
+            "size": 10880,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/aumentar a potИncia.svg",
+            "filename": "aumentar a potИncia.svg",
+            "normalized": "aumentar_a_potincia",
+            "suggested_path": "icons/aumentar_a_potincia.svg",
+            "size": 11304,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/austrаlia.svg",
+            "filename": "austrаlia.svg",
+            "normalized": "australia",
+            "suggested_path": "icons/australia.svg",
+            "size": 12420,
+            "suspicious": true,
+            "mtime": 1777366432
+        },
+        {
+            "path": "icons/avanЗar.svg",
+            "filename": "avanЗar.svg",
+            "normalized": "avanzar",
+            "suggested_path": "icons/avanzar.svg",
+            "size": 10908,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/avanЗar_2.svg",
+            "filename": "avanЗar_2.svg",
+            "normalized": "avanzar_2",
+            "suggested_path": "icons/avanzar_2.svg",
+            "size": 31104,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/aviфes de papel.svg",
+            "filename": "aviфes de papel.svg",
+            "normalized": "avifes_de_papel",
+            "suggested_path": "icons/avifes_de_papel.svg",
+            "size": 5556,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/aviфes.svg",
+            "filename": "aviфes.svg",
+            "normalized": "avifes",
+            "suggested_path": "icons/avifes.svg",
+            "size": 13956,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/aviфes_2.svg",
+            "filename": "aviфes_2.svg",
+            "normalized": "avifes_2",
+            "suggested_path": "icons/avifes_2.svg",
+            "size": 10592,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/aviфes_3.svg",
+            "filename": "aviфes_3.svg",
+            "normalized": "avifes_3",
+            "suggested_path": "icons/avifes_3.svg",
+            "size": 10320,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/avУ.svg",
+            "filename": "avУ.svg",
+            "normalized": "avu",
+            "suggested_path": "icons/avu.svg",
+            "size": 12296,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/avУ_2.svg",
+            "filename": "avУ_2.svg",
+            "normalized": "avu_2",
+            "suggested_path": "icons/avu_2.svg",
+            "size": 21128,
+            "suspicious": true,
+            "mtime": 1777366432
+        },
+        {
+            "path": "icons/avУ_3.svg",
+            "filename": "avУ_3.svg",
+            "normalized": "avu_3",
+            "suggested_path": "icons/avu_3.svg",
+            "size": 10484,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/avв.svg",
+            "filename": "avв.svg",
+            "normalized": "avv",
+            "suggested_path": "icons/avv.svg",
+            "size": 12096,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/avв_2.svg",
+            "filename": "avв_2.svg",
+            "normalized": "avv_2",
+            "suggested_path": "icons/avv_2.svg",
+            "size": 16636,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/avв_3.svg",
+            "filename": "avв_3.svg",
+            "normalized": "avv_3",
+            "suggested_path": "icons/avv_3.svg",
+            "size": 10304,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/avвs.svg",
+            "filename": "avвs.svg",
+            "normalized": "avvs",
+            "suggested_path": "icons/avvs.svg",
+            "size": 15708,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/avвs_2.svg",
+            "filename": "avвs_2.svg",
+            "normalized": "avvs_2",
+            "suggested_path": "icons/avvs_2.svg",
+            "size": 10836,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/avвs_3.svg",
+            "filename": "avвs_3.svg",
+            "normalized": "avvs_3",
+            "suggested_path": "icons/avvs_3.svg",
+            "size": 10864,
+            "suspicious": true,
+            "mtime": 1777366432
+        },
+        {
+            "path": "icons/avвs_4.svg",
+            "filename": "avвs_4.svg",
+            "normalized": "avvs_4",
+            "suggested_path": "icons/avvs_4.svg",
+            "size": 15164,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/aЗafr╞o.svg",
+            "filename": "aЗafr╞o.svg",
+            "normalized": "azafr_o",
+            "suggested_path": "icons/azafr_o.svg",
+            "size": 14812,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/aЗucarar.svg",
+            "filename": "aЗucarar.svg",
+            "normalized": "azucarar",
+            "suggested_path": "icons/azucarar.svg",
+            "size": 13664,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/aЗucareiro.svg",
+            "filename": "aЗucareiro.svg",
+            "normalized": "azucareiro",
+            "suggested_path": "icons/azucareiro.svg",
+            "size": 12004,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/aЗucareiros.svg",
+            "filename": "aЗucareiros.svg",
+            "normalized": "azucareiros",
+            "suggested_path": "icons/azucareiros.svg",
+            "size": 10780,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/aЗгcar.svg",
+            "filename": "aЗгcar.svg",
+            "normalized": "azgcar",
+            "suggested_path": "icons/azgcar.svg",
+            "size": 9956,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/aЗгcar_2.svg",
+            "filename": "aЗгcar_2.svg",
+            "normalized": "azgcar_2",
+            "suggested_path": "icons/azgcar_2.svg",
+            "size": 12052,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/bactВria.svg",
+            "filename": "bactВria.svg",
+            "normalized": "bactvria",
+            "suggested_path": "icons/bactvria.svg",
+            "size": 14484,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/bactВrias.svg",
+            "filename": "bactВrias.svg",
+            "normalized": "bactvrias",
+            "suggested_path": "icons/bactvrias.svg",
+            "size": 11972,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/baixar a cabeЗa.svg",
+            "filename": "baixar a cabeЗa.svg",
+            "normalized": "baixar_a_cabeza",
+            "suggested_path": "icons/baixar_a_cabeza.svg",
+            "size": 10136,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/balanЗa.svg",
+            "filename": "balanЗa.svg",
+            "normalized": "balanza",
+            "suggested_path": "icons/balanza.svg",
+            "size": 8976,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/balanЗa_2.svg",
+            "filename": "balanЗa_2.svg",
+            "normalized": "balanza_2",
+            "suggested_path": "icons/balanza_2.svg",
+            "size": 15124,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/balanЗas.svg",
+            "filename": "balanЗas.svg",
+            "normalized": "balanzas",
+            "suggested_path": "icons/balanzas.svg",
+            "size": 8388,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/balde e pа.svg",
+            "filename": "balde e pа.svg",
+            "normalized": "balde_e_pa",
+            "suggested_path": "icons/balde_e_pa.svg",
+            "size": 13156,
+            "suspicious": true,
+            "mtime": 1777366432
+        },
+        {
+            "path": "icons/balneаrio.svg",
+            "filename": "balneаrio.svg",
+            "normalized": "balneario",
+            "suggested_path": "icons/balneario.svg",
+            "size": 11368,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/balneаrio_2.svg",
+            "filename": "balneаrio_2.svg",
+            "normalized": "balneario_2",
+            "suggested_path": "icons/balneario_2.svg",
+            "size": 11488,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/balneаrio_3.svg",
+            "filename": "balneаrio_3.svg",
+            "normalized": "balneario_3",
+            "suggested_path": "icons/balneario_3.svg",
+            "size": 10676,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/balneаrio_4.svg",
+            "filename": "balneаrio_4.svg",
+            "normalized": "balneario_4",
+            "suggested_path": "icons/balneario_4.svg",
+            "size": 10792,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/balneаrio_5.svg",
+            "filename": "balneаrio_5.svg",
+            "normalized": "balneario_5",
+            "suggested_path": "icons/balneario_5.svg",
+            "size": 9824,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/balneаrio_6.svg",
+            "filename": "balneаrio_6.svg",
+            "normalized": "balneario_6",
+            "suggested_path": "icons/balneario_6.svg",
+            "size": 9880,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/balneаrio_7.svg",
+            "filename": "balneаrio_7.svg",
+            "normalized": "balneario_7",
+            "suggested_path": "icons/balneario_7.svg",
+            "size": 10624,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/baloiЗar.svg",
+            "filename": "baloiЗar.svg",
+            "normalized": "baloizar",
+            "suggested_path": "icons/baloizar.svg",
+            "size": 18836,
+            "suspicious": true,
+            "mtime": 1777366432
+        },
+        {
+            "path": "icons/baloiЗar_2.svg",
+            "filename": "baloiЗar_2.svg",
+            "normalized": "baloizar_2",
+            "suggested_path": "icons/baloizar_2.svg",
+            "size": 11440,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/baloiЗo.svg",
+            "filename": "baloiЗo.svg",
+            "normalized": "baloizo",
+            "suggested_path": "icons/baloizo.svg",
+            "size": 12428,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/baloiЗo_2.svg",
+            "filename": "baloiЗo_2.svg",
+            "normalized": "baloizo_2",
+            "suggested_path": "icons/baloizo_2.svg",
+            "size": 16376,
+            "suspicious": true,
+            "mtime": 1777366432
+        },
+        {
+            "path": "icons/baloiЗo_3.svg",
+            "filename": "baloiЗo_3.svg",
+            "normalized": "baloizo_3",
+            "suggested_path": "icons/baloizo_3.svg",
+            "size": 18620,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/baloiЗos.svg",
+            "filename": "baloiЗos.svg",
+            "normalized": "baloizos",
+            "suggested_path": "icons/baloizos.svg",
+            "size": 11132,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/baloiЗos_2.svg",
+            "filename": "baloiЗos_2.svg",
+            "normalized": "baloizos_2",
+            "suggested_path": "icons/baloizos_2.svg",
+            "size": 15476,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/balфes.svg",
+            "filename": "balфes.svg",
+            "normalized": "balfes",
+            "suggested_path": "icons/balfes.svg",
+            "size": 11720,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/bambг.svg",
+            "filename": "bambг.svg",
+            "normalized": "bambg",
+            "suggested_path": "icons/bambg.svg",
+            "size": 15872,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/bambгs.svg",
+            "filename": "bambгs.svg",
+            "normalized": "bambgs",
+            "suggested_path": "icons/bambgs.svg",
+            "size": 13824,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/bastфes.svg",
+            "filename": "bastфes.svg",
+            "normalized": "bastfes",
+            "suggested_path": "icons/bastfes.svg",
+            "size": 6036,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/bastфes_2.svg",
+            "filename": "bastфes_2.svg",
+            "normalized": "bastfes_2",
+            "suggested_path": "icons/bastfes_2.svg",
+            "size": 6440,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/basбlica do pilar.svg",
+            "filename": "basбlica do pilar.svg",
+            "normalized": "basblica_do_pilar",
+            "suggested_path": "icons/basblica_do_pilar.svg",
+            "size": 18932,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/bater Е porta.svg",
+            "filename": "bater Е porta.svg",
+            "normalized": "bater_e_porta",
+            "suggested_path": "icons/bater_e_porta.svg",
+            "size": 15844,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/batвn.svg",
+            "filename": "batвn.svg",
+            "normalized": "batvn",
+            "suggested_path": "icons/batvn.svg",
+            "size": 5756,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/baбa.svg",
+            "filename": "baбa.svg",
+            "normalized": "baba",
+            "suggested_path": "icons/baba.svg",
+            "size": 16508,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/bebВ.svg",
+            "filename": "bebВ.svg",
+            "normalized": "bebv",
+            "suggested_path": "icons/bebv.svg",
+            "size": 10384,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/bebВ_2.svg",
+            "filename": "bebВ_2.svg",
+            "normalized": "bebv_2",
+            "suggested_path": "icons/bebv_2.svg",
+            "size": 9688,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/bebВs.svg",
+            "filename": "bebВs.svg",
+            "normalized": "bebvs",
+            "suggested_path": "icons/bebvs.svg",
+            "size": 9364,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/bebВs_2.svg",
+            "filename": "bebВs_2.svg",
+            "normalized": "bebvs_2",
+            "suggested_path": "icons/bebvs_2.svg",
+            "size": 8712,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/benЗ╞os.svg",
+            "filename": "benЗ╞os.svg",
+            "normalized": "benz_os",
+            "suggested_path": "icons/benz_os.svg",
+            "size": 21100,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/berЗo.svg",
+            "filename": "berЗo.svg",
+            "normalized": "berzo",
+            "suggested_path": "icons/berzo.svg",
+            "size": 21216,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/biberфes.svg",
+            "filename": "biberфes.svg",
+            "normalized": "biberfes",
+            "suggested_path": "icons/biberfes.svg",
+            "size": 6324,
+            "suspicious": true,
+            "mtime": 1777366432
+        },
+        {
+            "path": "icons/bidВ.svg",
+            "filename": "bidВ.svg",
+            "normalized": "bidv",
+            "suggested_path": "icons/bidv.svg",
+            "size": 14772,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/bidВs.svg",
+            "filename": "bidВs.svg",
+            "normalized": "bidvs",
+            "suggested_path": "icons/bidvs.svg",
+            "size": 12908,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/binвculos.svg",
+            "filename": "binвculos.svg",
+            "normalized": "binvculos",
+            "suggested_path": "icons/binvculos.svg",
+            "size": 15952,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/bola de tВnis.svg",
+            "filename": "bola de tВnis.svg",
+            "normalized": "bola_de_tvnis",
+            "suggested_path": "icons/bola_de_tvnis.svg",
+            "size": 13260,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/bola terapИutica.svg",
+            "filename": "bola terapИutica.svg",
+            "normalized": "bola_terapiutica",
+            "suggested_path": "icons/bola_terapiutica.svg",
+            "size": 13560,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/bolacha tбpica da cantabria.svg",
+            "filename": "bolacha tбpica da cantabria.svg",
+            "normalized": "bolacha_tbpica_da_cantabria",
+            "suggested_path": "icons/bolacha_tbpica_da_cantabria.svg",
+            "size": 13520,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/bolachas tбpicas da cantabria.svg",
+            "filename": "bolachas tбpicas da cantabria.svg",
+            "normalized": "bolachas_tbpicas_da_cantabria",
+            "suggested_path": "icons/bolachas_tbpicas_da_cantabria.svg",
+            "size": 18928,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/bolas da аrvore de natal.svg",
+            "filename": "bolas da аrvore de natal.svg",
+            "normalized": "bolas_da_arvore_de_natal",
+            "suggested_path": "icons/bolas_da_arvore_de_natal.svg",
+            "size": 15104,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/bolas terapИuticas.svg",
+            "filename": "bolas terapИuticas.svg",
+            "normalized": "bolas_terapiuticas",
+            "suggested_path": "icons/bolas_terapiuticas.svg",
+            "size": 12952,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/bolo tбpico de mallorca.svg",
+            "filename": "bolo tбpico de mallorca.svg",
+            "normalized": "bolo_tbpico_de_mallorca",
+            "suggested_path": "icons/bolo_tbpico_de_mallorca.svg",
+            "size": 27984,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/bolo tбpico do dia de san valero.svg",
+            "filename": "bolo tбpico do dia de san valero.svg",
+            "normalized": "bolo_tbpico_do_dia_de_san_valero",
+            "suggested_path": "icons/bolo_tbpico_do_dia_de_san_valero.svg",
+            "size": 25324,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/bolo tбpico.svg",
+            "filename": "bolo tбpico.svg",
+            "normalized": "bolo_tbpico",
+            "suggested_path": "icons/bolo_tbpico.svg",
+            "size": 32164,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/bolo tбpico_2.svg",
+            "filename": "bolo tбpico_2.svg",
+            "normalized": "bolo_tbpico_2",
+            "suggested_path": "icons/bolo_tbpico_2.svg",
+            "size": 27780,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/bongв.svg",
+            "filename": "bongв.svg",
+            "normalized": "bongv",
+            "suggested_path": "icons/bongv.svg",
+            "size": 24648,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/bongвs.svg",
+            "filename": "bongвs.svg",
+            "normalized": "bongvs",
+            "suggested_path": "icons/bongvs.svg",
+            "size": 27088,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/bongвs_2.svg",
+            "filename": "bongвs_2.svg",
+            "normalized": "bongvs_2",
+            "suggested_path": "icons/bongvs_2.svg",
+            "size": 20972,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/bonsаis.svg",
+            "filename": "bonsаis.svg",
+            "normalized": "bonsais",
+            "suggested_path": "icons/bonsais.svg",
+            "size": 18024,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/botфes.svg",
+            "filename": "botфes.svg",
+            "normalized": "botfes",
+            "suggested_path": "icons/botfes.svg",
+            "size": 14868,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/braЗo articulado.svg",
+            "filename": "braЗo articulado.svg",
+            "normalized": "brazo_articulado",
+            "suggested_path": "icons/brazo_articulado.svg",
+            "size": 11228,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/braЗo.svg",
+            "filename": "braЗo.svg",
+            "normalized": "brazo",
+            "suggested_path": "icons/brazo.svg",
+            "size": 9764,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/braЗos articulados.svg",
+            "filename": "braЗos articulados.svg",
+            "normalized": "brazos_articulados",
+            "suggested_path": "icons/brazos_articulados.svg",
+            "size": 9608,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/braЗos em cruz.svg",
+            "filename": "braЗos em cruz.svg",
+            "normalized": "brazos_em_cruz",
+            "suggested_path": "icons/brazos_em_cruz.svg",
+            "size": 11576,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/braЗos em cruz_2.svg",
+            "filename": "braЗos em cruz_2.svg",
+            "normalized": "brazos_em_cruz_2",
+            "suggested_path": "icons/brazos_em_cruz_2.svg",
+            "size": 10852,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/braЗos em cruz_3.svg",
+            "filename": "braЗos em cruz_3.svg",
+            "normalized": "brazos_em_cruz_3",
+            "suggested_path": "icons/brazos_em_cruz_3.svg",
+            "size": 10748,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/braЗos em cruz_4.svg",
+            "filename": "braЗos em cruz_4.svg",
+            "normalized": "brazos_em_cruz_4",
+            "suggested_path": "icons/brazos_em_cruz_4.svg",
+            "size": 9060,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/braЗos.svg",
+            "filename": "braЗos.svg",
+            "normalized": "brazos",
+            "suggested_path": "icons/brazos.svg",
+            "size": 8980,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/brincar com аgua.svg",
+            "filename": "brincar com аgua.svg",
+            "normalized": "brincar_com_agua",
+            "suggested_path": "icons/brincar_com_agua.svg",
+            "size": 20160,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/brincar com аgua_2.svg",
+            "filename": "brincar com аgua_2.svg",
+            "normalized": "brincar_com_agua_2",
+            "suggested_path": "icons/brincar_com_agua_2.svg",
+            "size": 15168,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/brincar Еs cozinhas.svg",
+            "filename": "brincar Еs cozinhas.svg",
+            "normalized": "brincar_es_cozinhas",
+            "suggested_path": "icons/brincar_es_cozinhas.svg",
+            "size": 7664,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/brГnquias.svg",
+            "filename": "brГnquias.svg",
+            "normalized": "brgnquias",
+            "suggested_path": "icons/brgnquias.svg",
+            "size": 8624,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/brГnquias_2.svg",
+            "filename": "brГnquias_2.svg",
+            "normalized": "brgnquias_2",
+            "suggested_path": "icons/brgnquias_2.svg",
+            "size": 7944,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/brвcolos.svg",
+            "filename": "brвcolos.svg",
+            "normalized": "brvcolos",
+            "suggested_path": "icons/brvcolos.svg",
+            "size": 29816,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/brвculos.svg",
+            "filename": "brвculos.svg",
+            "normalized": "brvculos",
+            "suggested_path": "icons/brvculos.svg",
+            "size": 23284,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/bulgаria.svg",
+            "filename": "bulgаria.svg",
+            "normalized": "bulgaria",
+            "suggested_path": "icons/bulgaria.svg",
+            "size": 1540,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/bВlgica.svg",
+            "filename": "bВlgica.svg",
+            "normalized": "bvlgica",
+            "suggested_path": "icons/bvlgica.svg",
+            "size": 1352,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/bИnЗ╞o.svg",
+            "filename": "bИnЗ╞o.svg",
+            "normalized": "binz_o",
+            "suggested_path": "icons/binz_o.svg",
+            "size": 15504,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/bИnЗ╞o_2.svg",
+            "filename": "bИnЗ╞o_2.svg",
+            "normalized": "binz_o_2",
+            "suggested_path": "icons/binz_o_2.svg",
+            "size": 25624,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/bбceps.svg",
+            "filename": "bбceps.svg",
+            "normalized": "bbceps",
+            "suggested_path": "icons/bbceps.svg",
+            "size": 13660,
+            "suspicious": true,
+            "mtime": 1777366432
+        },
+        {
+            "path": "icons/bбceps_2.svg",
+            "filename": "bбceps_2.svg",
+            "normalized": "bbceps_2",
+            "suggested_path": "icons/bbceps_2.svg",
+            "size": 12124,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/bвias para os braЗos.svg",
+            "filename": "bвias para os braЗos.svg",
+            "normalized": "bvias_para_os_brazos",
+            "suggested_path": "icons/bvias_para_os_brazos.svg",
+            "size": 16996,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/bвlides.svg",
+            "filename": "bвlides.svg",
+            "normalized": "bvlides",
+            "suggested_path": "icons/bvlides.svg",
+            "size": 13148,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/bвsnia herzegovina.svg",
+            "filename": "bвsnia herzegovina.svg",
+            "normalized": "bvsnia_herzegovina",
+            "suggested_path": "icons/bvsnia_herzegovina.svg",
+            "size": 6960,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/bгssola.svg",
+            "filename": "bгssola.svg",
+            "normalized": "bgssola",
+            "suggested_path": "icons/bgssola.svg",
+            "size": 14680,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/bгssula.svg",
+            "filename": "bгssula.svg",
+            "normalized": "bgssula",
+            "suggested_path": "icons/bgssula.svg",
+            "size": 12556,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/cabaЗa.svg",
+            "filename": "cabaЗa.svg",
+            "normalized": "cabaza",
+            "suggested_path": "icons/cabaza.svg",
+            "size": 16336,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/cabaЗa_2.svg",
+            "filename": "cabaЗa_2.svg",
+            "normalized": "cabaza_2",
+            "suggested_path": "icons/cabaza_2.svg",
+            "size": 20032,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/cabeЗa de perfil.svg",
+            "filename": "cabeЗa de perfil.svg",
+            "normalized": "cabeza_de_perfil",
+            "suggested_path": "icons/cabeza_de_perfil.svg",
+            "size": 8940,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/cabeЗa.svg",
+            "filename": "cabeЗa.svg",
+            "normalized": "cabeza",
+            "suggested_path": "icons/cabeza.svg",
+            "size": 10368,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/cabeЗas de perfil.svg",
+            "filename": "cabeЗas de perfil.svg",
+            "normalized": "cabezas_de_perfil",
+            "suggested_path": "icons/cabezas_de_perfil.svg",
+            "size": 8356,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/cabeЗas.svg",
+            "filename": "cabeЗas.svg",
+            "normalized": "cabezas",
+            "suggested_path": "icons/cabezas.svg",
+            "size": 9280,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/cabeЗudo berrugвn.svg",
+            "filename": "cabeЗudo berrugвn.svg",
+            "normalized": "cabezudo_berrugvn",
+            "suggested_path": "icons/cabezudo_berrugvn.svg",
+            "size": 20804,
+            "suspicious": true,
+            "mtime": 1777366432
+        },
+        {
+            "path": "icons/cabeЗudo boticario.svg",
+            "filename": "cabeЗudo boticario.svg",
+            "normalized": "cabezudo_boticario",
+            "suggested_path": "icons/cabezudo_boticario.svg",
+            "size": 18636,
+            "suspicious": true,
+            "mtime": 1777366432
+        },
+        {
+            "path": "icons/cabeЗudo forana.svg",
+            "filename": "cabeЗudo forana.svg",
+            "normalized": "cabezudo_forana",
+            "suggested_path": "icons/cabezudo_forana.svg",
+            "size": 23348,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/cabeЗudo forano.svg",
+            "filename": "cabeЗudo forano.svg",
+            "normalized": "cabezudo_forano",
+            "suggested_path": "icons/cabezudo_forano.svg",
+            "size": 13500,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/cabeЗudo morico.svg",
+            "filename": "cabeЗudo morico.svg",
+            "normalized": "cabezudo_morico",
+            "suggested_path": "icons/cabezudo_morico.svg",
+            "size": 18716,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/cabeЗudo pilara.svg",
+            "filename": "cabeЗudo pilara.svg",
+            "normalized": "cabezudo_pilara",
+            "suggested_path": "icons/cabezudo_pilara.svg",
+            "size": 26564,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/cabeЗudo robaculeros.svg",
+            "filename": "cabeЗudo robaculeros.svg",
+            "normalized": "cabezudo_robaculeros",
+            "suggested_path": "icons/cabezudo_robaculeros.svg",
+            "size": 22828,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/cabeЗudo torero.svg",
+            "filename": "cabeЗudo torero.svg",
+            "normalized": "cabezudo_torero",
+            "suggested_path": "icons/cabezudo_torero.svg",
+            "size": 21284,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/cabeЗudo tuerto (zarolho).svg",
+            "filename": "cabeЗudo tuerto (zarolho).svg",
+            "normalized": "cabezudo_tuerto_zarolho",
+            "suggested_path": "icons/cabezudo_tuerto_zarolho.svg",
+            "size": 20236,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/cabeЗudo.svg",
+            "filename": "cabeЗudo.svg",
+            "normalized": "cabezudo",
+            "suggested_path": "icons/cabezudo.svg",
+            "size": 15024,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/cabeЗudos.svg",
+            "filename": "cabeЗudos.svg",
+            "normalized": "cabezudos",
+            "suggested_path": "icons/cabezudos.svg",
+            "size": 28076,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/cabeЗudos_2.svg",
+            "filename": "cabeЗudos_2.svg",
+            "normalized": "cabezudos_2",
+            "suggested_path": "icons/cabezudos_2.svg",
+            "size": 12892,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/cachecвis.svg",
+            "filename": "cachecвis.svg",
+            "normalized": "cachecvis",
+            "suggested_path": "icons/cachecvis.svg",
+            "size": 11248,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/cadeira de baloiЗo.svg",
+            "filename": "cadeira de baloiЗo.svg",
+            "normalized": "cadeira_de_baloizo",
+            "suggested_path": "icons/cadeira_de_baloizo.svg",
+            "size": 19156,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/cadeira de crianЗa.svg",
+            "filename": "cadeira de crianЗa.svg",
+            "normalized": "cadeira_de_crianza",
+            "suggested_path": "icons/cadeira_de_crianza.svg",
+            "size": 20852,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/cadeira de rodas elВctrica.svg",
+            "filename": "cadeira de rodas elВctrica.svg",
+            "normalized": "cadeira_de_rodas_elvctrica",
+            "suggested_path": "icons/cadeira_de_rodas_elvctrica.svg",
+            "size": 24480,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/caderno de comunicaЗ╞o.svg",
+            "filename": "caderno de comunicaЗ╞o.svg",
+            "normalized": "caderno_de_comunicaz_o",
+            "suggested_path": "icons/caderno_de_comunicaz_o.svg",
+            "size": 10928,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/cafВ moca.svg",
+            "filename": "cafВ moca.svg",
+            "normalized": "cafv_moca",
+            "suggested_path": "icons/cafv_moca.svg",
+            "size": 17344,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/cafВ.svg",
+            "filename": "cafВ.svg",
+            "normalized": "cafv",
+            "suggested_path": "icons/cafv.svg",
+            "size": 14516,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/cafВ_2.svg",
+            "filename": "cafВ_2.svg",
+            "normalized": "cafv_2",
+            "suggested_path": "icons/cafv_2.svg",
+            "size": 9100,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/cafВ_3.svg",
+            "filename": "cafВ_3.svg",
+            "normalized": "cafv_3",
+            "suggested_path": "icons/cafv_3.svg",
+            "size": 15684,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/cafВ_4.svg",
+            "filename": "cafВ_4.svg",
+            "normalized": "cafv_4",
+            "suggested_path": "icons/cafv_4.svg",
+            "size": 15964,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/cafВs moca.svg",
+            "filename": "cafВs moca.svg",
+            "normalized": "cafvs_moca",
+            "suggested_path": "icons/cafvs_moca.svg",
+            "size": 14740,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/cafВs.svg",
+            "filename": "cafВs.svg",
+            "normalized": "cafvs",
+            "suggested_path": "icons/cafvs.svg",
+            "size": 12500,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/cafВs_2.svg",
+            "filename": "cafВs_2.svg",
+            "normalized": "cafvs_2",
+            "suggested_path": "icons/cafvs_2.svg",
+            "size": 13532,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/caixa econвmica.svg",
+            "filename": "caixa econвmica.svg",
+            "normalized": "caixa_econvmica",
+            "suggested_path": "icons/caixa_econvmica.svg",
+            "size": 14572,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/cajвn.svg",
+            "filename": "cajвn.svg",
+            "normalized": "cajvn",
+            "suggested_path": "icons/cajvn.svg",
+            "size": 12112,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/caldeira a gаs.svg",
+            "filename": "caldeira a gаs.svg",
+            "normalized": "caldeira_a_gas",
+            "suggested_path": "icons/caldeira_a_gas.svg",
+            "size": 7440,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/caldeirфes.svg",
+            "filename": "caldeirфes.svg",
+            "normalized": "caldeirfes",
+            "suggested_path": "icons/caldeirfes.svg",
+            "size": 13380,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/caleidoscвpio.svg",
+            "filename": "caleidoscвpio.svg",
+            "normalized": "caleidoscvpio",
+            "suggested_path": "icons/caleidoscvpio.svg",
+            "size": 19580,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/caleidoscвpios.svg",
+            "filename": "caleidoscвpios.svg",
+            "normalized": "caleidoscvpios",
+            "suggested_path": "icons/caleidoscvpios.svg",
+            "size": 16188,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/calendаrio.svg",
+            "filename": "calendаrio.svg",
+            "normalized": "calendario",
+            "suggested_path": "icons/calendario.svg",
+            "size": 23196,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/calendаrios.svg",
+            "filename": "calendаrios.svg",
+            "normalized": "calendarios",
+            "suggested_path": "icons/calendarios.svg",
+            "size": 19796,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/calЗadas.svg",
+            "filename": "calЗadas.svg",
+            "normalized": "calzadas",
+            "suggested_path": "icons/calzadas.svg",
+            "size": 8020,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/calЗado.svg",
+            "filename": "calЗado.svg",
+            "normalized": "calzado",
+            "suggested_path": "icons/calzado.svg",
+            "size": 14000,
+            "suspicious": true,
+            "mtime": 1777366432
+        },
+        {
+            "path": "icons/calЗado_2.svg",
+            "filename": "calЗado_2.svg",
+            "normalized": "calzado_2",
+            "suggested_path": "icons/calzado_2.svg",
+            "size": 16312,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/calЗado_3.svg",
+            "filename": "calЗado_3.svg",
+            "normalized": "calzado_3",
+            "suggested_path": "icons/calzado_3.svg",
+            "size": 12164,
+            "suspicious": true,
+            "mtime": 1777366432
+        },
+        {
+            "path": "icons/calЗado_4.svg",
+            "filename": "calЗado_4.svg",
+            "normalized": "calzado_4",
+            "suggested_path": "icons/calzado_4.svg",
+            "size": 19732,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/calЗas.svg",
+            "filename": "calЗas.svg",
+            "normalized": "calzas",
+            "suggested_path": "icons/calzas.svg",
+            "size": 10744,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/calЗas_2.svg",
+            "filename": "calЗas_2.svg",
+            "normalized": "calzas_2",
+            "suggested_path": "icons/calzas_2.svg",
+            "size": 13368,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/calЗas_3.svg",
+            "filename": "calЗas_3.svg",
+            "normalized": "calzas_3",
+            "suggested_path": "icons/calzas_3.svg",
+            "size": 11144,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/calЗas_4.svg",
+            "filename": "calЗas_4.svg",
+            "normalized": "calzas_4",
+            "suggested_path": "icons/calzas_4.svg",
+            "size": 10044,
+            "suspicious": true,
+            "mtime": 1777366432
+        },
+        {
+            "path": "icons/calЗфes.svg",
+            "filename": "calЗфes.svg",
+            "normalized": "calzfes",
+            "suggested_path": "icons/calzfes.svg",
+            "size": 15412,
+            "suspicious": true,
+            "mtime": 1777366432
+        },
+        {
+            "path": "icons/cama elаstica.svg",
+            "filename": "cama elаstica.svg",
+            "normalized": "cama_elastica",
+            "suggested_path": "icons/cama_elastica.svg",
+            "size": 10232,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/cama elаstica_2.svg",
+            "filename": "cama elаstica_2.svg",
+            "normalized": "cama_elastica_2",
+            "suggested_path": "icons/cama_elastica_2.svg",
+            "size": 35088,
+            "suspicious": true,
+            "mtime": 1777366432
+        },
+        {
+            "path": "icons/camaleфes.svg",
+            "filename": "camaleфes.svg",
+            "normalized": "camalefes",
+            "suggested_path": "icons/camalefes.svg",
+            "size": 13932,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/camarфes.svg",
+            "filename": "camarфes.svg",
+            "normalized": "camarfes",
+            "suggested_path": "icons/camarfes.svg",
+            "size": 2668,
+            "suspicious": true,
+            "mtime": 1777366432
+        },
+        {
+            "path": "icons/camas elаsticas.svg",
+            "filename": "camas elаsticas.svg",
+            "normalized": "camas_elasticas",
+            "suggested_path": "icons/camas_elasticas.svg",
+            "size": 9504,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/camisola de alЗas.svg",
+            "filename": "camisola de alЗas.svg",
+            "normalized": "camisola_de_alzas",
+            "suggested_path": "icons/camisola_de_alzas.svg",
+            "size": 8056,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/camiфes de obras.svg",
+            "filename": "camiфes de obras.svg",
+            "normalized": "camifes_de_obras",
+            "suggested_path": "icons/camifes_de_obras.svg",
+            "size": 11980,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/camiфes do lixo.svg",
+            "filename": "camiфes do lixo.svg",
+            "normalized": "camifes_do_lixo",
+            "suggested_path": "icons/camifes_do_lixo.svg",
+            "size": 9644,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/camiфes.svg",
+            "filename": "camiфes.svg",
+            "normalized": "camifes",
+            "suggested_path": "icons/camifes.svg",
+            "size": 11744,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/camiфes_2.svg",
+            "filename": "camiфes_2.svg",
+            "normalized": "camifes_2",
+            "suggested_path": "icons/camifes_2.svg",
+            "size": 8492,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/camiфes_3.svg",
+            "filename": "camiфes_3.svg",
+            "normalized": "camifes_3",
+            "suggested_path": "icons/camifes_3.svg",
+            "size": 16068,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/campanаrio.svg",
+            "filename": "campanаrio.svg",
+            "normalized": "campanario",
+            "suggested_path": "icons/campanario.svg",
+            "size": 12836,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/campanаrios.svg",
+            "filename": "campanаrios.svg",
+            "normalized": "campanarios",
+            "suggested_path": "icons/campanarios.svg",
+            "size": 11600,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/campaбnhas.svg",
+            "filename": "campaбnhas.svg",
+            "normalized": "campabnhas",
+            "suggested_path": "icons/campabnhas.svg",
+            "size": 16456,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/campo de tВnis.svg",
+            "filename": "campo de tВnis.svg",
+            "normalized": "campo_de_tvnis",
+            "suggested_path": "icons/campo_de_tvnis.svg",
+            "size": 12756,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/campos de tВnis.svg",
+            "filename": "campos de tВnis.svg",
+            "normalized": "campos_de_tvnis",
+            "suggested_path": "icons/campos_de_tvnis.svg",
+            "size": 11672,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/campГnula.svg",
+            "filename": "campГnula.svg",
+            "normalized": "campgnula",
+            "suggested_path": "icons/campgnula.svg",
+            "size": 19092,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/canadа.svg",
+            "filename": "canadа.svg",
+            "normalized": "canada",
+            "suggested_path": "icons/canada.svg",
+            "size": 4224,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/canapВ.svg",
+            "filename": "canapВ.svg",
+            "normalized": "canapv",
+            "suggested_path": "icons/canapv.svg",
+            "size": 20120,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/canapВs.svg",
+            "filename": "canapВs.svg",
+            "normalized": "canapvs",
+            "suggested_path": "icons/canapvs.svg",
+            "size": 16740,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/candeieiro de pВ.svg",
+            "filename": "candeieiro de pВ.svg",
+            "normalized": "candeieiro_de_pv",
+            "suggested_path": "icons/candeieiro_de_pv.svg",
+            "size": 5312,
+            "suspicious": true,
+            "mtime": 1777366432
+        },
+        {
+            "path": "icons/cangurг.svg",
+            "filename": "cangurг.svg",
+            "normalized": "cangurg",
+            "suggested_path": "icons/cangurg.svg",
+            "size": 13168,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/canЗ╞o de natal.svg",
+            "filename": "canЗ╞o de natal.svg",
+            "normalized": "canz_o_de_natal",
+            "suggested_path": "icons/canz_o_de_natal.svg",
+            "size": 27828,
+            "suspicious": true,
+            "mtime": 1777366432
+        },
+        {
+            "path": "icons/canаrias.svg",
+            "filename": "canаrias.svg",
+            "normalized": "canarias",
+            "suggested_path": "icons/canarias.svg",
+            "size": 3820,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/canаrias_2.svg",
+            "filename": "canаrias_2.svg",
+            "normalized": "canarias_2",
+            "suggested_path": "icons/canarias_2.svg",
+            "size": 6628,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/canаrio.svg",
+            "filename": "canаrio.svg",
+            "normalized": "canario",
+            "suggested_path": "icons/canario.svg",
+            "size": 13140,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/canаrios.svg",
+            "filename": "canаrios.svg",
+            "normalized": "canarios",
+            "suggested_path": "icons/canarios.svg",
+            "size": 11584,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/capitвlio.svg",
+            "filename": "capitвlio.svg",
+            "normalized": "capitvlio",
+            "suggested_path": "icons/capitvlio.svg",
+            "size": 14876,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/caracвis de ouro.svg",
+            "filename": "caracвis de ouro.svg",
+            "normalized": "caracvis_de_ouro",
+            "suggested_path": "icons/caracvis_de_ouro.svg",
+            "size": 15676,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/caracвis.svg",
+            "filename": "caracвis.svg",
+            "normalized": "caracvis",
+            "suggested_path": "icons/caracvis.svg",
+            "size": 19712,
+            "suspicious": true,
+            "mtime": 1777366432
+        },
+        {
+            "path": "icons/caracвis_2.svg",
+            "filename": "caracвis_2.svg",
+            "normalized": "caracvis_2",
+            "suggested_path": "icons/caracvis_2.svg",
+            "size": 10680,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/caracвis_3.svg",
+            "filename": "caracвis_3.svg",
+            "normalized": "caracvis_3",
+            "suggested_path": "icons/caracvis_3.svg",
+            "size": 12604,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/caracвis_4.svg",
+            "filename": "caracвis_4.svg",
+            "normalized": "caracvis_4",
+            "suggested_path": "icons/caracvis_4.svg",
+            "size": 9348,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/carapuЗo.svg",
+            "filename": "carapuЗo.svg",
+            "normalized": "carapuzo",
+            "suggested_path": "icons/carapuzo.svg",
+            "size": 13644,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/carnбvoro.svg",
+            "filename": "carnбvoro.svg",
+            "normalized": "carnbvoro",
+            "suggested_path": "icons/carnbvoro.svg",
+            "size": 11520,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/carnбvoros.svg",
+            "filename": "carnбvoros.svg",
+            "normalized": "carnbvoros",
+            "suggested_path": "icons/carnbvoros.svg",
+            "size": 10204,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/carro da polбcia.svg",
+            "filename": "carro da polбcia.svg",
+            "normalized": "carro_da_polbcia",
+            "suggested_path": "icons/carro_da_polbcia.svg",
+            "size": 11996,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/carro da polбcia_2.svg",
+            "filename": "carro da polбcia_2.svg",
+            "normalized": "carro_da_polbcia_2",
+            "suggested_path": "icons/carro_da_polbcia_2.svg",
+            "size": 11216,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/carro de fвrmula 1.svg",
+            "filename": "carro de fвrmula 1.svg",
+            "normalized": "carro_de_fvrmula_1",
+            "suggested_path": "icons/carro_de_fvrmula_1.svg",
+            "size": 14580,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/carrocВis.svg",
+            "filename": "carrocВis.svg",
+            "normalized": "carrocvis",
+            "suggested_path": "icons/carrocvis.svg",
+            "size": 17120,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/carros de fвrmula 1.svg",
+            "filename": "carros de fвrmula 1.svg",
+            "normalized": "carros_de_fvrmula_1",
+            "suggested_path": "icons/carros_de_fvrmula_1.svg",
+            "size": 12236,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/carros de polбcia.svg",
+            "filename": "carros de polбcia.svg",
+            "normalized": "carros_de_polbcia",
+            "suggested_path": "icons/carros_de_polbcia.svg",
+            "size": 10812,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/carros de polбcia_2.svg",
+            "filename": "carros de polбcia_2.svg",
+            "normalized": "carros_de_polbcia_2",
+            "suggested_path": "icons/carros_de_polbcia_2.svg",
+            "size": 10112,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/carroЗa.svg",
+            "filename": "carroЗa.svg",
+            "normalized": "carroza",
+            "suggested_path": "icons/carroza.svg",
+            "size": 27548,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/carroЗa_2.svg",
+            "filename": "carroЗa_2.svg",
+            "normalized": "carroza_2",
+            "suggested_path": "icons/carroza_2.svg",
+            "size": 19880,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/carroЗaria.svg",
+            "filename": "carroЗaria.svg",
+            "normalized": "carrozaria",
+            "suggested_path": "icons/carrozaria.svg",
+            "size": 11940,
+            "suspicious": true,
+            "mtime": 1777366432
+        },
+        {
+            "path": "icons/carroЗarias.svg",
+            "filename": "carroЗarias.svg",
+            "normalized": "carrozarias",
+            "suggested_path": "icons/carrozarias.svg",
+            "size": 10532,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/carroЗas.svg",
+            "filename": "carroЗas.svg",
+            "normalized": "carrozas",
+            "suggested_path": "icons/carrozas.svg",
+            "size": 16108,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/carroЗas_2.svg",
+            "filename": "carroЗas_2.svg",
+            "normalized": "carrozas_2",
+            "suggested_path": "icons/carrozas_2.svg",
+            "size": 22436,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/carta de conduЗ╞o.svg",
+            "filename": "carta de conduЗ╞o.svg",
+            "normalized": "carta_de_conduz_o",
+            "suggested_path": "icons/carta_de_conduz_o.svg",
+            "size": 12448,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/carta de conduЗ╞o_2.svg",
+            "filename": "carta de conduЗ╞o_2.svg",
+            "normalized": "carta_de_conduz_o_2",
+            "suggested_path": "icons/carta_de_conduz_o_2.svg",
+            "size": 10916,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/carteira de colВgio.svg",
+            "filename": "carteira de colВgio.svg",
+            "normalized": "carteira_de_colvgio",
+            "suggested_path": "icons/carteira_de_colvgio.svg",
+            "size": 12968,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/cartфes.svg",
+            "filename": "cartфes.svg",
+            "normalized": "cartfes",
+            "suggested_path": "icons/cartfes.svg",
+            "size": 9904,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/cartфes_2.svg",
+            "filename": "cartфes_2.svg",
+            "normalized": "cartfes_2",
+            "suggested_path": "icons/cartfes_2.svg",
+            "size": 11560,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/cart╞o de crВdito.svg",
+            "filename": "cart╞o de crВdito.svg",
+            "normalized": "cart_o_de_crvdito",
+            "suggested_path": "icons/cart_o_de_crvdito.svg",
+            "size": 13756,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/casa de banho geriаtrica.svg",
+            "filename": "casa de banho geriаtrica.svg",
+            "normalized": "casa_de_banho_geriatrica",
+            "suggested_path": "icons/casa_de_banho_geriatrica.svg",
+            "size": 4220,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/casa de banho geriаtrica_2.svg",
+            "filename": "casa de banho geriаtrica_2.svg",
+            "normalized": "casa_de_banho_geriatrica_2",
+            "suggested_path": "icons/casa_de_banho_geriatrica_2.svg",
+            "size": 4376,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/casaco de palhaЗo.svg",
+            "filename": "casaco de palhaЗo.svg",
+            "normalized": "casaco_de_palhazo",
+            "suggested_path": "icons/casaco_de_palhazo.svg",
+            "size": 29696,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/casacos de palhaЗo.svg",
+            "filename": "casacos de palhaЗo.svg",
+            "normalized": "casacos_de_palhazo",
+            "suggested_path": "icons/casacos_de_palhazo.svg",
+            "size": 23596,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/cassete de vбdeo.svg",
+            "filename": "cassete de vбdeo.svg",
+            "normalized": "cassete_de_vbdeo",
+            "suggested_path": "icons/cassete_de_vbdeo.svg",
+            "size": 11192,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/cassete de vбdeo_2.svg",
+            "filename": "cassete de vбdeo_2.svg",
+            "normalized": "cassete_de_vbdeo_2",
+            "suggested_path": "icons/cassete_de_vbdeo_2.svg",
+            "size": 5704,
+            "suspicious": true,
+            "mtime": 1777366432
+        },
+        {
+            "path": "icons/castellвn.svg",
+            "filename": "castellвn.svg",
+            "normalized": "castellvn",
+            "suggested_path": "icons/castellvn.svg",
+            "size": 13492,
+            "suspicious": true,
+            "mtime": 1777366432
+        },
+        {
+            "path": "icons/castelo da aljaferбa.svg",
+            "filename": "castelo da aljaferбa.svg",
+            "normalized": "castelo_da_aljaferba",
+            "suggested_path": "icons/castelo_da_aljaferba.svg",
+            "size": 18980,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/castilla leвn.svg",
+            "filename": "castilla leвn.svg",
+            "normalized": "castilla_levn",
+            "suggested_path": "icons/castilla_levn.svg",
+            "size": 9060,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/castilla leвn_2.svg",
+            "filename": "castilla leвn_2.svg",
+            "normalized": "castilla_levn_2",
+            "suggested_path": "icons/castilla_levn_2.svg",
+            "size": 17748,
+            "suspicious": true,
+            "mtime": 1777366432
+        },
+        {
+            "path": "icons/caЗador.svg",
+            "filename": "caЗador.svg",
+            "normalized": "cazador",
+            "suggested_path": "icons/cazador.svg",
+            "size": 21696,
+            "suspicious": true,
+            "mtime": 1777366432
+        },
+        {
+            "path": "icons/caЗadora.svg",
+            "filename": "caЗadora.svg",
+            "normalized": "cazadora",
+            "suggested_path": "icons/cazadora.svg",
+            "size": 21548,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/caЗadores.svg",
+            "filename": "caЗadores.svg",
+            "normalized": "cazadores",
+            "suggested_path": "icons/cazadores.svg",
+            "size": 17848,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/caЗar.svg",
+            "filename": "caЗar.svg",
+            "normalized": "cazar",
+            "suggested_path": "icons/cazar.svg",
+            "size": 13888,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/caЗarola.svg",
+            "filename": "caЗarola.svg",
+            "normalized": "cazarola",
+            "suggested_path": "icons/cazarola.svg",
+            "size": 10140,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/caЗarola_2.svg",
+            "filename": "caЗarola_2.svg",
+            "normalized": "cazarola_2",
+            "suggested_path": "icons/cazarola_2.svg",
+            "size": 11416,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/caЗarolas.svg",
+            "filename": "caЗarolas.svg",
+            "normalized": "cazarolas",
+            "suggested_path": "icons/cazarolas.svg",
+            "size": 9364,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/caЗzar.svg",
+            "filename": "caЗzar.svg",
+            "normalized": "cazzar",
+            "suggested_path": "icons/cazzar.svg",
+            "size": 16520,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/cd de mгsica.svg",
+            "filename": "cd de mгsica.svg",
+            "normalized": "cd_de_mgsica",
+            "suggested_path": "icons/cd_de_mgsica.svg",
+            "size": 23292,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/cedИncia de prioridade.svg",
+            "filename": "cedИncia de prioridade.svg",
+            "normalized": "cedincia_de_prioridade",
+            "suggested_path": "icons/cedincia_de_prioridade.svg",
+            "size": 13848,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/celebraЗ╞o.svg",
+            "filename": "celebraЗ╞o.svg",
+            "normalized": "celebraz_o",
+            "suggested_path": "icons/celebraz_o.svg",
+            "size": 13344,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/cemitВrio.svg",
+            "filename": "cemitВrio.svg",
+            "normalized": "cemitvrio",
+            "suggested_path": "icons/cemitvrio.svg",
+            "size": 24656,
+            "suspicious": true,
+            "mtime": 1777366432
+        },
+        {
+            "path": "icons/cemitВrios.svg",
+            "filename": "cemitВrios.svg",
+            "normalized": "cemitvrios",
+            "suggested_path": "icons/cemitvrios.svg",
+            "size": 21340,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/cenаrio.svg",
+            "filename": "cenаrio.svg",
+            "normalized": "cenario",
+            "suggested_path": "icons/cenario.svg",
+            "size": 23552,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/chaminВ.svg",
+            "filename": "chaminВ.svg",
+            "normalized": "chaminv",
+            "suggested_path": "icons/chaminv.svg",
+            "size": 7736,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/chaminВ_2.svg",
+            "filename": "chaminВ_2.svg",
+            "normalized": "chaminv_2",
+            "suggested_path": "icons/chaminv_2.svg",
+            "size": 13992,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/chaminВs.svg",
+            "filename": "chaminВs.svg",
+            "normalized": "chaminvs",
+            "suggested_path": "icons/chaminvs.svg",
+            "size": 7344,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/chaminВs_2.svg",
+            "filename": "chaminВs_2.svg",
+            "normalized": "chaminvs_2",
+            "suggested_path": "icons/chaminvs_2.svg",
+            "size": 12724,
+            "suspicious": true,
+            "mtime": 1777366432
+        },
+        {
+            "path": "icons/champУ.svg",
+            "filename": "champУ.svg",
+            "normalized": "champu",
+            "suggested_path": "icons/champu.svg",
+            "size": 14800,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/chapВu de bruxa.svg",
+            "filename": "chapВu de bruxa.svg",
+            "normalized": "chapvu_de_bruxa",
+            "suggested_path": "icons/chapvu_de_bruxa.svg",
+            "size": 9340,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/chapВu de festa.svg",
+            "filename": "chapВu de festa.svg",
+            "normalized": "chapvu_de_festa",
+            "suggested_path": "icons/chapvu_de_festa.svg",
+            "size": 18264,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/chapВu de pirata.svg",
+            "filename": "chapВu de pirata.svg",
+            "normalized": "chapvu_de_pirata",
+            "suggested_path": "icons/chapvu_de_pirata.svg",
+            "size": 10208,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/chapВu feminino.svg",
+            "filename": "chapВu feminino.svg",
+            "normalized": "chapvu_feminino",
+            "suggested_path": "icons/chapvu_feminino.svg",
+            "size": 13376,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/chapВu-coco.svg",
+            "filename": "chapВu-coco.svg",
+            "normalized": "chapvu_coco",
+            "suggested_path": "icons/chapvu_coco.svg",
+            "size": 10988,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/chapВu-coco_2.svg",
+            "filename": "chapВu-coco_2.svg",
+            "normalized": "chapvu_coco_2",
+            "suggested_path": "icons/chapvu_coco_2.svg",
+            "size": 9876,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/chapВu.svg",
+            "filename": "chapВu.svg",
+            "normalized": "chapvu",
+            "suggested_path": "icons/chapvu.svg",
+            "size": 11092,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/chefe de manutenЗ╞o.svg",
+            "filename": "chefe de manutenЗ╞o.svg",
+            "normalized": "chefe_de_manutenz_o",
+            "suggested_path": "icons/chefe_de_manutenz_o.svg",
+            "size": 22472,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/chefe de manutenЗ╞o_2.svg",
+            "filename": "chefe de manutenЗ╞o_2.svg",
+            "normalized": "chefe_de_manutenz_o_2",
+            "suggested_path": "icons/chefe_de_manutenz_o_2.svg",
+            "size": 22016,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/chimpanzВ.svg",
+            "filename": "chimpanzВ.svg",
+            "normalized": "chimpanzv",
+            "suggested_path": "icons/chimpanzv.svg",
+            "size": 18304,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/chinИs.svg",
+            "filename": "chinИs.svg",
+            "normalized": "chinis",
+            "suggested_path": "icons/chinis.svg",
+            "size": 12276,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/chipanzВs.svg",
+            "filename": "chipanzВs.svg",
+            "normalized": "chipanzvs",
+            "suggested_path": "icons/chipanzvs.svg",
+            "size": 15480,
+            "suspicious": true,
+            "mtime": 1777366432
+        },
+        {
+            "path": "icons/chouriЗo.svg",
+            "filename": "chouriЗo.svg",
+            "normalized": "chourizo",
+            "suggested_path": "icons/chourizo.svg",
+            "size": 19592,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/chouriЗos.svg",
+            "filename": "chouriЗos.svg",
+            "normalized": "chourizos",
+            "suggested_path": "icons/chourizos.svg",
+            "size": 16880,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/chаvena de cafВ.svg",
+            "filename": "chаvena de cafВ.svg",
+            "normalized": "chavena_de_cafv",
+            "suggested_path": "icons/chavena_de_cafv.svg",
+            "size": 18068,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/chаvena de chocolate quente.svg",
+            "filename": "chаvena de chocolate quente.svg",
+            "normalized": "chavena_de_chocolate_quente",
+            "suggested_path": "icons/chavena_de_chocolate_quente.svg",
+            "size": 19920,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/chаvena.svg",
+            "filename": "chаvena.svg",
+            "normalized": "chavena",
+            "suggested_path": "icons/chavena.svg",
+            "size": 11212,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/chаvena_2.svg",
+            "filename": "chаvena_2.svg",
+            "normalized": "chavena_2",
+            "suggested_path": "icons/chavena_2.svg",
+            "size": 10968,
+            "suspicious": true,
+            "mtime": 1777366432
+        },
+        {
+            "path": "icons/cientбfica.svg",
+            "filename": "cientбfica.svg",
+            "normalized": "cientbfica",
+            "suggested_path": "icons/cientbfica.svg",
+            "size": 14364,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/cientбficos.svg",
+            "filename": "cientбficos.svg",
+            "normalized": "cientbficos",
+            "suggested_path": "icons/cientbficos.svg",
+            "size": 11760,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/cinto de seguranЗa.svg",
+            "filename": "cinto de seguranЗa.svg",
+            "normalized": "cinto_de_seguranza",
+            "suggested_path": "icons/cinto_de_seguranza.svg",
+            "size": 10456,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/cintos de seguranЗa.svg",
+            "filename": "cintos de seguranЗa.svg",
+            "normalized": "cintos_de_seguranza",
+            "suggested_path": "icons/cintos_de_seguranza.svg",
+            "size": 9716,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/circunferИncia.svg",
+            "filename": "circunferИncia.svg",
+            "normalized": "circunferincia",
+            "suggested_path": "icons/circunferincia.svg",
+            "size": 10456,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/clбtoris.svg",
+            "filename": "clбtoris.svg",
+            "normalized": "clbtoris",
+            "suggested_path": "icons/clbtoris.svg",
+            "size": 16060,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/cobranЗa.svg",
+            "filename": "cobranЗa.svg",
+            "normalized": "cobranza",
+            "suggested_path": "icons/cobranza.svg",
+            "size": 14660,
+            "suspicious": true,
+            "mtime": 1777366432
+        },
+        {
+            "path": "icons/colchфes com vibraЗ╞o.svg",
+            "filename": "colchфes com vibraЗ╞o.svg",
+            "normalized": "colchfes_com_vibraz_o",
+            "suggested_path": "icons/colchfes_com_vibraz_o.svg",
+            "size": 16664,
+            "suspicious": true,
+            "mtime": 1777366432
+        },
+        {
+            "path": "icons/colchфes.svg",
+            "filename": "colchфes.svg",
+            "normalized": "colchfes",
+            "suggested_path": "icons/colchfes.svg",
+            "size": 14504,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/colchфes_2.svg",
+            "filename": "colchфes_2.svg",
+            "normalized": "colchfes_2",
+            "suggested_path": "icons/colchfes_2.svg",
+            "size": 15892,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/colchфes_3.svg",
+            "filename": "colchфes_3.svg",
+            "normalized": "colchfes_3",
+            "suggested_path": "icons/colchfes_3.svg",
+            "size": 11104,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/colchфes_4.svg",
+            "filename": "colchфes_4.svg",
+            "normalized": "colchfes_4",
+            "suggested_path": "icons/colchfes_4.svg",
+            "size": 11960,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/colch╞o com vibraЗ╞o.svg",
+            "filename": "colch╞o com vibraЗ╞o.svg",
+            "normalized": "colch_o_com_vibraz_o",
+            "suggested_path": "icons/colch_o_com_vibraz_o.svg",
+            "size": 14208,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/colch╞o de аgua.svg",
+            "filename": "colch╞o de аgua.svg",
+            "normalized": "colch_o_de_agua",
+            "suggested_path": "icons/colch_o_de_agua.svg",
+            "size": 18248,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/colibrб.svg",
+            "filename": "colibrб.svg",
+            "normalized": "colibrb",
+            "suggested_path": "icons/colibrb.svg",
+            "size": 20984,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/colВgios.svg",
+            "filename": "colВgios.svg",
+            "normalized": "colvgios",
+            "suggested_path": "icons/colvgios.svg",
+            "size": 22808,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/colВgios_2.svg",
+            "filename": "colВgios_2.svg",
+            "normalized": "colvgios_2",
+            "suggested_path": "icons/colvgios_2.svg",
+            "size": 12784,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/colУmbia.svg",
+            "filename": "colУmbia.svg",
+            "normalized": "columbia",
+            "suggested_path": "icons/columbia.svg",
+            "size": 1588,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/colвnia.svg",
+            "filename": "colвnia.svg",
+            "normalized": "colvnia",
+            "suggested_path": "icons/colvnia.svg",
+            "size": 17472,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/colвnia_2.svg",
+            "filename": "colвnia_2.svg",
+            "normalized": "colvnia_2",
+            "suggested_path": "icons/colvnia_2.svg",
+            "size": 19428,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/colвnia_3.svg",
+            "filename": "colвnia_3.svg",
+            "normalized": "colvnia_3",
+            "suggested_path": "icons/colvnia_3.svg",
+            "size": 10984,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/colвnias.svg",
+            "filename": "colвnias.svg",
+            "normalized": "colvnias",
+            "suggested_path": "icons/colvnias.svg",
+            "size": 14872,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/colвnias_2.svg",
+            "filename": "colвnias_2.svg",
+            "normalized": "colvnias_2",
+            "suggested_path": "icons/colvnias_2.svg",
+            "size": 10884,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/comeЗar.svg",
+            "filename": "comeЗar.svg",
+            "normalized": "comezar",
+            "suggested_path": "icons/comezar.svg",
+            "size": 2184,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/comida para pаssaros.svg",
+            "filename": "comida para pаssaros.svg",
+            "normalized": "comida_para_passaros",
+            "suggested_path": "icons/comida_para_passaros.svg",
+            "size": 19976,
+            "suspicious": true,
+            "mtime": 1777366432
+        },
+        {
+            "path": "icons/comilфes.svg",
+            "filename": "comilфes.svg",
+            "normalized": "comilfes",
+            "suggested_path": "icons/comilfes.svg",
+            "size": 24648,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/comitВ de empresa.svg",
+            "filename": "comitВ de empresa.svg",
+            "normalized": "comitv_de_empresa",
+            "suggested_path": "icons/comitv_de_empresa.svg",
+            "size": 17048,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/comitВ de honra.svg",
+            "filename": "comitВ de honra.svg",
+            "normalized": "comitv_de_honra",
+            "suggested_path": "icons/comitv_de_honra.svg",
+            "size": 16660,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/comitВ sindical.svg",
+            "filename": "comitВ sindical.svg",
+            "normalized": "comitv_sindical",
+            "suggested_path": "icons/comitv_sindical.svg",
+            "size": 19148,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/como estа o tempo_.svg",
+            "filename": "como estа o tempo_.svg",
+            "normalized": "como_esta_o_tempo",
+            "suggested_path": "icons/como_esta_o_tempo.svg",
+            "size": 16904,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/como estа_.svg",
+            "filename": "como estа_.svg",
+            "normalized": "como_esta",
+            "suggested_path": "icons/como_esta.svg",
+            "size": 12712,
+            "suspicious": true,
+            "mtime": 1777366432
+        },
+        {
+            "path": "icons/como estаs_.svg",
+            "filename": "como estаs_.svg",
+            "normalized": "como_estas",
+            "suggested_path": "icons/como_estas.svg",
+            "size": 19416,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/comunicaЗ╞o aumentativa.svg",
+            "filename": "comunicaЗ╞o aumentativa.svg",
+            "normalized": "comunicaz_o_aumentativa",
+            "suggested_path": "icons/comunicaz_o_aumentativa.svg",
+            "size": 21676,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/conduЗфes.svg",
+            "filename": "conduЗфes.svg",
+            "normalized": "conduzfes",
+            "suggested_path": "icons/conduzfes.svg",
+            "size": 10668,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/conduЗ╞o.svg",
+            "filename": "conduЗ╞o.svg",
+            "normalized": "conduz_o",
+            "suggested_path": "icons/conduz_o.svg",
+            "size": 11448,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/cone de sinalizaЗ╞o.svg",
+            "filename": "cone de sinalizaЗ╞o.svg",
+            "normalized": "cone_de_sinalizaz_o",
+            "suggested_path": "icons/cone_de_sinalizaz_o.svg",
+            "size": 7876,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/conferИncia.svg",
+            "filename": "conferИncia.svg",
+            "normalized": "conferincia",
+            "suggested_path": "icons/conferincia.svg",
+            "size": 29720,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/confissфes.svg",
+            "filename": "confissфes.svg",
+            "normalized": "confissfes",
+            "suggested_path": "icons/confissfes.svg",
+            "size": 12404,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/consciИncia.svg",
+            "filename": "consciИncia.svg",
+            "normalized": "consciincia",
+            "suggested_path": "icons/consciincia.svg",
+            "size": 18064,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/conservaЗ╞o e manutenЗ╞o.svg",
+            "filename": "conservaЗ╞o e manutenЗ╞o.svg",
+            "normalized": "conservaz_o_e_manutenz_o",
+            "suggested_path": "icons/conservaz_o_e_manutenz_o.svg",
+            "size": 15280,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/conta-quilвmetros.svg",
+            "filename": "conta-quilвmetros.svg",
+            "normalized": "conta_quilvmetros",
+            "suggested_path": "icons/conta_quilvmetros.svg",
+            "size": 15184,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/contaminaЗ╞o.svg",
+            "filename": "contaminaЗ╞o.svg",
+            "normalized": "contaminaz_o",
+            "suggested_path": "icons/contaminaz_o.svg",
+            "size": 14980,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/contaminaЗ╞o_2.svg",
+            "filename": "contaminaЗ╞o_2.svg",
+            "normalized": "contaminaz_o_2",
+            "suggested_path": "icons/contaminaz_o_2.svg",
+            "size": 26540,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/contaminaЗ╞o_3.svg",
+            "filename": "contaminaЗ╞o_3.svg",
+            "normalized": "contaminaz_o_3",
+            "suggested_path": "icons/contaminaz_o_3.svg",
+            "size": 22184,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/conteгdo.svg",
+            "filename": "conteгdo.svg",
+            "normalized": "contegdo",
+            "suggested_path": "icons/contegdo.svg",
+            "size": 20044,
+            "suspicious": true,
+            "mtime": 1777366432
+        },
+        {
+            "path": "icons/convenЗ╞o.svg",
+            "filename": "convenЗ╞o.svg",
+            "normalized": "convenz_o",
+            "suggested_path": "icons/convenz_o.svg",
+            "size": 21252,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/copo de аgua.svg",
+            "filename": "copo de аgua.svg",
+            "normalized": "copo_de_agua",
+            "suggested_path": "icons/copo_de_agua.svg",
+            "size": 12524,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/coraЗ╞o.svg",
+            "filename": "coraЗ╞o.svg",
+            "normalized": "coraz_o",
+            "suggested_path": "icons/coraz_o.svg",
+            "size": 11900,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/coraЗ╞o_2.svg",
+            "filename": "coraЗ╞o_2.svg",
+            "normalized": "coraz_o_2",
+            "suggested_path": "icons/coraz_o_2.svg",
+            "size": 7132,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/correio electrвnico.svg",
+            "filename": "correio electrвnico.svg",
+            "normalized": "correio_electrvnico",
+            "suggested_path": "icons/correio_electrvnico.svg",
+            "size": 14624,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/coser Е mаquina.svg",
+            "filename": "coser Е mаquina.svg",
+            "normalized": "coser_e_maquina",
+            "suggested_path": "icons/coser_e_maquina.svg",
+            "size": 21224,
+            "suspicious": true,
+            "mtime": 1777366432
+        },
+        {
+            "path": "icons/crianЗa.svg",
+            "filename": "crianЗa.svg",
+            "normalized": "crianza",
+            "suggested_path": "icons/crianza.svg",
+            "size": 27404,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/cronвmetro.svg",
+            "filename": "cronвmetro.svg",
+            "normalized": "cronvmetro",
+            "suggested_path": "icons/cronvmetro.svg",
+            "size": 14300,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/croаcia.svg",
+            "filename": "croаcia.svg",
+            "normalized": "croacia",
+            "suggested_path": "icons/croacia.svg",
+            "size": 7492,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/crustаceos.svg",
+            "filename": "crustаceos.svg",
+            "normalized": "crustaceos",
+            "suggested_path": "icons/crustaceos.svg",
+            "size": 27984,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/crГneo.svg",
+            "filename": "crГneo.svg",
+            "normalized": "crgneo",
+            "suggested_path": "icons/crgneo.svg",
+            "size": 12220,
+            "suspicious": true,
+            "mtime": 1777366432
+        },
+        {
+            "path": "icons/crвtalo.svg",
+            "filename": "crвtalo.svg",
+            "normalized": "crvtalo",
+            "suggested_path": "icons/crvtalo.svg",
+            "size": 12732,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/crвtalos.svg",
+            "filename": "crвtalos.svg",
+            "normalized": "crvtalos",
+            "suggested_path": "icons/crvtalos.svg",
+            "size": 22252,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/cuбca.svg",
+            "filename": "cuбca.svg",
+            "normalized": "cubca",
+            "suggested_path": "icons/cubca.svg",
+            "size": 13824,
+            "suspicious": true,
+            "mtime": 1777366432
+        },
+        {
+            "path": "icons/cВrebro.svg",
+            "filename": "cВrebro.svg",
+            "normalized": "cvrebro",
+            "suggested_path": "icons/cvrebro.svg",
+            "size": 21592,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/cВrebros.svg",
+            "filename": "cВrebros.svg",
+            "normalized": "cvrebros",
+            "suggested_path": "icons/cvrebros.svg",
+            "size": 18104,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/cВu.svg",
+            "filename": "cВu.svg",
+            "normalized": "cvu",
+            "suggested_path": "icons/cvu.svg",
+            "size": 6492,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/cГmara de vбdeo.svg",
+            "filename": "cГmara de vбdeo.svg",
+            "normalized": "cgmara_de_vbdeo",
+            "suggested_path": "icons/cgmara_de_vbdeo.svg",
+            "size": 15512,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/cГmara de vбdeo_2.svg",
+            "filename": "cГmara de vбdeo_2.svg",
+            "normalized": "cgmara_de_vbdeo_2",
+            "suggested_path": "icons/cgmara_de_vbdeo_2.svg",
+            "size": 13392,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/cГmara municipal.svg",
+            "filename": "cГmara municipal.svg",
+            "normalized": "cgmara_municipal",
+            "suggested_path": "icons/cgmara_municipal.svg",
+            "size": 19472,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/cГmaras municipais.svg",
+            "filename": "cГmaras municipais.svg",
+            "normalized": "cgmaras_municipais",
+            "suggested_path": "icons/cgmaras_municipais.svg",
+            "size": 16840,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/cаceres.svg",
+            "filename": "cаceres.svg",
+            "normalized": "caceres",
+            "suggested_path": "icons/caceres.svg",
+            "size": 12016,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/cаdiz.svg",
+            "filename": "cаdiz.svg",
+            "normalized": "cadiz",
+            "suggested_path": "icons/cadiz.svg",
+            "size": 13096,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/cаlice.svg",
+            "filename": "cаlice.svg",
+            "normalized": "calice",
+            "suggested_path": "icons/calice.svg",
+            "size": 9936,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/cаlices.svg",
+            "filename": "cаlices.svg",
+            "normalized": "calices",
+            "suggested_path": "icons/calices.svg",
+            "size": 9560,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/cаpsula.svg",
+            "filename": "cаpsula.svg",
+            "normalized": "capsula",
+            "suggested_path": "icons/capsula.svg",
+            "size": 11256,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/cбculos.svg",
+            "filename": "cбculos.svg",
+            "normalized": "cbculos",
+            "suggested_path": "icons/cbculos.svg",
+            "size": 5792,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/cбrculo.svg",
+            "filename": "cбrculo.svg",
+            "normalized": "cbrculo",
+            "suggested_path": "icons/cbrculo.svg",
+            "size": 6292,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/cвcв.svg",
+            "filename": "cвcв.svg",
+            "normalized": "cvcv",
+            "suggested_path": "icons/cvcv.svg",
+            "size": 14660,
+            "suspicious": true,
+            "mtime": 1777366432
+        },
+        {
+            "path": "icons/cвdigo de barras.svg",
+            "filename": "cвdigo de barras.svg",
+            "normalized": "cvdigo_de_barras",
+            "suggested_path": "icons/cvdigo_de_barras.svg",
+            "size": 5560,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/cвdigo de barras_2.svg",
+            "filename": "cвdigo de barras_2.svg",
+            "normalized": "cvdigo_de_barras_2",
+            "suggested_path": "icons/cvdigo_de_barras_2.svg",
+            "size": 5816,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/cвmoda.svg",
+            "filename": "cвmoda.svg",
+            "normalized": "cvmoda",
+            "suggested_path": "icons/cvmoda.svg",
+            "size": 10972,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/cвmoda_2.svg",
+            "filename": "cвmoda_2.svg",
+            "normalized": "cvmoda_2",
+            "suggested_path": "icons/cvmoda_2.svg",
+            "size": 13124,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/cвmodas.svg",
+            "filename": "cвmodas.svg",
+            "normalized": "cvmodas",
+            "suggested_path": "icons/cvmodas.svg",
+            "size": 9544,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/cвmodo.svg",
+            "filename": "cвmodo.svg",
+            "normalized": "cvmodo",
+            "suggested_path": "icons/cvmodo.svg",
+            "size": 19744,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/cвrdova.svg",
+            "filename": "cвrdova.svg",
+            "normalized": "cvrdova",
+            "suggested_path": "icons/cvrdova.svg",
+            "size": 14660,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/cвrnea.svg",
+            "filename": "cвrnea.svg",
+            "normalized": "cvrnea",
+            "suggested_path": "icons/cvrnea.svg",
+            "size": 18660,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/cгbito.svg",
+            "filename": "cгbito.svg",
+            "normalized": "cgbito",
+            "suggested_path": "icons/cgbito.svg",
+            "size": 12448,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/cгbitos.svg",
+            "filename": "cгbitos.svg",
+            "normalized": "cgbitos",
+            "suggested_path": "icons/cgbitos.svg",
+            "size": 10640,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/cгter.svg",
+            "filename": "cгter.svg",
+            "normalized": "cgter",
+            "suggested_path": "icons/cgter.svg",
+            "size": 12068,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/dalб.svg",
+            "filename": "dalб.svg",
+            "normalized": "dalb",
+            "suggested_path": "icons/dalb.svg",
+            "size": 23536,
+            "suspicious": true,
+            "mtime": 1777366432
+        },
+        {
+            "path": "icons/danЗa tбpica de arag╞o.svg",
+            "filename": "danЗa tбpica de arag╞o.svg",
+            "normalized": "danza_tbpica_de_arag_o",
+            "suggested_path": "icons/danza_tbpica_de_arag_o.svg",
+            "size": 20064,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/danЗarina de flamenco.svg",
+            "filename": "danЗarina de flamenco.svg",
+            "normalized": "danzarina_de_flamenco",
+            "suggested_path": "icons/danzarina_de_flamenco.svg",
+            "size": 19908,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/danЗarino de flamenco.svg",
+            "filename": "danЗarino de flamenco.svg",
+            "normalized": "danzarino_de_flamenco",
+            "suggested_path": "icons/danzarino_de_flamenco.svg",
+            "size": 12308,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/danЗarinos.svg",
+            "filename": "danЗarinos.svg",
+            "normalized": "danzarinos",
+            "suggested_path": "icons/danzarinos.svg",
+            "size": 19112,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/dar golpes com os pВs.svg",
+            "filename": "dar golpes com os pВs.svg",
+            "normalized": "dar_golpes_com_os_pvs",
+            "suggested_path": "icons/dar_golpes_com_os_pvs.svg",
+            "size": 19116,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/dar pontapВs.svg",
+            "filename": "dar pontapВs.svg",
+            "normalized": "dar_pontapvs",
+            "suggested_path": "icons/dar_pontapvs.svg",
+            "size": 14448,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/dar pontapВs_2.svg",
+            "filename": "dar pontapВs_2.svg",
+            "normalized": "dar_pontapvs_2",
+            "suggested_path": "icons/dar_pontapvs_2.svg",
+            "size": 7252,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/de que color В_.svg",
+            "filename": "de que color В_.svg",
+            "normalized": "de_que_color_v",
+            "suggested_path": "icons/de_que_color_v.svg",
+            "size": 11032,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/deficiИncia motora.svg",
+            "filename": "deficiИncia motora.svg",
+            "normalized": "deficiincia_motora",
+            "suggested_path": "icons/deficiincia_motora.svg",
+            "size": 23952,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/deficiИncia.svg",
+            "filename": "deficiИncia.svg",
+            "normalized": "deficiincia",
+            "suggested_path": "icons/deficiincia.svg",
+            "size": 6452,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/deficiИncia_2.svg",
+            "filename": "deficiИncia_2.svg",
+            "normalized": "deficiincia_2",
+            "suggested_path": "icons/deficiincia_2.svg",
+            "size": 25716,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/demanda de divвrcio.svg",
+            "filename": "demanda de divвrcio.svg",
+            "normalized": "demanda_de_divvrcio",
+            "suggested_path": "icons/demanda_de_divvrcio.svg",
+            "size": 20768,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/demanda de divвrcio_2.svg",
+            "filename": "demanda de divвrcio_2.svg",
+            "normalized": "demanda_de_divvrcio_2",
+            "suggested_path": "icons/demanda_de_divvrcio_2.svg",
+            "size": 20672,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/demanda de divвrcio_3.svg",
+            "filename": "demanda de divвrcio_3.svg",
+            "normalized": "demanda_de_divvrcio_3",
+            "suggested_path": "icons/demanda_de_divvrcio_3.svg",
+            "size": 21180,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/dependИncia.svg",
+            "filename": "dependИncia.svg",
+            "normalized": "dependincia",
+            "suggested_path": "icons/dependincia.svg",
+            "size": 27368,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/dependИncia_2.svg",
+            "filename": "dependИncia_2.svg",
+            "normalized": "dependincia_2",
+            "suggested_path": "icons/dependincia_2.svg",
+            "size": 15576,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/depвsito de аgua.svg",
+            "filename": "depвsito de аgua.svg",
+            "normalized": "depvsito_de_agua",
+            "suggested_path": "icons/depvsito_de_agua.svg",
+            "size": 11012,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/depвsitos de аgua.svg",
+            "filename": "depвsitos de аgua.svg",
+            "normalized": "depvsitos_de_agua",
+            "suggested_path": "icons/depvsitos_de_agua.svg",
+            "size": 10236,
+            "suspicious": true,
+            "mtime": 1777366432
+        },
+        {
+            "path": "icons/desagradаvel.svg",
+            "filename": "desagradаvel.svg",
+            "normalized": "desagradavel",
+            "suggested_path": "icons/desagradavel.svg",
+            "size": 18228,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/descafeбnado.svg",
+            "filename": "descafeбnado.svg",
+            "normalized": "descafebnado",
+            "suggested_path": "icons/descafebnado.svg",
+            "size": 15820,
+            "suspicious": true,
+            "mtime": 1777366432
+        },
+        {
+            "path": "icons/descafeбnados.svg",
+            "filename": "descafeбnados.svg",
+            "normalized": "descafebnados",
+            "suggested_path": "icons/descafebnados.svg",
+            "size": 13608,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/descalЗar.svg",
+            "filename": "descalЗar.svg",
+            "normalized": "descalzar",
+            "suggested_path": "icons/descalzar.svg",
+            "size": 16404,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/descalЗo.svg",
+            "filename": "descalЗo.svg",
+            "normalized": "descalzo",
+            "suggested_path": "icons/descalzo.svg",
+            "size": 19240,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/descriЗ╞o.svg",
+            "filename": "descriЗ╞o.svg",
+            "normalized": "descriz_o",
+            "suggested_path": "icons/descriz_o.svg",
+            "size": 16016,
+            "suspicious": true,
+            "mtime": 1777366432
+        },
+        {
+            "path": "icons/descriЗ╞o_2.svg",
+            "filename": "descriЗ╞o_2.svg",
+            "normalized": "descriz_o_2",
+            "suggested_path": "icons/descriz_o_2.svg",
+            "size": 11492,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/descriЗ╞o_3.svg",
+            "filename": "descriЗ╞o_3.svg",
+            "normalized": "descriz_o_3",
+            "suggested_path": "icons/descriz_o_3.svg",
+            "size": 13560,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/descriЗ╞o_4.svg",
+            "filename": "descriЗ╞o_4.svg",
+            "normalized": "descriz_o_4",
+            "suggested_path": "icons/descriz_o_4.svg",
+            "size": 14116,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/desobstruidor quбmico.svg",
+            "filename": "desobstruidor quбmico.svg",
+            "normalized": "desobstruidor_qubmico",
+            "suggested_path": "icons/desobstruidor_qubmico.svg",
+            "size": 20568,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/despedaЗar.svg",
+            "filename": "despedaЗar.svg",
+            "normalized": "despedazar",
+            "suggested_path": "icons/despedazar.svg",
+            "size": 15896,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/despedaЗar_2.svg",
+            "filename": "despedaЗar_2.svg",
+            "normalized": "despedazar_2",
+            "suggested_path": "icons/despedazar_2.svg",
+            "size": 16440,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/detergente para a loiЗa.svg",
+            "filename": "detergente para a loiЗa.svg",
+            "normalized": "detergente_para_a_loiza",
+            "suggested_path": "icons/detergente_para_a_loiza.svg",
+            "size": 11964,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/dia de vВspera de natal.svg",
+            "filename": "dia de vВspera de natal.svg",
+            "normalized": "dia_de_vvspera_de_natal",
+            "suggested_path": "icons/dia_de_vvspera_de_natal.svg",
+            "size": 32928,
+            "suspicious": true,
+            "mtime": 1777366435
+        },
+        {
+            "path": "icons/dicionаrio.svg",
+            "filename": "dicionаrio.svg",
+            "normalized": "dicionario",
+            "suggested_path": "icons/dicionario.svg",
+            "size": 18076,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/difбcil.svg",
+            "filename": "difбcil.svg",
+            "normalized": "difbcil",
+            "suggested_path": "icons/difbcil.svg",
+            "size": 13544,
+            "suspicious": true,
+            "mtime": 1777366432
+        },
+        {
+            "path": "icons/diligИncia.svg",
+            "filename": "diligИncia.svg",
+            "normalized": "diligincia",
+            "suggested_path": "icons/diligincia.svg",
+            "size": 16472,
+            "suspicious": true,
+            "mtime": 1777366432
+        },
+        {
+            "path": "icons/diligИncias.svg",
+            "filename": "diligИncias.svg",
+            "normalized": "diligincias",
+            "suggested_path": "icons/diligincias.svg",
+            "size": 13532,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/diminuir a potИncia.svg",
+            "filename": "diminuir a potИncia.svg",
+            "normalized": "diminuir_a_potincia",
+            "suggested_path": "icons/diminuir_a_potincia.svg",
+            "size": 11328,
+            "suspicious": true,
+            "mtime": 1777366436
+        },
+        {
+            "path": "icons/direcЗ╞o.svg",
+            "filename": "direcЗ╞o.svg",
+            "normalized": "direcz_o",
+            "suggested_path": "icons/direcz_o.svg",
+            "size": 16076,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/discriminaЗ╞o.svg",
+            "filename": "discriminaЗ╞o.svg",
+            "normalized": "discriminaz_o",
+            "suggested_path": "icons/discriminaz_o.svg",
+            "size": 20560,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/discriminaЗ╞o_2.svg",
+            "filename": "discriminaЗ╞o_2.svg",
+            "normalized": "discriminaz_o_2",
+            "suggested_path": "icons/discriminaz_o_2.svg",
+            "size": 24424,
+            "suspicious": true,
+            "mtime": 1777366434
+        },
+        {
+            "path": "icons/discriminaЗ╞o_3.svg",
+            "filename": "discriminaЗ╞o_3.svg",
+            "normalized": "discriminaz_o_3",
+            "suggested_path": "icons/discriminaz_o_3.svg",
+            "size": 24196,
+            "suspicious": true,
+            "mtime": 1777366433
+        },
+        {
+            "path": "icons/disfarЗar.svg",
+            "filename": "disfarЗar.svg",
+            "normalized": "disfarzar",
+            "suggested_path": "icons/disfarzar.svg",
+            "size": 24376,
+            "suspicious": true,
+            "mtime": 1777366434
+        }
+    ],
+    "duplicate_groups": {
+        "chove": [
+            {
+                "path": "icons/chove!.svg",
+                "filename": "chove!.svg",
+                "normalized": "chove",
+                "suggested_path": "icons/chove.svg",
+                "size": 15020,
+                "suspicious": false,
+                "mtime": 1777366436
+            },
+            {
+                "path": "icons/chove_.svg",
+                "filename": "chove_.svg",
+                "normalized": "chove",
+                "suggested_path": "icons/chove.svg",
+                "size": 13692,
+                "suspicious": false,
+                "mtime": 1777366436
+            }
+        ],
+        "esta_sol": [
+            {
+                "path": "icons/estа sol!.svg",
+                "filename": "estа sol!.svg",
+                "normalized": "esta_sol",
+                "suggested_path": "icons/esta_sol.svg",
+                "size": 13240,
+                "suspicious": true,
+                "mtime": 1777366436
+            },
+            {
+                "path": "icons/estа sol_.svg",
+                "filename": "estа sol_.svg",
+                "normalized": "esta_sol",
+                "suggested_path": "icons/esta_sol.svg",
+                "size": 12164,
+                "suspicious": true,
+                "mtime": 1777366433
+            }
+        ],
+        "esta_vento": [
+            {
+                "path": "icons/estа vento!.svg",
+                "filename": "estа vento!.svg",
+                "normalized": "esta_vento",
+                "suggested_path": "icons/esta_vento.svg",
+                "size": 16536,
+                "suspicious": true,
+                "mtime": 1777366434
+            },
+            {
+                "path": "icons/estа vento_.svg",
+                "filename": "estа vento_.svg",
+                "normalized": "esta_vento",
+                "suggested_path": "icons/esta_vento.svg",
+                "size": 15492,
+                "suspicious": true,
+                "mtime": 1777366436
+            }
+        ],
+        "ha_nuvens": [
+            {
+                "path": "icons/hа nuvens!.svg",
+                "filename": "hа nuvens!.svg",
+                "normalized": "ha_nuvens",
+                "suggested_path": "icons/ha_nuvens.svg",
+                "size": 13132,
+                "suspicious": true,
+                "mtime": 1777366434
+            },
+            {
+                "path": "icons/hа nuvens_.svg",
+                "filename": "hа nuvens_.svg",
+                "normalized": "ha_nuvens",
+                "suggested_path": "icons/ha_nuvens.svg",
+                "size": 11788,
+                "suspicious": true,
+                "mtime": 1777366434
+            }
+        ],
+        "l": [
+            {
+                "path": "icons/l.svg",
+                "filename": "l.svg",
+                "normalized": "l",
+                "suggested_path": "icons/l.svg",
+                "size": 984,
+                "suspicious": false,
+                "mtime": 1777366434
+            },
+            {
+                "path": "icons/l╞.svg",
+                "filename": "l╞.svg",
+                "normalized": "l",
+                "suggested_path": "icons/l.svg",
+                "size": 30264,
+                "suspicious": false,
+                "mtime": 1777366432
+            }
+        ],
+        "neva": [
+            {
+                "path": "icons/neva!.svg",
+                "filename": "neva!.svg",
+                "normalized": "neva",
+                "suggested_path": "icons/neva.svg",
+                "size": 14976,
+                "suspicious": false,
+                "mtime": 1777366436
+            },
+            {
+                "path": "icons/neva_.svg",
+                "filename": "neva_.svg",
+                "normalized": "neva",
+                "suggested_path": "icons/neva.svg",
+                "size": 12608,
+                "suspicious": false,
+                "mtime": 1777366435
+            }
+        ],
+        "papa": [
+            {
+                "path": "icons/papa.svg",
+                "filename": "papa.svg",
+                "normalized": "papa",
+                "suggested_path": "icons/papa.svg",
+                "size": 24556,
+                "suspicious": false,
+                "mtime": 1777366433
+            },
+            {
+                "path": "icons/papа.svg",
+                "filename": "papа.svg",
+                "normalized": "papa",
+                "suggested_path": "icons/papa.svg",
+                "size": 15036,
+                "suspicious": true,
+                "mtime": 1777366436
+            }
+        ],
+        "pv": [
+            {
+                "path": "icons/pВ.svg",
+                "filename": "pВ.svg",
+                "normalized": "pv",
+                "suggested_path": "icons/pv.svg",
+                "size": 9908,
+                "suspicious": true,
+                "mtime": 1777366436
+            },
+            {
+                "path": "icons/pв.svg",
+                "filename": "pв.svg",
+                "normalized": "pv",
+                "suggested_path": "icons/pv.svg",
+                "size": 11180,
+                "suspicious": true,
+                "mtime": 1777366434
+            }
+        ],
+        "r": [
+            {
+                "path": "icons/r.svg",
+                "filename": "r.svg",
+                "normalized": "r",
+                "suggested_path": "icons/r.svg",
+                "size": 2176,
+                "suspicious": false,
+                "mtime": 1777366436
+            },
+            {
+                "path": "icons/r╞.svg",
+                "filename": "r╞.svg",
+                "normalized": "r",
+                "suggested_path": "icons/r.svg",
+                "size": 12752,
+                "suspicious": false,
+                "mtime": 1777366436
+            }
+        ]
+    }
+}
