@@ -7,4 +7,6 @@ The name is just a coincidence, and any similarity to any person's name is highl
 
 It aims to help people with ASD and any other that may need help in verbal speach.
 
-This is still in alpha development.
+At this point it is fully operational as a PWA. It was presented by my students in some competitions, but the idea and the code are still my own work as it can be verified in the repository.
+
+Many thanks for those who belive I could do it!
